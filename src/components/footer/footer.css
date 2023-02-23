@@ -1,0 +1,32 @@
+footer {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--primary-3);
+  color: var(--white);
+}
+.footer-banner {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  height: 45%;
+  width: 100%;
+  background-color: var(--primary);
+}
+.footer-banner h1 {
+  font-size: 2rem;
+}
+.footer-banner button {
+  background-color: white;
+  padding: 1rem 4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--primary);
+  border-radius: 1rem;
+  border: none;
+}

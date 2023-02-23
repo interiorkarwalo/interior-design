@@ -1,0 +1,12 @@
+.slider {
+  background-color: red;
+  /* height: 60vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider img {
+  width: 99vw;
+  height: calc(100vh - 120px);
+  object-fit: cover;
+}

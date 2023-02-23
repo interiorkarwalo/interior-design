@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  gap: 2rem;
+  height: 100vh;
+  background: url('https://soupx.in/images/bg/3.jpg') no-repeat center;
+}
+.about h1 {
+  font-size: 4rem;
+}
+.about p {
+  width: 50%;
+  font-size: 1.6rem;
+}
