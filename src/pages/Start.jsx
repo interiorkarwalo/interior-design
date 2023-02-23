@@ -4,6 +4,7 @@ import globeVideo from '../assets/globe-12486.mp4';
 import lvGlobe from '../assets/globe.mp4';
 import tunnel from '../assets/x.mp4';
 const Start = () => {
+  //helo
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
   const handleClick = () => {
