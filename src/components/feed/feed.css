@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   color: (--primary-3);
-  margin: 10rem 0;
+  margin: 4rem 0;
 }
 .feed_content {
   flex: 1;
@@ -15,12 +15,13 @@
   gap: 1rem;
 }
 .feed_content h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 .feed_content p {
-  line-height: 1.3;
-  font-size: 1.2rem;
+  line-height: 1.6;
+  font-size: 1rem;
   padding-right: 20px;
+  color: grey;
 }
 .feed_img-container {
   flex: 1;

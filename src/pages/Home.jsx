@@ -30,7 +30,6 @@ const Home = ({ toggleTheme }) => {
       />
       {/* <Category /> */}
       <Gallary />
-      <Footer />
     </div>
   );
 };

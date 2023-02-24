@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import globeVideo from '../assets/globe-12486.mp4';
-import lvGlobe from '../assets/globe.mp4';
+import lvGlobe from '../assets/world-1992.mp4';
 import tunnel from '../assets/x.mp4';
 const Start = () => {
   //helofff

@@ -60,8 +60,8 @@ const imgArray2 = [
 const Content = () => {
   return (
     <div className="content container">
-      <h1 style={{ textAlign: 'center', color: 'yellow' }}>
-        Popular Categories
+      <h1 style={{ textAlign: 'center', color: 'black' }}>
+        <em>Popular Categories</em>
       </h1>
       <hr />
       <div className="content-cards">
