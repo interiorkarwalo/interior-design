@@ -1,5 +1,5 @@
 .category {
-  background-color: orangered;
+  /* background-color: orangered; */
 }
 
 .big-shop {
@@ -88,8 +88,8 @@
   width: 100%;
   height: 2px;
   transition: left 0.4s ease-in-out;
-} 
-/* .shop-flex .overlay .link a:hover::before {
+}
+.shop-flex .overlay .link a:hover::before {
   left: 0;
 }
 
@@ -107,9 +107,9 @@
 .shop-flex .shop-two {
   position: relative;
   height: 100%;
-} */
+}
 
-/* .shop-flex .shop-two:hover .txt {
+.shop-flex .shop-two:hover .txt {
   animation: job1 0.7s ease-in-out forwards;
 }
 

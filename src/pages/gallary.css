@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 30vh;
+  width: 100vw;
+  text-align: right;
+  background: #ffdecf;
+}
+
+.navbar h1 {
+  margin: 0 auto 0 110px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #222831;
+}
+
+.navbar ul {
+  width: 100px;
+  font-weight: 800;
+  list-style: none;
+}
+
+.navbar a {
+  padding: 0px 10px 0 0;
+  text-decoration: none;
+  font-size: 20px;
+  color: #222831;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 5px 8px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .column {
+    flex: 40%;
+    flex-wrap: wrap;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 50%;
+    max-width: 100%;
+  }
+}

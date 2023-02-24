@@ -15,7 +15,7 @@ const Category = () => {
         <div class="shop-flex">
           <div class="shop-one">
             <div class="image-one">
-              <img src="pic/furn1.jpg" alt="" />
+              <img src="/pic/furn1.jpg" alt="" />
               <div class="overlay">
                 <div class="txt">
                   <h3>Corporate Office Interior Contractor in India</h3>
@@ -27,7 +27,7 @@ const Category = () => {
             </div>
 
             <div class="image-one">
-              <img src="pic/furn2.jpg" alt="" />
+              <img src="/pic/furn2.jpg" alt="" />
               <div class="overlay">
                 <div class="txt">
                   <h3>Turnkey Interiors Contractor </h3>
@@ -46,7 +46,7 @@ const Category = () => {
 
           <div class="shop-one">
             <div class="image-one">
-              <img src="pic/furn3.jpg" alt="" />
+              <img src="/pic/furn3.jpg" alt="" />
               <div class="overlay">
                 <div class="txt">
                   <h3>Interior Design Consultant </h3>
@@ -63,7 +63,7 @@ const Category = () => {
             </div>
 
             <div class="image-one">
-              <img src="pic/furn4.jpg" alt="" />
+              <img src="/pic/furn4.jpg" alt="" />
               <div class="overlay">
                 <div class="txt">
                   <h3>Gypsum False Ceiling Contractor </h3>
@@ -76,7 +76,7 @@ const Category = () => {
           </div>
 
           <div class="shop-two">
-            <img src="pic/furn6.jpg" alt="" />
+            <img src="/pic/furn6.jpg" alt="" />
             <div class="overlay">
               <div class="txt">
                 <h3>Gypsum False Ceiling Contractor </h3>

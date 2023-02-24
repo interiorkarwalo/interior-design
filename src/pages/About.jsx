@@ -1,20 +1,24 @@
+import Feed from '../components/feed/Feed';
 import Header from '../components/header/Header';
 import './about.css';
 
 const About = () => {
   return (
     <>
-      <Header color="rgb(29, 27, 38)" backgroundColor="white" />
+      <div className="about">
+        <Header />
 
-      <div className="about container">
-        <h1>About Us</h1>
-        <p>
-          India’s 1st Healthy Soup Based Meal Brand, Offering 99 + varieties of
-          soups, Freshly prepared Soups curated by renowned Chefs and
-          Nutritionists.
-        </p>
-        <button className="btn">Learn More</button>
+        <div className="hero-wrapper">
+          <h1>Decoration Ideas</h1>
+          <p>All the more reasons to get your dream home interiors now</p>
+          <button className="btn">Latest</button>
+        </div>
       </div>
+      <Feed
+        title="About Us"
+        desc="We are a designer led Interior design firm. Even today all projects we undertake are designed, managed & executed by Nandita & her core team. We limit ourselves to not more than 4 – 5 Turnkey projects at a time to ensure attention to detail.  We are a designer led Interior design firm. Even today all projects we undertake are designed, managed & executed by Nandita & her core team. We limit ourselves to not more than 4 – 5 Turnkey projects at a time to ensure attention to detail"
+        url="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600"
+      />
     </>
   );
 };
