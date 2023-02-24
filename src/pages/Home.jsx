@@ -6,7 +6,7 @@ import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import Spinner from '../components/spinner/Spinner';
 import Category from '../components/category/Category';
-import Slider from '../components/slider/Slider';
+
 const Home = ({ toggleTheme }) => {
   return (
     <div style={{ transition: 'all 1s ease-in-out' }}>
