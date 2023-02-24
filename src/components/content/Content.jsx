@@ -30,30 +30,30 @@ import './content.css';
 // ];
 const imgArray1 = [
   {
-    title: 'Soups',
+    title: 'Turnkey Interiors Contractor',
     url: 'https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    title: 'Salad',
+    title: 'Interior Design Consultant',
     url: 'https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    title: 'Healthy Sandwich',
+    title: 'Gypsum False Ceiling Contractor',
     url: 'https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 ];
 
 const imgArray2 = [
   {
-    title: 'Soups',
+    title: 'Gypsum False Ceiling Contractor',
     url: 'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    title: 'Salad',
+    title: 'Turnkey Interiors Contractor',
     url: 'https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    title: 'Healthy Sandwich',
+    title: 'Traditional Interior',
     url: 'https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 ];
