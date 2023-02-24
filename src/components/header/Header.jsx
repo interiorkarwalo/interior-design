@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Header = ({ color, backgroundColor, toggleTheme }) => {
   const [show, setShow] = useState(false);
   return (
-    <header style={{ color: color, backgroundColor: backgroundColor }}>
+    <header>
       <div className="logo">
-        <img src="https://responsively.app/assets/img/logo.svg" />
-        {/* <h2>INTERIOR DESIGN</h2> */}
+        {/* <img src="https://responsively.app/assets/img/logo.svg" /> */}
+        <h2>INTERIOR DESIGN</h2>
       </div>
       <nav className="nav">
         <ul>

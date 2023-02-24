@@ -10,9 +10,9 @@ import Slider from '../components/slider/Slider';
 const Home = ({ toggleTheme }) => {
   return (
     <div style={{ transition: 'all 1s ease-in-out' }}>
-      <Header toggleTheme={toggleTheme} />
-      {/* <Hero /> */}
-      <Slider />
+      {/* <Header toggleTheme={toggleTheme} /> */}
+      <Hero />
+      {/* <Slider /> */}
       <Content />
       <Spinner />
       <Feed />
