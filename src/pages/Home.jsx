@@ -7,6 +7,7 @@ import Footer from '../components/footer/Footer';
 import Spinner from '../components/spinner/Spinner';
 import Category from '../components/category/Category';
 import Gallary from './Gallary';
+import Testimonial from '../components/testimonials/Testimonial';
 
 const Home = ({ toggleTheme }) => {
   return (
@@ -29,6 +30,7 @@ const Home = ({ toggleTheme }) => {
         url="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600"
       />
       {/* <Category /> */}
+      <Testimonial />
       <Gallary />
     </div>
   );

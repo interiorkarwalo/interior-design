@@ -6,22 +6,6 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <div className="contact-form">
-        <video
-          id="int-video"
-          loop
-          autoPlay
-          className="intro-transition-video"
-          muted
-          style={{ opacity: 1 }}
-        >
-          <source
-            data-video-id="intro.part1.loop"
-            src={intVideo}
-            type="video/mp4"
-          ></source>
-        </video>
-      </div>
     </div>
   );
 };

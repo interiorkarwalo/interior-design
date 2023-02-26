@@ -7,7 +7,12 @@
   text-align: right;
   background: #ffdecf;
 }
-
+.gallary-title {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bolder;
+}
 .navbar h1 {
   margin: 0 auto 0 110px;
   font-family: 'Raleway', sans-serif;

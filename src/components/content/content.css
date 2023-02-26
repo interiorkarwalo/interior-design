@@ -6,7 +6,7 @@
   flex-direction: column;
   gap: 1rem;
   background-color: var(--white);
-  padding: 200px;
+  /* padding: 200px; */
 }
 hr {
   width: 100px;
