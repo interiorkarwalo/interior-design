@@ -1,0 +1,60 @@
+/* html,
+body {
+  margin: 20px;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #e5e5e5;
+} */
+.team-title {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  height: 100%;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.team-card {
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 5px;
+  justify-content: center;
+  box-shadow: 4px 4px 8px -3px rgba(0, 0, 0, 0.15);
+}
+
+.team-avatar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 15px 0 15px 15px;
+}
+
+.team-image {
+  width: 90px;
+  height: auto;
+}
+
+.team-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  justify-content: center;
+}
+
+.team-title {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.team-content {
+  font-size: 0.8em;
+  margin: 0;
+}

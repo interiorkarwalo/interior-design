@@ -3,6 +3,10 @@ import './spinner.css';
 const Spinner = () => {
   return (
     <div className="body">
+      <div className="spinner-title">
+        <h1>Be inspired by what you see</h1>
+        <p>All you need to create your space</p>
+      </div>
       <div class="box">
         <span style={{ '--i': 1 }}>
           <img

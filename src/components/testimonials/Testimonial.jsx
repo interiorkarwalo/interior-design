@@ -3,7 +3,7 @@ import './testimonial.css';
 
 const Testimonial = () => {
   return (
-    <div className="testi-body">
+    <div className="testi-body container">
       <h1 className="testi-tagline">CLIENT TESTIMONIALS</h1>
       <div class="testi-container">
         <div class="testi-card">
@@ -19,9 +19,10 @@ const Testimonial = () => {
             </div>
           </div>
           <div class="title">
-            I received a job offer mid-course, and the subjects I learned were
-            current, if not more so, in the company I joined. I honestly feel I
-            got every penny's worth.
+            “Let me start by saying, I love, love, love, Interior design team.
+            Thanks so much for capturing my vision and bringing my ordinary
+            space to a level of brilliance! Every detail looks absolutely
+            amazing.”
           </div>
           <div class="quote">
             I was an EMT for many years before I joined the bootcamp. I've been
@@ -50,9 +51,12 @@ const Testimonial = () => {
             The team was very supportive and kept me motivated
           </div>
           <div class="quote">
-            I started as a total newbie with virtually no coding skills. I now
-            work as a mobile engineer for a bit company. This was one of the
-            best investments I've made in myself.
+            “I own a small dental office and was having difficulty finding a
+            designer who could quickly and effectively help me with my office
+            design. their team exceeded my expectations. Designers were great,
+            and super friendly. My team and I absolutely love the 3D renderings
+            they've provided us with and I can't wait to get the plans
+            completed. Everything is just perfect. ”
           </div>
         </div>
 
@@ -88,17 +92,17 @@ const Testimonial = () => {
             </div>
           </div>
           <div class="title">
-            Awesome teaching support from TAs who did the bootcamp themselves.
-            Getting guidance from them and learning from their experience was
-            easy.
+            “We worked with our designer for over 4 months and it was great. She
+            really put an effort on it and accommodated as many changes we
+            needed. Very happy with the service”
           </div>
           <div class="quote">
-            The staff seem genuinely concerned about my progress which I find
-            really refreshing. The program gave me the confidence necessary to
-            be able to go out in the world and present myself as a capable
-            junior developer. The standard is above the rest. You will get the
-            personal atention you need from an incredible community of smart and
-            amazing people.
+            “They are so amazing! The designs were just gorgeous! I was looking
+            for something that was more than "okay". I wanted beautiful, and
+            they delivered. My designer helped me design two awesome kids rooms,
+            which are also somehow elevated and exciting at the same time - not
+            everyone has the ability to do that! They are beautiful havens that
+            my kids will love for years to come. Thank you!”
           </div>
         </div>
 
@@ -118,18 +122,22 @@ const Testimonial = () => {
             Such a life-changing experience. Highly recommend!
           </div>
           <div class="quote">
-            Before joining the bootcamp, I've never written a line of code. I
-            needed some structure from professionals who can help me learn
-            programming step by step. I was encouraged to enroll by a former
-            student of theirs who can only say wonderful things about the
-            program. The entire cirriculum and staff did not disappoint. They
-            were very hands-on and I never had to wait long for assistance. The
-            agile team project, in particular, was outstanding. It took my
-            learning to the next level in a way that no tutoral could ever have.
-            In fact, I've often referred to it during interviews as an example
-            of my development experience. It certainly helped me land a job as a
-            full-stack developoer after receiving multiple offers. 100%
-            recommend!
+            “I had my fireplace tiled, which changed the look of the room. I
+            wasn't certain how to proceed as my preferences were all over the
+            place, I seriously needed a cohesive look. I decided I would try
+            Decorilla for help, and it was one of the best investments I have
+            made. The designer I selected seriously read my mind and it was nice
+            to have two to choose from! I did submit images of rooms I liked
+            (utilizing sites such as Pinterest, Houzz, and Decorilla), and she
+            nailed the look I was after. The cost for the services is extremely
+            reasonable, and they also provide fantastic discounts through their
+            shopping portal for furniture/accessories that fit one's budget. I
+            could go on and on with my experience, but you get the picture. It
+            was an outstanding experience! “Amazing service....love the quality
+            of the interior designers to choose from and the end results were
+            amazing. They were very attentive to every small details and very
+            flexible with my choices. I highly recommend them to anybody who's
+            looking for a great interior design service online.””
           </div>
         </div>
       </div>

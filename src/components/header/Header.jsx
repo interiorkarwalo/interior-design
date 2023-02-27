@@ -2,13 +2,14 @@ import './header.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-const Header = ({ color, backgroundColor, toggleTheme }) => {
+const Header = ({ type }) => {
   const [show, setShow] = useState(false);
   return (
     <header>
       <div className="logo">
         {/* <img src="https://responsively.app/assets/img/logo.svg" /> */}
-        <h2>INTERIOR DESIGN</h2>
+
+        <img src="/interior1.png" alt="" />
       </div>
       <nav className="nav">
         <ul>
@@ -19,10 +20,10 @@ const Header = ({ color, backgroundColor, toggleTheme }) => {
             <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/services">Services</Link>
           </li>
-          <button className="btn" onClick={toggleTheme}>
-            Logout
+          <button className="btn">
+            <Link to="/contact">Contact Us</Link>
           </button>
         </ul>
       </nav>
@@ -33,10 +34,7 @@ const Header = ({ color, backgroundColor, toggleTheme }) => {
       />
 
       {show && (
-        <nav
-          className="ham"
-          style={{ color: color, backgroundColor: backgroundColor }}
-        >
+        <nav className="ham">
           <ul>
             <li>
               <Link to="/home">Home</Link>

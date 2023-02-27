@@ -61,7 +61,7 @@ const Content = () => {
   return (
     <div className="content container">
       <h1 style={{ textAlign: 'center', color: 'black' }}>
-        <em>Popular Categories</em>
+        Popular Categories
       </h1>
       <hr />
       <div className="content-cards">

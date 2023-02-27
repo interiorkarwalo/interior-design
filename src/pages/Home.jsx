@@ -8,6 +8,7 @@ import Spinner from '../components/spinner/Spinner';
 import Category from '../components/category/Category';
 import Gallary from './Gallary';
 import Testimonial from '../components/testimonials/Testimonial';
+import Teams from '../components/teams/Teams';
 
 const Home = ({ toggleTheme }) => {
   return (
@@ -32,6 +33,7 @@ const Home = ({ toggleTheme }) => {
       {/* <Category /> */}
       <Testimonial />
       <Gallary />
+      <Teams />
     </div>
   );
 };
