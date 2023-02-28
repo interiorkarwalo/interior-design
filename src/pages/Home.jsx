@@ -34,6 +34,7 @@ const Home = ({ toggleTheme }) => {
       <Testimonial />
       <Gallary />
       <Teams />
+      <Footer />
     </div>
   );
 };

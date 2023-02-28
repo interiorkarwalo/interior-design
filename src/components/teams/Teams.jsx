@@ -13,11 +13,8 @@ const Teams = () => {
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Camile</p>
-            <p class="team-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labor.
-            </p>
+            <p class="team-title">Andrea Reay</p>
+            <p class="team-content">Senior Interior Designer</p>
           </div>
         </div>
         <div class="team-card">
@@ -28,11 +25,8 @@ const Teams = () => {
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Danniel</p>
-            <p class="team-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labor.
-            </p>
+            <p class="team-title">Anil Daal</p>
+            <p class="team-content">Interior Designer</p>
           </div>
         </div>
         <div class="team-card">
@@ -43,11 +37,8 @@ const Teams = () => {
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">John</p>
-            <p class="team-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labor.
-            </p>
+            <p class="team-title">John Doe</p>
+            <p class="team-content">Interior Design Coordinator</p>
           </div>
         </div>
         <div class="team-card">
@@ -58,11 +49,8 @@ const Teams = () => {
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">James</p>
-            <p class="team-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labor.
-            </p>
+            <p class="team-title">Ashley Fratis</p>
+            <p class="team-content">Interior Design</p>
           </div>
         </div>
         <div class="team-card">
@@ -74,10 +62,7 @@ const Teams = () => {
           </div>
           <div class="team-content-container">
             <p class="team-title">Susan</p>
-            <p class="team-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labor.
-            </p>
+            <p class="team-content">Interior Design Lead</p>
           </div>
         </div>
         <div class="team-card">
@@ -89,10 +74,7 @@ const Teams = () => {
           </div>
           <div class="team-content-container">
             <p class="team-title">Jessica</p>
-            <p class="team-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labor.
-            </p>
+            <p class="team-content">Interior Design</p>
           </div>
         </div>
       </div>

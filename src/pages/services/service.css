@@ -17,18 +17,31 @@
 }
 .service-image-container-left {
   flex: 1;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  padding-right: 1rem;
+}
+.service-image-container-left p {
+  padding: 1rem 0;
+  padding-right: 1rem;
+  line-height: 1.6;
+  color: var(--gray);
+}
+.service-image-container-left h3 {
+  font-size: 1.2rem;
 }
 .service-image-container-right {
   flex: 2;
 }
 .service-image-container-right > img {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   object-fit: cover;
+  border-radius: 5px;
 }
 .service-image-container-right > div {
   margin: 1rem;
+
+  width: 100%;
 }
 .service-image-container-right > div > img {
   width: 130px;
@@ -36,4 +49,70 @@
   object-fit: cover;
   margin-right: 1rem;
   cursor: pointer;
+  border-radius: 5px;
+}
+
+.service-desc1 {
+  display: flex;
+  padding: 2rem 0;
+}
+.service-desc1-imageConatiner {
+  flex: 1;
+  /* background-color: red; */
+  position: relative;
+}
+.service-desc1-imageConatiner img {
+  width: 100%;
+  object-fit: contain;
+}
+.service-desc1-imageConatiner h1 {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  mix-blend-mode: screen;
+}
+.service-desc1 p {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 800px) {
+  .service-image-container {
+    flex-direction: column;
+  }
+  .service {
+    display: none;
+  }
+  .service-image-container {
+    padding-top: 1rem;
+  }
+  .service-image-container-left {
+    margin-bottom: 10px;
+  }
+  .service-image-container-right div {
+    display: flex;
+  }
+  .service-image-container-right div img {
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .service-desc1 {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .service-desc1-second-p {
+    order: 1;
+    display: flex;
+  }
 }

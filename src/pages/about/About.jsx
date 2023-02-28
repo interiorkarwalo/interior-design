@@ -3,6 +3,8 @@ import Header from '../../components/header/Header';
 import './about.css';
 import AboutDetailCard from './AboutDetailCard';
 import intVideo from '../../assets/int.mp4';
+import ChooseUs from '../../components/choose-us/ChooseUs';
+import Footer from '../../components/footer/Footer';
 const About = () => {
   return (
     <>
@@ -52,7 +54,9 @@ const About = () => {
           </p>
         </div>
       </div>
-      <AboutDetailCard />
+      {/* <AboutDetailCard /> */}
+      {/* <ChooseUs /> */}
+      <Footer />
     </>
   );
 };

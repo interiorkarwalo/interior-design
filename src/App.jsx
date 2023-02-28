@@ -21,7 +21,6 @@ function App() {
           <Route element={<About />} path="/about" />
         </Routes>
       </div>
-      <Footer />
     </BrowserRouter>
     // </ThemeContext.Provider>
   );

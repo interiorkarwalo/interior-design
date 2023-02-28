@@ -43,9 +43,11 @@ const Header = ({ type }) => {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/services">Services</Link>
             </li>
-            <button className="btn">Logout</button>
+            <button className="btn">
+              <Link to="/contact">Contact Us</Link>
+            </button>
           </ul>
         </nav>
       )}
