@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import './service.css';
 import Footer from '../../components/footer/Footer';
-const desc1 =
-  'Our organization holds the specialization to offer the specialized requirements of various interior finishings. All the solutions which are catered by our organization are widely used for both type of needs and demands such as banks, colleges, coaching institutes, homes, offices, business venues, small business offices, corporate and multinational companies etc. Our organization has professional designers who are capable to give you elegant furnishings which aids the beauty to the all type of finishing.';
-
-const desc2 =
-  'Our group is amongst the pre-eminent groups and firms for the array of turnkey projects which are provided by us at very affordable prices. We give our clients the greatest value of services according to their projects, needs and requirements. Our company has a range of employees and professionals into the organization and all these manpower are continuously trained by the experts to get them updated with the latest and recent technology and also make them aware of the machinery and tools which are based on the latest technology and concepts.';
 
 const randomImages = [
   {
@@ -184,13 +179,16 @@ const Service = () => {
             />
             <div>
               {chooseArray[1].images.map((item) => (
-                <img src={item.url} onClick={() => handleImageUrl(item.url)} />
+                <img
+                  src={item.url}
+                  onMouseEnter={() => handleImageUrl(item.url)}
+                />
               ))}
             </div>
           </div>
         </div>
 
-        <div className="service-desc1">
+        {/* <div className="service-desc1">
           <div className="service-desc1-imageConatiner">
             <h1> Our Philosophy</h1>
             <img
@@ -209,7 +207,7 @@ const Service = () => {
               alt=""
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

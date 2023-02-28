@@ -16,11 +16,27 @@ const Header = ({ type }) => {
           <li>
             <Link to="/home">Home</Link>
           </li>
+
           <li>
-            <Link to="/about">About Us</Link>
+            {/* <Link to="/services">Services</Link> */}
+
+            <div class="dropdown">
+              <Link class="dropbtn">
+                <span>Services</span>
+                <span style={{ marginBottom: '8px' }}>&#8964;</span>
+              </Link>
+              <div class="dropdown-content">
+                <Link to="/services">Corporate Office Interior Contractor</Link>
+                <Link to="/services">Turnkey Interiors Contractor </Link>
+                <Link to="/services">Interior Design Consultant </Link>
+                <Link to="/services">Office Furniture</Link>
+                <Link to="/services">Gypsum Partition Contractor</Link>
+                <Link to="/services">Gypsum False Ceiling Contractor</Link>
+              </div>
+            </div>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/about">About Us</Link>
           </li>
           <button className="btn">
             <Link to="/contact">Contact Us</Link>

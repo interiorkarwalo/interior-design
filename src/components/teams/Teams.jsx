@@ -9,11 +9,11 @@ const Teams = () => {
           <div class="team-avatar">
             <img
               class="team-image"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+              src="https://images.pexels.com/photos/6392981/pexels-photo-6392981.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Andrea Reay</p>
+            <p class="team-title">Kirti Sharma</p>
             <p class="team-content">Senior Interior Designer</p>
           </div>
         </div>
@@ -21,11 +21,11 @@ const Teams = () => {
           <div class="team-avatar">
             <img
               class="team-image"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=WinterHat1&accessoriesType=Prescription01&hatColor=Red&hairColor=BlondeGolden&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=ShirtCrewNeck&clotheColor=Gray01&eyeType=Squint&eyebrowType=SadConcernedNatural&mouthType=Serious&skinColor=Pale"
+              src="https://images.pexels.com/photos/7580994/pexels-photo-7580994.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Anil Daal</p>
+            <p class="team-title">Karan Singh</p>
             <p class="team-content">Interior Designer</p>
           </div>
         </div>
@@ -33,11 +33,11 @@ const Teams = () => {
           <div class="team-avatar">
             <img
               class="team-image"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairFro&accessoriesType=Round&hairColor=Brown&facialHairType=BeardMedium&facialHairColor=Red&clotheType=ShirtScoopNeck&clotheColor=PastelOrange&eyeType=Dizzy&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Yellow"
+              src="https://images.pexels.com/photos/7581009/pexels-photo-7581009.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">John Doe</p>
+            <p class="team-title">Rahul Sharma</p>
             <p class="team-content">Interior Design Coordinator</p>
           </div>
         </div>
@@ -45,11 +45,11 @@ const Teams = () => {
           <div class="team-avatar">
             <img
               class="team-image"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Wayfarers&hatColor=Pink&hairColor=Brown&facialHairType=Blank&facialHairColor=Black&clotheType=BlazerSweater&clotheColor=Blue03&eyeType=EyeRoll&eyebrowType=UpDownNatural&mouthType=Smile&skinColor=Brown"
+              src="https://images.pexels.com/photos/7580764/pexels-photo-7580764.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Ashley Fratis</p>
+            <p class="team-title">Mohit Aggarwal</p>
             <p class="team-content">Interior Design</p>
           </div>
         </div>
@@ -57,11 +57,11 @@ const Teams = () => {
           <div class="team-avatar">
             <img
               class="team-image"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Round&hairColor=Black&facialHairType=Blank&facialHairColor=Black&clotheType=GraphicShirt&clotheColor=Gray01&graphicType=Deer&eyeType=Close&eyebrowType=RaisedExcited&mouthType=Twinkle&skinColor=Tanned"
+              src="https://images.pexels.com/photos/7581115/pexels-photo-7581115.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Susan</p>
+            <p class="team-title">Gaurav Jangid</p>
             <p class="team-content">Interior Design Lead</p>
           </div>
         </div>
@@ -69,11 +69,11 @@ const Teams = () => {
           <div class="team-avatar">
             <img
               class="team-image"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairBob&accessoriesType=Wayfarers&hairColor=Blonde&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=PastelGreen&eyeType=Dizzy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Tanned"
+              src="https://images.pexels.com/photos/5301744/pexels-photo-5301744.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
           </div>
           <div class="team-content-container">
-            <p class="team-title">Jessica</p>
+            <p class="team-title">Mahesh Thakur</p>
             <p class="team-content">Interior Design</p>
           </div>
         </div>

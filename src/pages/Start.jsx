@@ -8,38 +8,35 @@ const Start = () => {
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
   const handleClick = () => {
-    setShow((prev) => !prev);
-    setTimeout(() => {
-      navigate('/home');
-    }, 1000);
+    navigate('/home');
   };
   return (
     <div className="globe">
-      {show && (
+      (
+      <video
+        id="video"
+        loop
+        autoPlay
+        className="intro-transition-video"
+        muted
+        style={{ opacity: 1 }}
+      >
+        <source
+          data-video-id="intro.part1.loop"
+          src={tunnel}
+          type="video/mp4"
+        ></source>
+      </video>
+      )
+      {/* {!show && (
         <video
           id="video"
           loop
           autoPlay
           className="intro-transition-video"
           muted
-          style={{ opacity: 1 }}
-        >
-          <source
-            data-video-id="intro.part1.loop"
-            src={tunnel}
-            type="video/mp4"
-          ></source>
-        </video>
-      )}
-      {!show && (
-        <video
-          id="video"
-          loop
-          autoPlay
-          className="intro-transition-video"
-          muted
-          // playsInline=""
-          // preload="auto"
+          playsInline=""
+          preload="auto"
           style={{ opacity: 1 }}
         >
           <source
@@ -48,7 +45,7 @@ const Start = () => {
             type="video/mp4"
           ></source>
         </video>
-      )}
+      )} */}
       {/* <div className="globe">
         <video autoPlay loop muted id="video">
           <source src={globeVideo} type="video/mp4"></source>

@@ -124,18 +124,12 @@ a {
   color: rgba(108, 117, 125, 0.6);
 }
 
-/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins&display=swap'); */
-/* css variables */
-/* :root {
-  --primaryColor: #3fd0d4;
-  --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #afafaf;
-  --mainTransition: all 0.3s linear;
-  --mainSpacing: 0.25rem;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.25);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
-} */
-/* reset */
+@media screen and (max-width: 800px) {
+  #video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+  }
+}

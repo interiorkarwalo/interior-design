@@ -34,24 +34,31 @@ body {
   justify-content: center;
   display: flex;
   padding: 15px 0 15px 15px;
+  /* background-color: antiquewhite; */
+  height: 100%;
 }
 
 .team-image {
-  width: 90px;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* height: auto; */
+  object-fit: cover;
+  /* background-color: greenyellow; */
 }
 
 .team-content-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
+  align-items: center;
+  padding: 10px;
   justify-content: center;
 }
 
 .team-title {
   margin: 0 0 5px 0;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .team-content {
