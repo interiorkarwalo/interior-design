@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import globeVideo from '../assets/globe-12486.mp4';
-import lvGlobe from '../assets/file.mp4';
-import tunnel from '../assets/x.mp4';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import globeVideo from "../assets/globe-12486.mp4";
+import lvGlobe from "../assets/file.mp4";
+import tunnel from "../assets/x.mp4";
 const Start = () => {
   //helofff
   const [show, setShow] = useState(false);
@@ -10,27 +10,11 @@ const Start = () => {
   const handleClick = () => {
     setShow((prev) => !prev);
     setTimeout(() => {
-      navigate('/home');
-    }, 1000);
+      navigate("/home");
+    });
   };
   return (
     <div className="globe">
-      {show && (
-        <video
-          id="video"
-          loop
-          autoPlay
-          className="intro-transition-video"
-          muted
-          style={{ opacity: 1 }}
-        >
-          <source
-            data-video-id="intro.part1.loop"
-            src={tunnel}
-            type="video/mp4"
-          ></source>
-        </video>
-      )}
       {!show && (
         <video
           id="video"
@@ -54,7 +38,9 @@ const Start = () => {
           <source src={globeVideo} type="video/mp4"></source>
         </video>
       </div> */}
-      <button onClick={handleClick}>Enter A New World</button>
+      <button className="start-btn" onClick={handleClick}>
+        ENTER A NEW WORLD
+      </button>
     </div>
   );
 };
