@@ -23,7 +23,7 @@ const Start = () => {
       >
         <source
           data-video-id="intro.part1.loop"
-          src={tunnel}
+          src={lvGlobe}
           type="video/mp4"
         ></source>
       </video>
