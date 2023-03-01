@@ -42,12 +42,13 @@ nav ul li {
   font-weight: 500;
   padding: 0.5rem;
   color: var(--dark);
+  /* text-transform: uppercase; */
 }
 nav ul li:hover {
   padding: 0.5rem;
   border-radius: 7px;
-  color: rgb(254, 250, 251);
-  background-color: rgb(228, 80, 85);
+  color: var(--gray);
+  /* background-color: rgb(228, 80, 85); */
   transition-timing-function: ease;
   /* transition-delay: 0.6s; */
   transition: background-color 0.7s;
