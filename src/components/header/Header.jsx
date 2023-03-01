@@ -9,7 +9,9 @@ const Header = ({ type }) => {
       <div className="logo">
         {/* <img src="https://responsively.app/assets/img/logo.svg" /> */}
 
-        <img src="/interior1.png" alt="" />
+        <Link to="/home">
+          <img src="/logo4.svg" alt="" />
+        </Link>
       </div>
       <nav className="nav">
         <ul>
@@ -26,12 +28,49 @@ const Header = ({ type }) => {
                 <span style={{ marginBottom: '8px' }}>&#8964;</span>
               </Link>
               <div class="dropdown-content">
-                <Link to="/services">Corporate Office Interior Contractor</Link>
-                <Link to="/services">Turnkey Interiors Contractor </Link>
-                <Link to="/services">Interior Design Consultant </Link>
-                <Link to="/services">Office Furniture</Link>
-                <Link to="/services">Gypsum Partition Contractor</Link>
-                <Link to="/services">Gypsum False Ceiling Contractor</Link>
+                <Link to="/services">
+                  <img
+                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/3d-rendering-modern-loft-office-lounge-co-working-space-scaled-1.jpg"
+                    alt=""
+                  />
+
+                  <p>Corporate Office Interior Contractor</p>
+                </Link>
+                <Link to="/services">
+                  <img
+                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/office-interior-design-bid-visualisation-services-manchester-min-scaled-1-1088x664-1.jpg"
+                    alt=""
+                  />
+                  <p>Turnkey Interiors Contractor</p>
+                </Link>
+                <Link to="/services">
+                  <img
+                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/5-Brilliant-Office-Interior-Design-Ideas-You-Can-Implement.jpg"
+                    alt=""
+                  />
+                  <p>Interior Design Consultant</p>
+                </Link>
+                <Link to="/services">
+                  <img
+                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/Untitled-design-2022-10-03T163746.792.png"
+                    alt=""
+                  />
+                  <p>Office Furniture</p>
+                </Link>
+                <Link to="/services">
+                  <img
+                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/drywall-glass-meeting-room.jpg"
+                    alt=""
+                  />
+                  <p>Gypsum Partition Contractor</p>
+                </Link>
+                <Link to="/services">
+                  <img
+                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/b869b700ca8a2a6112951d2b47994d5a.jpg"
+                    alt=""
+                  />
+                  <p>Gypsum False Ceiling Contractor</p>
+                </Link>
               </div>
             </div>
           </li>
