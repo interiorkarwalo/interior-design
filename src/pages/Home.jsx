@@ -9,6 +9,7 @@ import Category from '../components/category/Category';
 import Gallary from './Gallary';
 import Testimonial from '../components/testimonials/Testimonial';
 import Teams from '../components/teams/Teams';
+import ContactForm from '../components/contact-form/ContactForm';
 
 const Home = ({ toggleTheme }) => {
   return (
@@ -34,6 +35,7 @@ const Home = ({ toggleTheme }) => {
       <Testimonial />
       <Gallary />
       <Teams />
+      <ContactForm />
       <Footer />
     </div>
   );

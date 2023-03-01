@@ -9,7 +9,7 @@
   padding: 2rem;
   /* background-color: coral; */
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url('/public/images/int1.jpg') center/cover no-repeat;
+    url('/int7.jpg') center/cover no-repeat;
   color: white;
 }
 

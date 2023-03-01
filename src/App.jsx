@@ -7,6 +7,8 @@ import Start from './pages/Start';
 import Contact from './pages/contact/Contact';
 import Footer from './components/footer/Footer';
 import Service from './pages/services/Service';
+import GallaryPage from './pages/gallary-page/GallaryPage';
+import Blog from './pages/blogs/Blog';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route element={<Service />} path="/services" />
           <Route element={<Contact />} path="/contact" />
           <Route element={<About />} path="/about" />
+          <Route element={<GallaryPage />} path="/gallary" />
+          <Route element={<Blog />} path="/blogs" />
         </Routes>
       </div>
     </BrowserRouter>

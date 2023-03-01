@@ -1,0 +1,28 @@
+.a-row {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+}
+.a-row img {
+  width: 6vw;
+  object-fit: cover;
+  cursor: pointer;
+}
+.a-mainImage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9px;
+}
+.a-mainImage img {
+  width: 700px;
+  height: 500px;
+  object-fit: contain;
+}
+.a-dropdown {
+  display: flex;
+  justify-content: center;
+}
+.a-dropdown p {
+  font-weight: bold;
+  font-size: 40px;
+}

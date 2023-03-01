@@ -18,7 +18,9 @@ const Header = ({ type }) => {
           <li>
             <Link to="/home">Home</Link>
           </li>
-
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
           <li>
             {/* <Link to="/services">Services</Link> */}
 
@@ -30,7 +32,7 @@ const Header = ({ type }) => {
               <div class="dropdown-content">
                 <Link to="/services">
                   <img
-                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/3d-rendering-modern-loft-office-lounge-co-working-space-scaled-1.jpg"
+                    src="https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                   />
 
@@ -38,35 +40,35 @@ const Header = ({ type }) => {
                 </Link>
                 <Link to="/services">
                   <img
-                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/office-interior-design-bid-visualisation-services-manchester-min-scaled-1-1088x664-1.jpg"
+                    src="https://images.pexels.com/photos/271805/pexels-photo-271805.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                   />
                   <p>Turnkey Interiors Contractor</p>
                 </Link>
                 <Link to="/services">
                   <img
-                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/5-Brilliant-Office-Interior-Design-Ideas-You-Can-Implement.jpg"
+                    src="https://images.pexels.com/photos/210552/pexels-photo-210552.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Interior Design Consultant</p>
                 </Link>
                 <Link to="/services">
                   <img
-                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/Untitled-design-2022-10-03T163746.792.png"
+                    src="https://images.pexels.com/photos/276510/pexels-photo-276510.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Office Furniture</p>
                 </Link>
                 <Link to="/services">
                   <img
-                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/drywall-glass-meeting-room.jpg"
+                    src="https://images.pexels.com/photos/6510967/pexels-photo-6510967.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Gypsum Partition Contractor</p>
                 </Link>
                 <Link to="/services">
                   <img
-                    src="https://www.spacewoodinteriors.com/wp-content/uploads/2022/12/b869b700ca8a2a6112951d2b47994d5a.jpg"
+                    src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Gypsum False Ceiling Contractor</p>
@@ -75,7 +77,10 @@ const Header = ({ type }) => {
             </div>
           </li>
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/gallary">Gallary</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
           </li>
           <button className="btn">
             <Link to="/contact">Contact Us</Link>
