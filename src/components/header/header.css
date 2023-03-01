@@ -44,6 +44,7 @@ nav ul li {
   color: var(--dark);
   /* text-transform: uppercase; */
 }
+/* helo  demo */
 nav ul li:hover {
   padding: 0.5rem;
   border-radius: 7px;
