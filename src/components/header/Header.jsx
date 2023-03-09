@@ -30,7 +30,7 @@ const Header = ({ type }) => {
                 <span style={{ marginBottom: '8px' }}>&#8964;</span>
               </Link>
               <div class="dropdown-content">
-                <Link to="/services">
+                <Link to="/services/corporate-office">
                   <img
                     src="https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
@@ -38,35 +38,35 @@ const Header = ({ type }) => {
 
                   <p>Corporate Office Interior Contractor</p>
                 </Link>
-                <Link to="/services">
+                <Link to="/services/turnkey-interior">
                   <img
                     src="https://images.pexels.com/photos/271805/pexels-photo-271805.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                   />
                   <p>Turnkey Interiors Contractor</p>
                 </Link>
-                <Link to="/services">
+                <Link to="/services/interior-design">
                   <img
                     src="https://images.pexels.com/photos/210552/pexels-photo-210552.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Interior Design Consultant</p>
                 </Link>
-                <Link to="/services">
+                <Link to="/services/office-furniture">
                   <img
                     src="https://images.pexels.com/photos/276510/pexels-photo-276510.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Office Furniture</p>
                 </Link>
-                <Link to="/services">
+                <Link to="/services/gypsum-partition">
                   <img
                     src="https://images.pexels.com/photos/6510967/pexels-photo-6510967.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""
                   />
                   <p>Gypsum Partition Contractor</p>
                 </Link>
-                <Link to="/services">
+                <Link to="/services/gypsum-false">
                   <img
                     src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     alt=""

@@ -7,10 +7,10 @@ import ChooseUs from '../../components/choose-us/ChooseUs';
 import Footer from '../../components/footer/Footer';
 
 const desc1 =
-  'Our organization holds the specialization to offer the specialized requirements of various interior finishings. All the solutions which are catered by our organization are widely used for both type of needs and demands such as banks, colleges, coaching institutes, homes, offices, business venues, small business offices, corporate and multinational companies etc. Our organization has professional designers who are capable to give you elegant furnishings which aids the beauty to the all type of finishing.';
+  'Our organisations specialise in offering the best interior finishing to your commercial & residential space. We work for different organisations with the same level of dedication and attention. Our team can offer you an elegant yet astonishing look that aids beauty.';
 
 const desc2 =
-  'Our group is amongst the pre-eminent groups and firms for the array of turnkey projects which are provided by us at very affordable prices. We give our clients the greatest value of services according to their projects, needs and requirements. Our company has a range of employees and professionals into the organization and all these manpower are continuously trained by the experts to get them updated with the latest and recent technology and also make them aware of the machinery and tools which are based on the latest technology and concepts.';
+  'We aim to create a beautiful interior and give our clients an astonishing place to live. We are honoured by our clients who give us ideas. Our mission is to turn your ideas into reality. We promise to create a masterpiece which gives you an astonishing vibe!';
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
       </div>
       <Feed
         title="About Interier Karwalo"
-        desc="We are a designer led Interior design firm. Even today all projects we undertake are designed, managed & executed by Nandita & her core team. We limit ourselves to not more than 4 – 5 Turnkey projects at a time to ensure attention to detail.  We are a designer led Interior design firm. Even today all projects we undertake are designed, managed & executed by Nandita & her core team. We limit ourselves to not more than 4 – 5 Turnkey projects at a time to ensure attention to detail"
+        desc="From a corporate house renovation to crafting & decorating office furniture, our inspiration team of designers works for you! The expert team of Interior Karwalo is the one-stop service that successfully covers the initial to a complex range of products. We provide the complete interior design service package, ensuring you enjoy exciting & stress-free service. "
         url="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600"
       />
 
@@ -51,31 +51,16 @@ const About = () => {
         <div className="about-video-content">
           <img src="/vision1.gif" alt="" />
           <p>
-            Our vision is to provide you with the stunning outcomes of the
-            concerned sectors so that you can easily meet your needs. Our main
-            focus is on quality and always giving our clients a defined
-            framework and finishing work within defined time schedules. You can
-            easily find the finishing in our work which always reflects the
-            soothing effects necessary for a house or an office setup. In every
-            criterion, you will find our fit and suit.
+            Our vision is to deliver stunning outcomes which meet your needs. We
+            aspire to convey a sense of passion through our crafting &
+            dedication to completing the task. We want to challenge & inspire
+            the upcoming generations of clients through our productivity &
+            outcomes.
           </p>
         </div>
       </div>
       {/* <AboutDetailCard /> */}
       {/* <ChooseUs /> */}
-      <div className="service-desc1 container">
-        <div className="service-desc1-imageConatiner">
-          <h1> Our Philosophy</h1>
-          <img
-            src="https://media.istockphoto.com/id/1352666375/photo/a-stylish-living-room-interior-with-brown-and-yellow-coloured-furniture-and-wooden-elements.jpg?b=1&s=170667a&w=0&k=20&c=2UpsLAY8HpsFJHQ4gE0rrvRgZVeslErX1uTno6uTFzg="
-            alt=""
-          />
-        </div>
-        <div className="about-video-content">
-          <img src="/philosophy.gif" alt="" />
-          <p>{desc1}</p>
-        </div>
-      </div>
       <div className="service-desc1 service-desc1-second container">
         <div className="about-video-content">
           <img src="/mission.gif" alt="" />
@@ -89,6 +74,20 @@ const About = () => {
           />
         </div>
       </div>
+      <div className="service-desc1 container">
+        <div className="service-desc1-imageConatiner">
+          <h1> Our Philosophy</h1>
+          <img
+            src="https://media.istockphoto.com/id/1352666375/photo/a-stylish-living-room-interior-with-brown-and-yellow-coloured-furniture-and-wooden-elements.jpg?b=1&s=170667a&w=0&k=20&c=2UpsLAY8HpsFJHQ4gE0rrvRgZVeslErX1uTno6uTFzg="
+            alt=""
+          />
+        </div>
+        <div className="about-video-content">
+          <img src="/philosophy.gif" alt="" />
+          <p>{desc1}</p>
+        </div>
+      </div>
+
       <Footer />
     </>
   );
