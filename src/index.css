@@ -45,7 +45,7 @@ body {
   font-family: var(--font-family-sans-serif);
   overflow-x: hidden;
 }
-.globe .start-btn  {
+.globe .start-btn {
   position: absolute;
   bottom: 4rem;
   left: 0;
@@ -63,9 +63,9 @@ body {
   border-radius: 2rem;
 }
 
-.globe .start-btn:hover{
+.globe .start-btn:hover {
   color: #000000;
-  padding: 2rem; 
+  padding: 2rem;
 }
 .btn {
   background-color: var(--primary);
@@ -151,4 +151,17 @@ a {
     object-fit: contain;
     z-index: -1;
   }
+}
+
+.sp-btn {
+  color: deeppink;
+  border: 1px solid deeppink;
+  padding: 2px 4px;
+  border-radius: 5px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.sp-btn:hover {
+  background-color: deeppink;
+  color: white;
 }

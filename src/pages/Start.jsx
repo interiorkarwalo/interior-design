@@ -12,7 +12,6 @@ const Start = () => {
   };
   return (
     <div className="globe">
-      (
       <video
         id="video"
         loop
@@ -27,7 +26,7 @@ const Start = () => {
           type="video/mp4"
         ></source>
       </video>
-      )
+
       {/* {!show && (
         <video
           id="video"

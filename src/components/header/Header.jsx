@@ -1,9 +1,26 @@
 import './header.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import jwtDecode from 'jwt-decode';
 const Header = ({ type }) => {
   const [show, setShow] = useState(false);
+  const [token, setToken] = useState(null);
+  useEffect(() => {
+    try {
+      const hello = jwtDecode(localStorage.getItem('token'));
+      setToken(hello);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    window.location.reload();
+    // setToken(null);
+  };
+
+  console.log(token);
   return (
     <header>
       <div className="logo">
@@ -77,14 +94,33 @@ const Header = ({ type }) => {
             </div>
           </li>
           <li>
-            <Link to="/gallary">Gallary</Link>
+            <Link to="/gallary">Gallery</Link>
           </li>
+
           <li>
             <Link to="/blogs">Blogs</Link>
+            <br />
+            {token && (
+              <button className="sp-btn">
+                <Link to="/create-blog">Create Blog</Link>
+              </button>
+            )}
           </li>
-          <button className="btn">
-            <Link to="/contact">Contact Us</Link>
-          </button>
+          <li>
+            <button className="btn">
+              <Link to="/contact">Contact Us</Link>
+            </button>
+          </li>
+
+          {token && (
+            <button
+              className="btn"
+              onClick={handleLogout}
+              style={{ backgroundColor: 'teal ' }}
+            >
+              Logout
+            </button>
+          )}
         </ul>
       </nav>
 
