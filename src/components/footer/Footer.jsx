@@ -1,5 +1,6 @@
-import './footer.css';
-import { Link } from 'react-router-dom';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import "./footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer class="footer ">
@@ -8,11 +9,11 @@ const Footer = () => {
           <div class="footer-col">
             {/* <h4>online shop</h4> */}
             <ul>
-              <li style={{ height: '200px', width: '100%' }}>
+              <li style={{ height: "200px", width: "100%" }}>
                 <img
                   src="/logo4.svg"
                   alt=""
-                  style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                  style={{ height: "100%", width: "100%", objectFit: "cover" }}
                 />
               </li>
               {/* <li>
@@ -27,16 +28,13 @@ const Footer = () => {
             <h4>company</h4>
             <ul>
               <li>
-                <Link href="/about">About us</Link>
+                <a href="/about">About us</a>
               </li>
               <li>
-                <a href="/services">Our services</a>
+                <a href="/services/office-furniture">Our services</a>
               </li>
               <li>
                 <a href="/about">privacy policy</a>
-              </li>
-              <li>
-                <a href="/about">affiliate program</a>
               </li>
             </ul>
           </div>
@@ -50,13 +48,10 @@ const Footer = () => {
                 <a href="/contact">Contact Us</a>
               </li>
               <li>
-                <a href="/contact">Blogs</a>
+                <a href="/blogs">Blogs</a>
               </li>
               <li>
-                <a href="#">Gallary</a>
-              </li>
-              <li>
-                <a href="#">Clients</a>
+                <a href="/gallery">gallery</a>
               </li>
             </ul>
           </div>
@@ -79,6 +74,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <h6 className="copyright">
+          © 2021 — Branding Rise. All Rights Reserved.
+        </h6>
       </div>
     </footer>
   );

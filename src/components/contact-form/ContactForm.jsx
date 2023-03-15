@@ -1,26 +1,28 @@
-import React, { useState } from 'react';
-import './contact-form.css';
+import React, { useState } from "react";
+import "./contact-form.css";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    companyName: '',
-    message: '',
+    name: "",
+    email: "",
+    companyName: "",
+    message: "",
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.alert('Thanks for submitting the form');
+    window.alert("Thanks for submitting the form");
     setFormData({
-      name: '',
-      email: '',
-      companyName: '',
-      message: '',
+      name: "",
+      email: "",
+      companyName: "",
+      message: "",
     });
   };
   return (
     <>
-      <h1 style={{ fontSize: '2rem', textAlign: 'center', marginTop: '2rem' }}>
+      <h1
+        style={{ fontSize: "1.6rem", textAlign: "center", marginTop: "2rem" }}
+      >
         Contact Us
       </h1>
       <div className="contain">
@@ -104,17 +106,17 @@ const ContactForm = () => {
           <div className="contacts contact-wrapper">
             <ul>
               <li>
-                We've driven online revenues of over{' '}
+                We've driven online revenues of over{" "}
                 <span className="highlight-text-grey">$2 billion</span> for our
                 clients. Ready to know how we can help you?
               </li>
               <span className="hightlight-contact-info">
                 <li className="email-info">
-                  <i className="fa fa-envelope" aria-hidden="true"></i>{' '}
+                  <i className="fa fa-envelope" aria-hidden="true"></i>{" "}
                   info@demo.com
                 </li>
                 <li>
-                  <i className="fa fa-phone" aria-hidden="true"></i>{' '}
+                  <i className="fa fa-phone" aria-hidden="true"></i>{" "}
                   <span className="highlight-text">+91 11 1111 2900</span>
                 </li>
               </span>

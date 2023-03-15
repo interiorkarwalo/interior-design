@@ -1,10 +1,10 @@
-import React from 'react';
-import './testimonial.css';
+import React from "react";
+import "./testimonial.css";
 
 const Testimonial = () => {
   return (
     <div className="testi-body container">
-      <h1 className="testi-tagline">CLIENT TESTIMONIALS</h1>
+      <h1 className="testi-tagline">Client Testimonial</h1>
       <div class="testi-container">
         <div class="testi-card">
           <div class="testi-header">
