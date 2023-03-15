@@ -101,7 +101,7 @@ const Header = ({ type }) => {
             <Link to="/blogs">Blogs</Link>
             <br />
             {token && (
-              <button className="sp-btn">
+              <button className="btn" style={{ backgroundColor: 'yellow' }}>
                 <Link to="/create-blog">Create Blog</Link>
               </button>
             )}

@@ -2,7 +2,7 @@ import { formatDistanceToNow } from 'date-fns';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import instance from '../../utils/api';
+
 import './blog.css';
 
 const Blogs = () => {
@@ -56,7 +56,9 @@ const Blogs = () => {
               <article className="article-recent" key={blog._id}>
                 <div className="article-recent-main">
                   <h2 className="article-title">{blog.title} </h2>
-                  <p className="article-body">{blog?.desc}</p>
+                  <p className="article-body">
+                    {blog.desc.substring(0, 100)}...
+                  </p>
                   <Link to={`/blogs/${blog._id}`} className="article-read-more">
                     CONTINUE READING
                   </Link>
@@ -71,59 +73,15 @@ const Blogs = () => {
                     {formatDistanceToNow(new Date(blog.created_at), {
                       addSuffix: true,
                     })}{' '}
-                    | 3 comments
+                    |{' '}
+                    {blog.comment.length === 0
+                      ? null
+                      : `${blog.comment.length} comments`}
                   </p>
                 </div>
               </article>
             );
           })}
-
-          <article className="article-recent">
-            <div className="article-recent-main">
-              <h2 className="article-title">Simplicity and work </h2>
-              <p className="article-body">
-                Work is often a major source of stress. People get frustrated,
-                it ruins their relationship with others and it leads to burnout.
-                By keeping your work life as simple as possible, it will help
-                balance everything out.
-              </p>
-              <a href="#" className="article-read-more">
-                CONTINUE READING
-              </a>
-            </div>
-            <div className="article-recent-secondary">
-              <img
-                src="https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/work.jpg"
-                alt="a chair white chair at a white desk on a white wall"
-                className="article-image"
-              />
-              <p className="article-info">July 12, 2019 | 3 comments</p>
-            </div>
-          </article>
-
-          <article className="article-recent">
-            <div className="article-recent-main">
-              <h2 className="article-title">Simple decorations</h2>
-              <p className="article-body">
-                A home isn't a home until you've decorated a little. People
-                either don't decorate, or they go overboard and it doesn't have
-                the impact they were hoping for. Staying simple will help draw
-                the eye where you want it to and make things pop like never
-                before.
-              </p>
-              <a href="#" className="article-read-more">
-                CONTINUE READING
-              </a>
-            </div>
-            <div className="article-recent-secondary">
-              <img
-                src="https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/work.jpg"
-                alt="a green plant in a clear, round vase with water in it"
-                className="article-image"
-              />
-              <p className="article-info">July 3, 2019 | 3 comments</p>
-            </div>
-          </article>
         </main>
       </div>
     </div>

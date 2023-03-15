@@ -1,6 +1,6 @@
 import instance from '../../utils/api';
 
-const CommentList = ({ comments, token }) => {
+const CommentList = ({ comments, token, fetchCommentData }) => {
   console.log(comments);
 
   const verifiedComment = comments.filter((c) => c.isVerified === true);
@@ -20,6 +20,7 @@ const CommentList = ({ comments, token }) => {
         }
       );
       console.log(data);
+      await fetchCommentData();
     } catch (error) {
       console.log(error);
     }
@@ -35,6 +36,8 @@ const CommentList = ({ comments, token }) => {
           },
         }
       );
+
+      await fetchCommentData();
     } catch (error) {
       console.log(error);
     }

@@ -147,7 +147,11 @@ const SingleBlog = () => {
         </p>
       </div>
       <div className="comment-container">
-        <CommentList comments={comments} token={token} />
+        <CommentList
+          comments={comments}
+          token={token}
+          fetchCommentData={fetchCommentData}
+        />
         <CommentForm onSubmit={handleSubmit} />
       </div>
     </div>

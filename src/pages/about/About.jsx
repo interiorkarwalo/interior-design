@@ -59,24 +59,26 @@ const About = () => {
           </p>
         </div>
       </div>
-      {/* <AboutDetailCard /> */}
-      {/* <ChooseUs /> */}
-      <div className="service-desc1 service-desc1-second container">
+
+      <div className="about-video-div  container" style={{ marginTop: '1rem' }}>
         <div className="about-video-content">
           <img src="/mission.gif" alt="" />
           <p className="service-desc1-second-p">{desc2}</p>
         </div>
-        <div className="service-desc1-imageConatiner service-desc1-second-img">
-          <h1>Our Mission</h1>
+        <div className="about-video-video">
+          <h2>Our Mission</h2>
           <img
             src="https://media.istockphoto.com/id/1455622789/photo/black-luxury-modern-retro-style-living-room-with-blank-image-frames-for-your-design.jpg?b=1&s=170667a&w=0&k=20&c=tNaQIArkCvC3oY_6-80BmUGyA5QinElxTda_r4s1u_M="
             alt=""
           />
         </div>
       </div>
-      <div className="service-desc1 container">
-        <div className="service-desc1-imageConatiner">
-          <h1> Our Philosophy</h1>
+      <div
+        className="about-video-div container"
+        style={{ marginTop: '1rem ', marginBottom: '1rem' }}
+      >
+        <div className="about-video-video">
+          <h2> Our Philosophy</h2>
           <img
             src="https://media.istockphoto.com/id/1352666375/photo/a-stylish-living-room-interior-with-brown-and-yellow-coloured-furniture-and-wooden-elements.jpg?b=1&s=170667a&w=0&k=20&c=2UpsLAY8HpsFJHQ4gE0rrvRgZVeslErX1uTno6uTFzg="
             alt=""
