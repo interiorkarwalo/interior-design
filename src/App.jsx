@@ -1,27 +1,27 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
 
-import About from './pages/about/About';
-import Start from './pages/Start';
+import About from "./pages/about/About";
+import Start from "./pages/Start";
 
-import Contact from './pages/contact/Contact';
-import Footer from './components/footer/Footer';
+import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
 
-import GallaryPage from './pages/gallary-page/GallaryPage';
-import Blog from './pages/blogs/Blogs';
-import GypsumPartition from './pages/services/service-category/GypsumPartition';
-import CorporateOffice from './pages/services/service-category/CorporateOffice';
-import GypsumFalse from './pages/services/service-category/GypsumFalse';
-import TurnkeyInterior from './pages/services/service-category/TurnkeyInteriors';
-import OfficeFurnitue from './pages/services/service-category/OfficeFurniture';
-import InteriorDesign from './pages/services/service-category/InteriorDesign';
-import SingleBlog from './pages/blogs/SingleBlog';
-import Login from './pages/login/Login';
-import AuthRequired from './utils/AuthRequired';
-import CreateBlog from './pages/blogs/CreateBlog';
-import Blogs from './pages/blogs/Blogs';
-import BlogOutlet from './pages/blogs/BlogOutlet';
-import EditBlog from './pages/blogs/EditBlog';
+import GalleryPage from "./pages/gallery-page/GalleryPage";
+import Blog from "./pages/blogs/Blogs";
+import GypsumPartition from "./pages/services/service-category/GypsumPartition";
+import CorporateOffice from "./pages/services/service-category/CorporateOffice";
+import GypsumFalse from "./pages/services/service-category/GypsumFalse";
+import TurnkeyInterior from "./pages/services/service-category/TurnkeyInteriors";
+import OfficeFurnitue from "./pages/services/service-category/OfficeFurniture";
+import InteriorDesign from "./pages/services/service-category/InteriorDesign";
+import SingleBlog from "./pages/blogs/SingleBlog";
+import Login from "./pages/login/Login";
+import AuthRequired from "./utils/AuthRequired";
+import CreateBlog from "./pages/blogs/CreateBlog";
+import Blogs from "./pages/blogs/Blogs";
+import BlogOutlet from "./pages/blogs/BlogOutlet";
+import EditBlog from "./pages/blogs/EditBlog";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
 
           <Route element={<Contact />} path="/contact" />
           <Route element={<About />} path="/about" />
-          <Route element={<GallaryPage />} path="/gallary" />
+          <Route element={<GalleryPage />} path="/gallery" />
 
           {/* blogs */}
           <Route element={<BlogOutlet />}>

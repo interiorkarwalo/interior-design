@@ -6,7 +6,7 @@ body {
   background: #e5e5e5;
 } */
 .team-title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   padding: 2rem;
 }
@@ -55,11 +55,7 @@ body {
   justify-content: center;
 }
 
-.team-title {
-  margin: 0 0 5px 0;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
+
 
 .team-content {
   font-size: 0.8em;

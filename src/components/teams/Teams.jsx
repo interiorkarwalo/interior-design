@@ -1,5 +1,6 @@
-import React from 'react';
-import './teams.css';
+/* eslint-disable jsx-a11y/alt-text */
+import React from "react";
+import "./teams.css";
 const Teams = () => {
   return (
     <div className="container">

@@ -1,10 +1,10 @@
-import React from 'react';
-import './gallary.css';
-const Gallary = () => {
+import React from "react";
+import "./gallery.css";
+const Gallery = () => {
   return (
     <div>
       <main>
-        <div className="gallary-title">Projects Gallary</div>
+        <div className="gallery-title">Projects Gallery</div>
         <div class="grid-container container">
           <div class="column">
             <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" />
@@ -47,4 +47,4 @@ const Gallary = () => {
   );
 };
 
-export default Gallary;
+export default Gallery;

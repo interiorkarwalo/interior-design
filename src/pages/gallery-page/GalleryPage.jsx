@@ -1,15 +1,15 @@
-import { Dropdown, Space } from 'antd';
-import { useState } from 'react';
-import { DownOutlined } from '@ant-design/icons';
-import allImageLinks from '../../utils/imageLinks';
-import './gallary-page.css';
-import Header from '../../components/header/Header';
+import { Dropdown, Space } from "antd";
+import { useState } from "react";
+import { DownOutlined } from "@ant-design/icons";
+import allImageLinks from "../../utils/imageLinks";
+import "./gallery-page.css";
+import Header from "../../components/header/Header";
 
-const GallaryPage = () => {
+const galleryPage = () => {
   const [category, setCategory] = useState(0);
   const [mainImage, setMainImage] = useState(allImageLinks[0][0]);
 
-  const categoriesList = ['chair', 'sofa', 'bed', 'table', 'wardrobe'];
+  const categoriesList = ["chair", "sofa", "bed", "table", "wardrobe"];
 
   const items = [
     { key: 0, label: categoriesList[0] },
@@ -21,25 +21,25 @@ const GallaryPage = () => {
   return (
     <div>
       <Header />
-      <div style={{ height: '100px' }} />
+      <div style={{ height: "100px" }} />
       <div>
         <Dropdown
           className="a-dropDown"
           menu={{
             items,
             selectable: true,
-            defaultSelectedKeys: ['chair'],
+            defaultSelectedKeys: ["chair"],
             onSelect: (e) => {
               setCategory(e.selectedKeys[0]);
               setMainImage(allImageLinks[e.selectedKeys[0]][0]);
             },
           }}
-          trigger={'click'}
-          arrow={'true'}
+          trigger={"click"}
+          arrow={"true"}
         >
           <div className="a-dropdown">
             <p>
-              {categoriesList[category]}{' '}
+              {categoriesList[category]}{" "}
               <DownOutlined style={{ fontSize: 25 }} />
             </p>
           </div>
@@ -98,4 +98,4 @@ const GallaryPage = () => {
   );
 };
 
-export default GallaryPage;
+export default galleryPage;
