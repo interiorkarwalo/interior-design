@@ -11,7 +11,7 @@ const Blogs = () => {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          'http://api.interiorkarwalo.com/api/v1/user/post',
+          'https://api.interiorkarwalo.com/api/v1/user/post',
           {
             headers: {
               Authorization: `Bearer ${localStorage.getItem('token')}`,

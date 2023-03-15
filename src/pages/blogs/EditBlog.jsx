@@ -16,7 +16,7 @@ const EditBlog = () => {
   useEffect(() => {
     const fetchSingleBlogData = async () => {
       const { data } = await axios.get(
-        `http://api.interiorkarwalo.com/api/v1/user/post/${id}`
+        `https://api.interiorkarwalo.com/api/v1/user/post/${id}`
       );
       setBlogData(data.data);
     };

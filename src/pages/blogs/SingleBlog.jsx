@@ -27,7 +27,7 @@ const SingleBlog = () => {
       try {
         const fetchData = async () => {
           const { data } = await instance.get(
-            `http://api.interiorkarwalo.com/api/v1/user/post/${id}`,
+            `https://api.interiorkarwalo.com/api/v1/user/post/${id}`,
             {
               headers: {
                 Authorization: `Bearer ${localStorage.getItem('token')}`,
@@ -48,7 +48,7 @@ const SingleBlog = () => {
 
   const fetchCommentData = useCallback(async () => {
     const { data } = await axios.get(
-      `http://api.interiorkarwalo.com/api/v1/user/post/${id}/comment`
+      `https://api.interiorkarwalo.com/api/v1/user/post/${id}/comment`
     );
     console.log(data);
     setComments(data.data);
@@ -76,7 +76,7 @@ const SingleBlog = () => {
   const handleSubmit = async (commentData) => {
     try {
       const { data } = await axios.post(
-        `http://api.interiorkarwalo.com/api/v1/user/post/${id}`,
+        `https://api.interiorkarwalo.com/api/v1/user/post/${id}`,
         {
           ...commentData,
         }
