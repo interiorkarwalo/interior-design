@@ -46,7 +46,7 @@ const InteriorDesign = () => {
             width: "100%",
           }}
         />
-        <div className="service ">
+        {/* <div className="service ">
           <button>
             <Link to="/services/corporate-office">
               Corporate Office Interior Contractor in India
@@ -77,7 +77,7 @@ const InteriorDesign = () => {
               Gypsum False Ceiling Contractor In India
             </Link>
           </button>
-        </div>
+        </div> */}
         <div className="service-image-container">
           <div className="service-image-container-left">
             <h2>Gypsum Partition Contractor In India</h2>
