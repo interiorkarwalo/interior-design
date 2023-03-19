@@ -19,7 +19,7 @@ ul {
   font-family: 'Poppins', sans-serif;
 }
 .footer-col {
-  width: 25%;
+  inline-size: 25%;
   padding: 0 15px;
 }
 .footer-col h4 {
@@ -44,7 +44,7 @@ ul {
   margin-bottom: 10px;
 }
 .footer-col ul li a {
-  font-size: 16px;
+  font-size: 0.8rem;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
@@ -73,6 +73,19 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
+
+.footer-logo li {
+  display: flex;
+  font-size: 0.9rem;
+}
+
+ .footer-img{
+  width: 70%;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  inline-size: 100%;
+}
+
 
 /*responsive*/
 @media (max-width: 767px) {
