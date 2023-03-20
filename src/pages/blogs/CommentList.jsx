@@ -79,25 +79,29 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
         <ul>
           {unVerifiedComment.map((comment) => {
             return (
-              <li>
-                <h2>{comment.name}</h2>
-                <img src="/avatar-default-svgrepo-com.svg" alt="User" />
-                <p>{comment.comment} </p>
-                <div>
+              <>
+                <div className="user-comment-show">
+                  <img src="/avatar-default-svgrepo-com.svg" alt="User" />
+                  <div className="user-comment-show-horizontal">
+                    <h2>{comment.name}</h2>
+                    <li>{comment.comment}</li>
+                  </div>
+                </div>
+                <div className="form-btn-input">
                   <button
-                    className="btn"
+                    className="btn-reject"
                     onClick={() => handleReject(comment._id)}
                   >
                     Reject
                   </button>
                   <button
-                    className="btn"
+                    className="btn-accept"
                     onClick={() => handleApprove(comment._id)}
                   >
                     Approve
                   </button>
                 </div>
-              </li>
+              </>
             );
           })}
         </ul>
