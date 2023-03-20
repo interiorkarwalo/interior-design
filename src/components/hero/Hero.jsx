@@ -1,5 +1,6 @@
-import './hero.css';
-import Header from '../header/Header';
+import "./hero.css";
+import Header from "../header/Header";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
@@ -25,7 +26,9 @@ const Hero = () => {
         <div className="hero-wrapper">
           <h1>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
-          <button className="btn">Latest</button>
+          <button className="btn">
+            <Link to={"/services/gypsum-partition"}>Get Services</Link>
+          </button>
         </div>
       </div>
     </>

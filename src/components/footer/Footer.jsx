@@ -1,42 +1,22 @@
-import './footer.css';
-import { Link } from 'react-router-dom';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import "./footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer class="footer ">
       <div class="footer-container">
         <div class="footer-row">
           <div class="footer-col">
-            {/* <h4>online shop</h4> */}
-            <ul>
-              <li style={{ height: '200px', width: '100%' }}>
-                <img
-                  src="/logo4.svg"
-                  alt=""
-                  style={{ height: '100%', width: '100%', objectFit: 'cover' }}
-                />
-              </li>
-              {/* <li>
-                <a href="#">Phone: +91 11 1111 2900</a>
-              </li>
-              <li>
-                <a href="#">Email: info@demo.com</a>
-              </li> */}
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>company</h4>
+            <h4>Quick Links</h4>
             <ul>
               <li>
-                <Link href="/about">About us</Link>
+                <a href="/about">About us</a>
               </li>
               <li>
-                <a href="/services">Our services</a>
+                <a href="/services/office-furniture">Our services</a>
               </li>
               <li>
                 <a href="/about">privacy policy</a>
-              </li>
-              <li>
-                <a href="/about">affiliate program</a>
               </li>
             </ul>
           </div>
@@ -50,13 +30,10 @@ const Footer = () => {
                 <a href="/contact">Contact Us</a>
               </li>
               <li>
-                <a href="/contact">Blogs</a>
+                <a href="/blogs">Blogs</a>
               </li>
               <li>
-                <a href="#">Gallary</a>
-              </li>
-              <li>
-                <a href="#">Clients</a>
+                <a href="/gallery">gallery</a>
               </li>
             </ul>
           </div>
@@ -78,7 +55,49 @@ const Footer = () => {
               </a>
             </div>
           </div>
+          <div class="footer-col">
+            {/* <h4>online shop</h4> */}
+            <ul class="footer-logo">
+              <li>
+                <img className="footer-img" src="./footer.svg" alt="" />
+              </li>
+              <li>
+                <img src="icons8-mail-material-outlined-16.png" alt="" />
+                <p>info@pacifencesolutions.com</p>
+              </li>
+              <li>
+                <div
+                  style={{
+                    display: "flex",
+                  }}
+                >
+                  <img
+                    src="icons8-phone-tanah-basah-basic-outline-16.png"
+                    alt=""
+                  />
+                  <p>+1888-297-6869 +91 8630819631 </p>
+                </div>
+              </li>{" "}
+              <li>
+                <img src="icons8-user-location-16.png" alt="" />
+                <p>info@pacifencesolutions.com</p>
+              </li>
+              <li>
+                <img src="icons8-time-machine-16.png" alt="" />
+                <p>8:00 AM-8:00 PM</p>
+              </li>
+              {/* <li>
+                <, href="#">Phone: +91 11 1111 2900</a>
+              </li>
+              <li>
+                <a href="#">Email: info@demo.com</a>
+              </li> */}
+            </ul>
+          </div>
         </div>
+        <h6 className="copyright">
+          © 2021 — Branding Rise. All Rights Reserved.
+        </h6>
       </div>
     </footer>
   );
