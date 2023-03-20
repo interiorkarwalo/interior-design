@@ -1,6 +1,6 @@
-import "./hero.css";
-import Header from "../header/Header";
-import { Link } from "react-router-dom";
+import './hero.css';
+import Header from '../header/Header';
+import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <>
@@ -15,6 +15,7 @@ const Hero = () => {
             muted
             style={{ opacity: 1 }}
             playsinline
+            preload="metadata"
           >
             <source
               data-video-id="intro.part1.loop"
@@ -27,7 +28,7 @@ const Hero = () => {
           <h1>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
           <button className="btn">
-            <Link to={"/services/gypsum-partition"}>Get Services</Link>
+            <Link to={'/services/gypsum-partition'}>Get Services</Link>
           </button>
         </div>
       </div>
