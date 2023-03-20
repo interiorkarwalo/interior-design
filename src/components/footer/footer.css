@@ -79,9 +79,9 @@ ul {
   font-size: 0.9rem;
 }
 
- .footer-img{
+ .footer-img-a{
   width: 70%;
-  padding-block-start: 1rem;
+  /* padding-block-start: 1rem; */
   padding-block-end: 1rem;
   inline-size: 100%;
 }

@@ -1,9 +1,9 @@
-import { formatDistanceToNow } from 'date-fns';
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
+import { formatDistanceToNow } from "date-fns";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
-import './blog.css';
+import "./blog.css";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -11,10 +11,10 @@ const Blogs = () => {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          'https://api.interiorkarwalo.com/api/v1/user/post',
+          "https://api.interiorkarwalo.com/api/v1/user/post",
           {
             headers: {
-              Authorization: `Bearer ${localStorage.getItem('token')}`,
+              Authorization: `Bearer ${localStorage.getItem("token")}`,
             },
           }
         );
@@ -32,13 +32,13 @@ const Blogs = () => {
       <div className="container container-flex">
         <main role="main" className="b-main">
           <article className="article-featured">
-            <h2 className="article-title">Finding simplicity in life</h2>
             <img
               src="https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/life.jpg"
               alt="simple white desk on a white wall with a plant on the far right side"
-              className="article-image"
+              className="article-image-main"
             />
             <p className="article-info">July 23, 2019 | 3 comments</p>
+            <h2 className="article-title">Finding simplicity in life</h2>
             <p className="article-body">
               Life can get complicated really quickly, but it doesn't have to
               be! There are many ways to simplify your life, a few of which
@@ -46,7 +46,7 @@ const Blogs = () => {
               approach though, in how you can find simplicity in the life you
               already living.
             </p>
-            <a href="#" className="article-read-more">
+            <a href="#" className="article-read-more-p">
               CONTINUE READING
             </a>
           </article>
@@ -67,13 +67,13 @@ const Blogs = () => {
                   <img
                     src={blog.imageUrl}
                     alt="two dumplings on a wood plate with chopsticks"
-                    className="article-image"
+                    className="article-image-body"
                   />
                   <p className="article-info">
                     {formatDistanceToNow(new Date(blog.created_at), {
                       addSuffix: true,
-                    })}{' '}
-                    |{' '}
+                    })}{" "}
+                    |{" "}
                     {blog.comment.length === 0
                       ? null
                       : `${blog.comment.length} comments`}

@@ -37,7 +37,7 @@ const CorporateOffice = () => {
     <>
       <div className="container">
         <Header />
-        <hr />
+        {/* <hr /> */}
         <div
           style={{
             height: "100px",

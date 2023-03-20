@@ -1,4 +1,5 @@
-import instance from '../../utils/api';
+import instance from "../../utils/api";
+import "./commentlist.css";
 
 const CommentList = ({ comments, token, fetchCommentData }) => {
   console.log(comments);
@@ -15,7 +16,7 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
         },
         {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem('token')}`,
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
         }
       );
@@ -32,7 +33,7 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
 
         {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem('token')}`,
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
         }
       );
@@ -44,30 +45,44 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
   };
 
   return (
-    <div>
-      <h2>User Comments</h2>
+    <div className="user-comment-form">
+      <h2>{verifiedComment.length} Comments</h2>
 
       <ul>
         {verifiedComment.map((comment) => {
           return (
-            <li>
-              {comment.comment} || user: {comment.name}
-            </li>
+            <>
+              <div className="user-comment-show">
+                <img src="/avatar-default-svgrepo-com.svg" alt="User" />
+                <div className="user-comment-show-horizontal">
+                  <h2>{comment.name}</h2>
+                  <li>{comment.comment}</li>
+                </div>
+              </div>
+              <hr
+                style={{
+                  width: "100%",
+                  backgroundColor: "red",
+                  border: "0.5px solid lightgray",
+                  maxWidth: "1000px",
+                }}
+              />
+            </>
           );
         })}
       </ul>
-      <div style={{ height: '100px' }} />
-      <hr />
-      <hr />
+      <div style={{ height: "100px" }} />
+      {/* <hr />
+      <hr /> */}
 
       {token && (
         <ul>
           {unVerifiedComment.map((comment) => {
             return (
               <li>
-                <p>
-                  {comment.comment} || user: {comment.name}
-                </p>
+                <h2>{comment.name}</h2>
+                <img src="/avatar-default-svgrepo-com.svg" alt="User" />
+                <p>{comment.comment} </p>
                 <div>
                   <button
                     className="btn"
