@@ -37,7 +37,7 @@ const TurnkeyInterior = () => {
     <>
       <div className="container">
         <Header />
-        <hr />
+        {/* <hr /> */}
         <div
           style={{
             height: "100px",

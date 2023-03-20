@@ -59,7 +59,7 @@ const Footer = () => {
             {/* <h4>online shop</h4> */}
             <ul class="footer-logo">
               <li>
-                <img className="footer-img" src="./footer.svg" alt="" />
+                <img className="footer-img-a" src="/footer.svg" alt="" />
               </li>
               <li>
                 <img src="icons8-mail-material-outlined-16.png" alt="" />
