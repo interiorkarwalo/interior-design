@@ -14,6 +14,7 @@ const Hero = () => {
             className="intro-transition-video"
             muted
             style={{ opacity: 1 }}
+            playsinline
           >
             <source
               data-video-id="intro.part1.loop"
