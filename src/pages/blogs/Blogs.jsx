@@ -33,7 +33,7 @@ const Blogs = () => {
         <main role="main" className="b-main">
           <article className="article-featured">
             <img
-              src="https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/life.jpg"
+              src="https://i0.wp.com/artfulliving.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-08-at-3.04.59-PM.png?fit=1017%2C676&ssl=1"
               alt="simple white desk on a white wall with a plant on the far right side"
               className="article-image-main"
             />

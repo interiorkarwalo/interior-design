@@ -1,34 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { useLocation, useNavigate } from 'react-router-dom';
-import instance from '../../utils/api';
-import Header from '../../components/header/Header';
-import './login.css';
+import { useLocation, useNavigate } from "react-router-dom";
+import instance from "../../utils/api";
+import Header from "../../components/header/Header";
+import "./login.css";
 const Login = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [error, setError] = useState(null);
   const [user, setUser] = useState({
-    email: '',
-    password: '',
+    email: "",
+    password: "",
   });
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await instance.post('/login', {
+      const { data } = await instance.post("/login", {
         email: user.email,
         password: user.password,
       });
       console.log(data.data);
-      localStorage.setItem('token', data.data);
-      navigate('/blogs');
+      localStorage.setItem("token", data.data);
+      navigate("/blogs");
     } catch (error) {
       console.log(error);
       setError(error.response.data.message);
     } finally {
       setUser({
-        email: '',
-        password: '',
+        email: "",
+        password: "",
       });
     }
   };
@@ -38,22 +38,24 @@ const Login = () => {
       <Header />
       <div
         style={{
-          height: '100px',
-          borderBottom: '2px solid gray',
-          marginBottom: '1rem',
+          height: "100px",
+          borderBottom: "2px solid gray",
+          marginBottom: "1rem",
         }}
       />
-      <div className="login-form-container">
+      <div className="container">
         {location.state && (
           <p
             className="login-error"
-            style={{ color: 'red', fontSize: '1.2rem' }}
+            style={{ color: "red", fontSize: "1.2rem" }}
           >
             {location.state.message}
           </p>
         )}
-        <h1>Admin Login</h1>
-        <form onSubmit={handleSubmit} className="login-form">
+        <div className="heading-main">
+          <h1>Admin Login</h1>
+        </div>
+        <form onSubmit={handleSubmit} className="create-blog-form ">
           <div>
             <label>Email</label>
             <input
@@ -78,12 +80,14 @@ const Login = () => {
           {error && (
             <p
               className="login-error"
-              style={{ color: 'red', fontSize: '1.2rem' }}
+              style={{ color: "red", fontSize: "1.2rem" }}
             >
               {error}
             </p>
           )}
-          <button>Submit</button>
+          <div className="form-btn-input">
+            <button>Submit</button>
+          </div>
         </form>
       </div>
     </div>
