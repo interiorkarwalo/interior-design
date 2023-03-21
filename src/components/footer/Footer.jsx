@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "./footer.css";
-import { Link } from "react-router-dom";
+import './footer.css';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer class="footer ">
@@ -38,65 +38,58 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="footer-col">
-            <h4>follow us</h4>
-            <div class="social-links">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
+          <div class="footer-col f-contact-us">
+            <h4>contact us</h4>
+            <li>
+              <img src="icons8-mail-material-outlined-16.png" alt="" />
+              <p>info@pacifencesolutions.com</p>
+            </li>
+            <li>
+              <div
+                style={{
+                  display: 'flex',
+                }}
+              >
+                <img
+                  src="icons8-phone-tanah-basah-basic-outline-16.png"
+                  alt=""
+                />
+                <p>+1888-297-6869 +91 8630819631 </p>
+              </div>
+            </li>
+            <li>
+              <img src="icons8-user-location-16.png" alt="" />
+              <p>Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
+            </li>
+            <li>
+              <img src="icons8-time-machine-16.png" alt="" />
+              <p>8:00 AM-8:00 PM</p>
+            </li>
           </div>
           <div class="footer-col">
-            {/* <h4>online shop</h4> */}
             <ul class="footer-logo">
               <li>
                 <img className="footer-img-a" src="/footer.svg" alt="" />
               </li>
-              <li>
-                <img src="icons8-mail-material-outlined-16.png" alt="" />
-                <p>info@pacifencesolutions.com</p>
-              </li>
-              <li>
-                <div
-                  style={{
-                    display: "flex",
-                  }}
-                >
-                  <img
-                    src="icons8-phone-tanah-basah-basic-outline-16.png"
-                    alt=""
-                  />
-                  <p>+1888-297-6869 +91 8630819631 </p>
-                </div>
-              </li>{" "}
-              <li>
-                <img src="icons8-user-location-16.png" alt="" />
-                <p>info@pacifencesolutions.com</p>
-              </li>
-              <li>
-                <img src="icons8-time-machine-16.png" alt="" />
-                <p>8:00 AM-8:00 PM</p>
-              </li>
-              {/* <li>
-                <, href="#">Phone: +91 11 1111 2900</a>
-              </li>
-              <li>
-                <a href="#">Email: info@demo.com</a>
-              </li> */}
+              <div class="social-links">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
             </ul>
           </div>
         </div>
         <h6 className="copyright">
-          © 2021 — Branding Rise. All Rights Reserved.
+          © 2023 — Branding Rise. All Rights Reserved.
         </h6>
       </div>
     </footer>
