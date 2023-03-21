@@ -101,20 +101,20 @@ const SingleBlog = () => {
         {token && (
           <div>
             <button
-              className="btn"
-              style={{ position: "absolute", right: 0, top: 0 }}
+              className="btn-reject"
+              // style={{ position: "absolute", right: 0, top: 0 }}
               onClick={handleRemove}
             >
               Remove
             </button>
             <button
-              className="btn"
-              style={{
-                position: "absolute",
-                right: 0,
-                top: "60px",
-                backgroundColor: "deeppink",
-              }}
+              className="btn-accept"
+              // style={{
+              //   position: "absolute",
+              //   right: 0,
+              //   top: "60px",
+              //   backgroundColor: "deeppink",
+              // }}
             >
               <Link to={`/blogs/${id}/edit`}>Edit Me</Link>
             </button>
