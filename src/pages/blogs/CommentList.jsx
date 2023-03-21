@@ -89,16 +89,16 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
                 </div>
                 <div className="form-btn-input">
                   <button
-                    className="btn-reject"
-                    onClick={() => handleReject(comment._id)}
-                  >
-                    Reject
-                  </button>
-                  <button
                     className="btn-accept"
                     onClick={() => handleApprove(comment._id)}
                   >
                     Approve
+                  </button>
+                  <button
+                    className="btn-reject"
+                    onClick={() => handleReject(comment._id)}
+                  >
+                    Reject
                   </button>
                 </div>
               </>
