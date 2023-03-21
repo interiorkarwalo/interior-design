@@ -1,3 +1,4 @@
+
 import { Dropdown, Space } from "antd";
 import { useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
@@ -8,12 +9,14 @@ import SubGallery1 from "./sub-gallery/SubGallery1";
 import SubGallery2 from "./sub-gallery/SubGallery2";
 import SubGallery3 from "./sub-gallery/SubGallery3";
 
+
 const GalleryPage = () => {
   const [category, setCategory] = useState(0);
   const [mainImage, setMainImage] = useState(allImageLinks[0][0]);
 
   const categoriesList = ["chair", "sofa", "bed", "table", "wardrobe"];
   // demo
+
   const items = [
     { key: 0, label: categoriesList[0] },
     { key: 1, label: categoriesList[1] },
@@ -24,7 +27,7 @@ const GalleryPage = () => {
   return (
     <div>
       <Header />
-      <div style={{ height: "100px" }} />
+      <div style={{ height: '100px' }} />
       {/* <div>
         <Dropdown
           className="a-dropDown"

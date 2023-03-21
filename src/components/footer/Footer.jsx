@@ -40,36 +40,46 @@ const Footer = () => {
 
           <div class="footer-col f-contact-us">
             <h4>contact us</h4>
-            <li>
-              <img src="icons8-mail-material-outlined-16.png" alt="" />
-              <p>info@pacifencesolutions.com</p>
-            </li>
-            <li>
-              <div
-                style={{
-                  display: 'flex',
-                }}
-              >
+            <div
+              style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
+            >
+              <li>
+                <img src="icons8-mail-material-outlined-16.png" alt="" />
+                <p>info@pacifencesolutions.com</p>
+              </li>
+              <li>
                 <img
                   src="icons8-phone-tanah-basah-basic-outline-16.png"
                   alt=""
                 />
                 <p>+1888-297-6869 +91 8630819631 </p>
-              </div>
-            </li>
-            <li>
-              <img src="icons8-user-location-16.png" alt="" />
-              <p>Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
-            </li>
-            <li>
-              <img src="icons8-time-machine-16.png" alt="" />
-              <p>8:00 AM-8:00 PM</p>
-            </li>
+              </li>
+              <li>
+                <img src="icons8-user-location-16.png" alt="" />
+                <p>Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
+              </li>
+              <li>
+                <img src="icons8-time-machine-16.png" alt="" />
+                <p>8:00 AM-8:00 PM</p>
+              </li>
+            </div>
           </div>
           <div class="footer-col">
-            <ul class="footer-logo">
+            <ul
+              class="footer-logo"
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
               <li>
-                <img className="footer-img-a" src="/footer.svg" alt="" />
+                <img
+                  className="footer-img-a"
+                  src="/footer.svg"
+                  alt=""
+                  style={{ height: '100px' }}
+                />
               </li>
               <div class="social-links">
                 <a href="#">
