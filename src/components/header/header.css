@@ -34,7 +34,7 @@ header {
   color: var(--primary);
 }
 
-nav ul {
+.nav ul {
   display: flex;
   align-items: center;
   gap: 1.6rem;
@@ -49,14 +49,14 @@ nav ul li {
   /* text-transform: uppercase; */
 }
 
-nav ul li:hover {
-   padding: 0.5rem;
-   border-radius: 7px;
-   color: rgb(0, 0, 0);
-   background-color: rgba(255, 255, 255, 0);
-   transition-timing-function: ease;
-   transition: background-color 0.7s;
-}
+/* nav ul li:hover {
+  padding: 0.5rem;
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  transition-timing-function: ease;
+  transition: background-color 0.7s;
+} */
 
 .ham {
   position: absolute;
@@ -69,14 +69,24 @@ nav ul li:hover {
 }
 
 .ham ul {
+  padding: 0 20px;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 8px;
   height: 100%;
   padding-top: 120px;
+  /* margin-top: 120px; */
+  /* background-color: pink; */
 }
-
+.ham ul li {
+  font-size: 1rem;
+  border-bottom: 1px solid gray;
+  padding: 0;
+  width: 90vw;
+}
 .ham-icon {
   font-size: 2rem;
   cursor: pointer;
@@ -101,14 +111,17 @@ nav ul li:hover {
   }
 
   .logo {
-    height: 50px;
+    height: 100px;
+
     /* background-color: blueviolet; */
     margin-left: -4rem;
+    /* background-color: red; */
   }
 
   .logo img {
     width: 100%;
-    object-fit: contain;
+    height: 250px;
+    /* object-fit: contain; */
   }
 }
 
@@ -210,4 +223,4 @@ nav ul li:hover {
     font-size: 1rem;
     width: 90%;
   }
-} 
+}

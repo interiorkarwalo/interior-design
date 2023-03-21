@@ -21,7 +21,7 @@ const Teams = () => {
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://media.licdn.com/dms/image/D4D35AQHMLFw9fZb-PA/profile-framedphoto-shrink_400_400/0/1673531000706?e=1679925600&v=beta&t=aOELK4S8eoVDCIUbQZDl5LIodJ9JfnDsHjPniJY2Bpw"
+                src="https://media.licdn.com/dms/image/D4D03AQG06-g1FELWvQ/profile-displayphoto-shrink_400_400/0/1673530992467?e=1684972800&v=beta&t=hxxQPuPA4MWkctGFu2NbJf7xB439BbvVwabu9cIgkEk"
               />
               <div class="flex-grow sm:pl-8">
                 <h2 class="title-font font-medium text-lg text-gray-900">
@@ -81,7 +81,7 @@ const Teams = () => {
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://media.licdn.com/dms/image/D4D35AQH7ZCUi5TR_Tw/profile-framedphoto-shrink_400_400/0/1678554811685?e=1679925600&v=beta&t=RqOw3dgD_z-AUodAiDPaDmO44oFRn8h7wbElQK6Ziks"
+                src="https://media.licdn.com/dms/image/C5603AQE6EaV-yXJzzA/profile-displayphoto-shrink_400_400/0/1625904139684?e=1684972800&v=beta&t=7JVn4eSIYirysPGmxrpjpVGYUpi6XiUBhbRBtI152Aw"
               />
               <div class="flex-grow sm:pl-8">
                 <h2 class="title-font font-medium text-lg text-gray-900">
@@ -141,11 +141,11 @@ const Teams = () => {
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://images.pexels.com/photos/7581009/pexels-photo-7581009.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://media.licdn.com/dms/image/C4D03AQFE6Xk_l-k_UA/profile-displayphoto-shrink_400_400/0/1663902081197?e=1684972800&v=beta&t=ULDRYJ8xTx-eCw-QR94322q3qoQ47Lj_uAQt3sFzXIE"
               />
               <div class="flex-grow sm:pl-8">
                 <h2 class="title-font font-medium text-lg text-gray-900">
-                  Gaurav Sharma
+                  Priyanshu Chauhan
                 </h2>
                 <h3 class="text-gray-500 mb-3">Interior Designer</h3>
                 <p class="mb-4">
@@ -201,11 +201,11 @@ const Teams = () => {
               <img
                 alt="team"
                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://images.pexels.com/photos/5301744/pexels-photo-5301744.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/deepak-image.jpeg"
               />
               <div class="flex-grow sm:pl-8">
                 <h2 class="title-font font-medium text-lg text-gray-900">
-                  Aman Kumar Jha
+                  Deepak Panwar
                 </h2>
                 <h3 class="text-gray-500 mb-3">Designer</h3>
                 <p class="mb-4">

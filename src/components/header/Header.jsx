@@ -1,22 +1,22 @@
-import "./header.css";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import jwtDecode from "jwt-decode";
+import './header.css';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import jwtDecode from 'jwt-decode';
 
 const Header = ({ type }) => {
   const [show, setShow] = useState(false);
   const [token, setToken] = useState(null);
   useEffect(() => {
     try {
-      const hello = jwtDecode(localStorage.getItem("token"));
+      const hello = jwtDecode(localStorage.getItem('token'));
       setToken(hello);
     } catch (error) {
       console.log(error);
     }
   }, []);
   const handleLogout = () => {
-    localStorage.removeItem("token");
+    localStorage.removeItem('token');
     window.location.reload();
     // setToken(null);
   };
@@ -45,7 +45,7 @@ const Header = ({ type }) => {
             <div class="dropdown">
               <Link class="dropbtn">
                 <span>Services</span>
-                <span style={{ marginBottom: "8px" }}>&#8964;</span>
+                <span style={{ marginBottom: '8px' }}>&#8964;</span>
               </Link>
               <div class="dropdown-content">
                 <Link to="/services/corporate-office">
@@ -102,7 +102,7 @@ const Header = ({ type }) => {
             <Link to="/blogs">Blogs</Link>
             <br />
             {token && (
-              <button className="btn" style={{ backgroundColor: "yellow" }}>
+              <button className="btn" style={{ backgroundColor: 'yellow' }}>
                 <Link to="/create-blog">Create Blog</Link>
               </button>
             )}
@@ -117,7 +117,7 @@ const Header = ({ type }) => {
             <button
               className="btn"
               onClick={handleLogout}
-              style={{ backgroundColor: "teal " }}
+              style={{ backgroundColor: 'teal ' }}
             >
               Logout
             </button>
@@ -139,12 +139,19 @@ const Header = ({ type }) => {
             <li>
               <Link to="/about">About Us</Link>
             </li>
-            <li>
+            <li style={{ display: 'flex', justifyContent: 'space-between' }}>
               <Link to="/services">Services</Link>
+              <button>down</button>
             </li>
-            <button className="btn">
+            <li>
+              <Link to="/blogs">Blogs</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Gallery</Link>
+            </li>
+            <li>
               <Link to="/contact">Contact Us</Link>
-            </button>
+            </li>
           </ul>
         </nav>
       )}

@@ -44,23 +44,23 @@ const Footer = () => {
               style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
             >
               <li>
-                <img src="icons8-mail-material-outlined-16.png" alt="" />
+                <img src="/icons8-mail-material-outlined-16.png" alt="" />
                 <p>info@pacifencesolutions.com</p>
               </li>
               <li>
                 <img
-                  src="icons8-phone-tanah-basah-basic-outline-16.png"
+                  src="/icons8-phone-tanah-basah-basic-outline-16.png"
                   alt=""
                 />
                 <p>+1888-297-6869 +91 8630819631 </p>
               </li>
               <li>
-                <img src="icons8-user-location-16.png" alt="" />
+                <img src="/icons8-user-location-16.png" alt="" />
                 <p>Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
               </li>
               <li>
-                <img src="icons8-time-machine-16.png" alt="" />
-                <p>8:00 AM-8:00 PM</p>
+                <img src="/icons8-time-machine-16.png" alt="" />
+                <p>11:00 AM-9:00 PM</p>
               </li>
             </div>
           </div>

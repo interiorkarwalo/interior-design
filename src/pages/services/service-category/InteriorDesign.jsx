@@ -1,25 +1,25 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import Header from "../../../components/header/Header";
-import "../service.css";
-import Footer from "../../../components/footer/Footer";
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../../../components/header/Header';
+import '../service.css';
+import Footer from '../../../components/footer/Footer';
 
 const randomImages = [
   {
-    url: "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://images.unsplash.com/photo-1615875474908-f403116f5287?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1615875474908-f403116f5287?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://uploads-ssl.webflow.com/602c75ed03e1145b5fac2aed/603db0c0119b474884ff2d3e_bedroom_02-4_edited.jpg",
+    url: 'https://uploads-ssl.webflow.com/602c75ed03e1145b5fac2aed/603db0c0119b474884ff2d3e_bedroom_02-4_edited.jpg',
   },
 ];
 
@@ -41,52 +41,18 @@ const InteriorDesign = () => {
         {/* <hr /> */}
         <div
           style={{
-            height: "100px",
-            borderBottom: "1px solid gray",
-            width: "100%",
+            height: '100px',
+            borderBottom: '1px solid gray',
+            width: '100%',
           }}
         />
-        {/* <div className="service ">
-          <button>
-            <Link to="/services/corporate-office">
-              Corporate Office Interior Contractor in India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/turnkey-interior">
-              Turnkey Interiors Contractor in India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/interior-design">
-              Interior Design Consultant in India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/office-furniture">
-              Office Furniture In India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/gypsum-partition">
-              Gypsum Partition Contractor In India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/gypsum-false">
-              Gypsum False Ceiling Contractor In India
-            </Link>
-          </button>
-        </div> */}
+
         <div className="service-image-container">
           <div className="service-image-container-left">
-            <h2>Gypsum Partition Contractor In India</h2>
+            <h2>Interior Design Consultant in India</h2>
             <p>
-              Do you require gypsum partitions in your workplace? Interior
-              Karwalo is a reputable gypsum partition contractor in India. You
-              can find the most suitable plasterboard cabin separation, gypsum
-              wall separation, workplace gypsum splitting design, gypsum ceiling
-              panels, gypsum wall separation, gypsum drywall separation, etc.
+              Interior Karwalo has put much effort into being one of India's
+              leading interior and architectural design firms.
             </p>
             <button className="btn">
               <Link to="/contact">Contact Us</Link>
@@ -108,37 +74,24 @@ const InteriorDesign = () => {
 
         <div className="category--all-container">
           <div>
-            <h2>Gypsum Partition Contractor In India</h2>
+            <h2>Interior Design Consultant in India</h2>
             <p>
-              Do you require gypsum partitions in your workplace? Interior
-              Karwalo is a reputable gypsum partition contractor in India. You
-              can find the most suitable plasterboard cabin separation, gypsum
-              wall separation, workplace gypsum splitting design, gypsum ceiling
-              panels, gypsum wall separation, gypsum drywall separation, etc. If
-              you have a limited budget and want to separate your work quickly
-              and inexpensively, a gypsum partition is one of the greatest
-              options. It is portable and simple to install. Check out some of
-              our latest gypsum partition work through our website.
-              <br />
-              We, the Interior Karwalo, are establishing ourselves in the
-              Interior Karwalo industry to create space for our clients, which
-              they deserve.
+              Interior Karwalo has put much effort into being one of India's
+              leading interior and architectural design firms. We've finished
+              several commercial and residential interior design projects
+              throughout all cities and six countries that exceed the pleasure
+              of our clients thanks to our transparent costs and opulent design
+              vision, including automation-led strategy. Being seasoned
+              architects as well as interior decorators in India, we are
+              accountable for the overall appearance of any project we take on.
             </p>
           </div>
           <div>
-            <h3>Why Gypsum?</h3>
+            <h3>How We Design Interiors?</h3>
             <p>
-              Gypsum is a lightweight internal wall technology with superior
-              performance compared to traditional brick walls. In various
-              residential, commercial, and industrial building applications,
-              gypsum is quickly replacing other materials as the material of
-              choice.
-              <br />
-              Four to five times less time is required for gypsum installation
-              than for masonry work. Brick walls use 95% more water than drywall
-              construction. Gypsum plasterboard, the main component of drywall,
-              makes it 100% recyclable. These characteristics result in a
-              decrease in material, energy, and labour, which lowers prices.
+              We start by planning the building's physical layout before
+              designing the interiors, which, depending on the situation,
+              essentially give the living and working area life.
             </p>
           </div>
           <div>
@@ -149,49 +102,109 @@ const InteriorDesign = () => {
             </p>
           </div>
           <div>
-            <h3>Simple solutions to difficult issues</h3>
+            <h3>Our Specialised Approach To Interior Design & Architecture</h3>
             <p>
-              With over 50 completed projects, we have made a name for ourselves
-              as India's top drywall contracting consultants. We have
-              constructed Gypsum drywall for leading manufacturers.
-            </p>
-          </div>
-          <div>
-            <h3>Superior technical ability</h3>
-            <p>
-              We have a solid knowledge of every important facet of building
-              gypsum walls. We take pleasure in being among the best issue
-              solvers in our field. Team Interior Karwalo provides a full range
-              of Gypsum wall design-build services, including conception,
-              design, erection, and everything in between.
-            </p>
-          </div>
-          <div>
-            <h3>Highest standards</h3>
-            <p>
-              For security, installation, and execution, we constantly adhere to
-              worldwide best standards. Our field personnel adheres to the best
-              safety procedures since the workplace is our top priority. For the
-              installation of Gypsum walls, we exclusively utilise wireless,
-              high-quality equipment.
-            </p>
-          </div>
-          <div>
-            <h3>Block Gypsum Wall System</h3>
-            <p>
-              An engineered partition wall enclosure may be used in
-              administrative buildings, workshops, and offices. Since Interior
-              Karwalo manages everything from design requirements through
-              project execution, these pre-engineered structures are promised to
-              be water-free, mess-free, and headache-free. Consultants from
-              different parties, such as architects and other relevant
-              individuals like PMC.
+              At Interior Karwalo, we all believe that every building and
+              interior design project should be approached with a holistic
+              design approach. The bulk of our interior decorating work and
+              offerings, which include the outside, the interior space, the
+              finishes, the furniture, and the lighting, all that is frequently
+              custom-made by us, showcase this passion. Our work is defined by
+              the shape design, the use of various materials, and the
+              implementation of colour manipulations.
               <br />
-              Get a flexible partition wall with several applications. You may
-              personalise our glass and partition walls to meet your needs. Any
-              finish, including paint, wallpaper, laminates, etc., can be used
-              on partitions. They can survive longer since they are a
-              low-maintenance alternative to brick walls that are not unstable.
+              With a staff of more than 50 individuals, including architects,
+              interior decorators, site supervisors, and more, we serve as a
+              one-stop destination for both architecture and interiors.
+              <br />
+              All your project's requirements may be met in one location,
+              providing efficient team cooperation while bringing an
+              architectural and design project to life. We are not constrained
+              to one design approach because of the size of our team. We are
+              experts in controlling budget expectations and will advise you in
+              real time.
+              <br />
+              By ensuring you communicate with vendors directly, we preserve
+              complete openness with our clients. Besides, Interior Karwalo
+              provides prompt delivery, emphasises originality, and is aware of
+              the skill level of our personnel.
+            </p>
+          </div>
+          <div>
+            <h3>We offer a 3D view of the interior planned</h3>
+            <p>
+              Our skilled and creative staff offers consultations starting with
+              site measurement, interior plan possibilities, 3D views, material
+              finalisation, and a BOQ. We established fresh benchmarks and
+              guidelines for the sector to adhere to. We manage commercial
+              offices, retail stores, restaurants, cafés, food courts, take-out
+              joints, hotel rooms, bars, lounges, and residential project
+              interiors.
+              <br />
+              We also offer consulting services in the areas of electrical,
+              civil, HVAC, firefighting, grid system, and plumbing, in addition
+              to interior design.
+            </p>
+          </div>
+          <div>
+            <h3>Consultancy for all types of interior</h3>
+            <p>
+              Interior Karwalo is a renowned top interior decorator in India. We
+              offer interior design services for businesses, including
+              restaurants, cafes, lounges, offices, shopping malls, private
+              homes, and public spaces like kiosks and food courts.
+              <br />
+              As a leading Interior Design consulting service, we provide the
+              greatest interior structuring and overall project management
+              services. The work schedule administration is directly related to
+              the material purchase, drawing preparation, and workforce
+              management, which are the most important. We have a lot of happy
+              clients who choose us for their interior design consulting
+              projects where everything from the actual depictions to the
+              overall extravagance is ready to be used.
+              <br />
+              We get a lot of questions regarding interior designers for homes,
+              domestic interior design as well as architect services, interior
+              designing design services, etc. Our consulting services provide
+              solutions to commonly asked questions; as a result, we have
+              purposefully responded to all questions as promptly as possible.
+              <br />
+              Interior feels it is the accountability to present the clients
+              with the greatest options possible. Analysing a project's success
+              rate and reputation as an interior design team in India is the
+              best approach to identifying one. Interior Karwalo is the top
+              interior design consulting firm in India, so if you pick us, we'll
+              be here whenever you need us.
+            </p>
+          </div>
+          <div>
+            <h3>Why use a consulting service for interior design?</h3>
+            <p>
+              We may relax and spend time with the people we love at home. These
+              are the areas where most people spend their time since you spend
+              most of the day at work.
+              <br />
+              So, selecting interior design advisory services could be the
+              finest thing one could ever do for your neighbourhood. Your home
+              or place of business will be designed and decorated by an interior
+              designer who will also provide you with any advice you may
+              require. Are you also wondering how much the entire service cost?
+              <br />
+              The most crucial factor for the client is the budget. Before
+              accepting any assignment, we discuss it as an interior decoration
+              team in India. We are the greatest interior design consulting
+              company in India, with few of them.
+              <br />
+              Your project will determine how much you pay for our consulting
+              services. If you want the best interior decorator in India, look
+              no further. Make an appointment with us!
+              <br />
+              Interior Karwalo is a leading commercial interior designer and
+              interior home decorator. To look at our other services, you can
+              check our website and explore more about us. If you want
+              consultation regarding the interior of your residential and
+              commercial space, you can directly talk with us or mail us right
+              now.
             </p>
           </div>
           <div>
