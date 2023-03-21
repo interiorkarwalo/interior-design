@@ -1,29 +1,19 @@
-<<<<<<< HEAD
-import { Dropdown, Space } from 'antd';
-import { useState } from 'react';
-import { DownOutlined } from '@ant-design/icons';
-import allImageLinks from '../../utils/imageLinks';
-import './gallery-page.css';
-import Header from '../../components/header/Header';
-import SubGallery1 from './sub-gallery/SubGallery1';
-import SubGallery2 from './sub-gallery/SubGallery2';
-import SubGallery3 from './sub-gallery/SubGallery3';
-=======
-/* eslint-disable react-hooks/rules-of-hooks */
 import { Dropdown, Space } from "antd";
 import { useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
 import allImageLinks from "../../utils/imageLinks";
 import "./gallery-page.css";
 import Header from "../../components/header/Header";
->>>>>>> ff1fc60635b6ab52036608f06600ea7a3ea9b377
+import SubGallery1 from "./sub-gallery/SubGallery1";
+import SubGallery2 from "./sub-gallery/SubGallery2";
+import SubGallery3 from "./sub-gallery/SubGallery3";
 
 const GalleryPage = () => {
   const [category, setCategory] = useState(0);
   const [mainImage, setMainImage] = useState(allImageLinks[0][0]);
 
   const categoriesList = ["chair", "sofa", "bed", "table", "wardrobe"];
-
+  // demo
   const items = [
     { key: 0, label: categoriesList[0] },
     { key: 1, label: categoriesList[1] },
