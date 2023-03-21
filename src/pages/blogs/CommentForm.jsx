@@ -1,4 +1,3 @@
-import { Footer } from "antd/es/layout/layout";
 import { useState } from "react";
 
 const CommentForm = ({ onSubmit }) => {
