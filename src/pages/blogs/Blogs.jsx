@@ -47,7 +47,7 @@ const Blogs = () => {
               already living.
             </p>
             <a href="#" className="article-read-more-p">
-              CONTINUE READING
+              CONTINUE READING...
             </a>
           </article>
 
@@ -60,7 +60,7 @@ const Blogs = () => {
                     {blog.desc.substring(0, 100)}...
                   </p>
                   <Link to={`/blogs/${blog._id}`} className="article-read-more">
-                    CONTINUE READING
+                    CONTINUE READING...
                   </Link>
                 </div>
                 <div className="article-recent-secondary">

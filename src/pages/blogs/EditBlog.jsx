@@ -1,16 +1,16 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import instance from '../../utils/api';
-import './create-blog.css';
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import instance from "../../utils/api";
+import "./create-blog.css";
 
 const EditBlog = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   const [blogData, setBlogData] = useState({
-    title: '',
-    imageUrl: '',
-    desc: '',
+    title: "",
+    imageUrl: "",
+    desc: "",
   });
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const EditBlog = () => {
         { ...blogData },
         {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem('token')}`,
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
         }
       );
@@ -42,7 +42,7 @@ const EditBlog = () => {
   };
   return (
     <div className="container">
-      <div>
+      <div className="heading-main">
         <h1>Edit Blog</h1>
       </div>
       <form onSubmit={handleSubmit} className="create-blog-form">
@@ -79,8 +79,9 @@ const EditBlog = () => {
             }
           />
         </div>
-
-        <button type="submit">Submit</button>
+        <div className="form-btn-input">
+          <button type="submit">Submit</button>
+        </div>
         {/* {error && <div className="error">{error}</div>} */}
       </form>
     </div>
