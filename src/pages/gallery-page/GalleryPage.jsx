@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+import { Dropdown, Space } from 'antd';
+import { useState } from 'react';
+import { DownOutlined } from '@ant-design/icons';
+import allImageLinks from '../../utils/imageLinks';
+import './gallery-page.css';
+import Header from '../../components/header/Header';
+import SubGallery1 from './sub-gallery/SubGallery1';
+import SubGallery2 from './sub-gallery/SubGallery2';
+import SubGallery3 from './sub-gallery/SubGallery3';
+=======
 /* eslint-disable react-hooks/rules-of-hooks */
 import { Dropdown, Space } from "antd";
 import { useState } from "react";
@@ -5,12 +16,13 @@ import { DownOutlined } from "@ant-design/icons";
 import allImageLinks from "../../utils/imageLinks";
 import "./gallery-page.css";
 import Header from "../../components/header/Header";
+>>>>>>> ff1fc60635b6ab52036608f06600ea7a3ea9b377
 
-const galleryPage = () => {
+const GalleryPage = () => {
   const [category, setCategory] = useState(0);
   const [mainImage, setMainImage] = useState(allImageLinks[0][0]);
 
-  const categoriesList = ["chair", "sofa", "bed", "table", "wardrobe"];
+  const categoriesList = ['chair', 'sofa', 'bed', 'table', 'wardrobe'];
 
   const items = [
     { key: 0, label: categoriesList[0] },
@@ -22,25 +34,25 @@ const galleryPage = () => {
   return (
     <div>
       <Header />
-      <div style={{ height: "100px" }} />
-      <div>
+      <div style={{ height: '100px' }} />
+      {/* <div>
         <Dropdown
           className="a-dropDown"
           menu={{
             items,
             selectable: true,
-            defaultSelectedKeys: ["chair"],
+            defaultSelectedKeys: ['chair'],
             onSelect: (e) => {
               setCategory(e.selectedKeys[0]);
               setMainImage(allImageLinks[e.selectedKeys[0]][0]);
             },
           }}
-          trigger={"click"}
-          arrow={"true"}
+          trigger={'click'}
+          arrow={'true'}
         >
           <div className="a-dropdown">
             <p>
-              {categoriesList[category]}{" "}
+              {categoriesList[category]}{' '}
               <DownOutlined style={{ fontSize: 25 }} />
             </p>
           </div>
@@ -94,9 +106,13 @@ const galleryPage = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
+
+      <SubGallery1 />
+      {/* <SubGallery2 /> */}
+      <SubGallery3 />
     </div>
   );
 };
 
-export default galleryPage;
+export default GalleryPage;
