@@ -48,7 +48,7 @@ const OfficeFurnitue = () => {
 
         <div className="service-image-container">
           <div className="service-image-container-left">
-            <h2>Office Furniture In India</h2>
+            <h2 className="service-main-title-d">Office Furniture In India</h2>
             <p>
               At Interior Karwalo, we are a "full service" business Office
               interior. We can plan, design, specify, install, and furnish all

@@ -45,41 +45,12 @@ const CorporateOffice = () => {
             width: '100%',
           }}
         />
-        {/* <div className="service ">
-          <button>
-            <Link to="/services/corporate-office">
-              Corporate Office Interior Contractor in India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/turnkey-interior">
-              Turnkey Interiors Contractor in India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/interior-design">
-              Interior Design Consultant in India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/office-furniture">
-              Office Furniture In India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/gypsum-partition">
-              Gypsum Partition Contractor In India
-            </Link>
-          </button>
-          <button>
-            <Link to="/services/gypsum-false">
-              Gypsum False Ceiling Contractor In India
-            </Link>
-          </button> */}
-        {/* </div> */}
+
         <div className="service-image-container">
           <div className="service-image-container-left">
-            <h2>Corporate Office Interior Contractor in India</h2>
+            <h2 className="service-main-title-d">
+              Corporate Office Interior Contractor in India
+            </h2>
             <p>
               In case you are discovering that your commercial space has messed
               up, you can turn it into an astonishing place with the team of

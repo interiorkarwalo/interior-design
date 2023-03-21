@@ -1,5 +1,6 @@
 import './header.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { FaArrowCircleDown } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import jwtDecode from 'jwt-decode';
@@ -7,6 +8,7 @@ import jwtDecode from 'jwt-decode';
 const Header = ({ type }) => {
   const [show, setShow] = useState(false);
   const [token, setToken] = useState(null);
+  const [showSubService, setShowSubService] = useState(false);
   useEffect(() => {
     try {
       const hello = jwtDecode(localStorage.getItem('token'));
@@ -139,9 +141,38 @@ const Header = ({ type }) => {
             <li>
               <Link to="/about">About Us</Link>
             </li>
-            <li style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <Link to="/services">Services</Link>
-              <button>down</button>
+            <li>
+              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                Services
+                <button onClick={() => setShowSubService((prev) => !prev)}>
+                  <FaArrowCircleDown />
+                </button>
+              </div>
+              {showSubService && (
+                <div
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    marginLeft: '20px',
+                    fontSize: '1rem',
+                  }}
+                >
+                  <Link to="/services/corporate-office">Corporate Office</Link>
+                  <Link to="/services/turnkey-interior">
+                    Turnkey Interiors Contractor
+                  </Link>
+                  <Link to="/services/interior-design">
+                    Interior Design Consultant
+                  </Link>
+                  <Link to="/services/office-furniture">Office Furniture</Link>
+                  <Link to="/services/gypsum-partition">
+                    Gypsum Partition Contractor
+                  </Link>
+                  <Link to="/services/gypsum-false">
+                    Gypsum False Ceiling Contractor
+                  </Link>
+                </div>
+              )}
             </li>
             <li>
               <Link to="/blogs">Blogs</Link>

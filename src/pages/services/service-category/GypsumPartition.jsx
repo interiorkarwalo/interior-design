@@ -1,25 +1,25 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import Header from "../../../components/header/Header";
-import "../service.css";
-import Footer from "../../../components/footer/Footer";
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../../../components/header/Header';
+import '../service.css';
+import Footer from '../../../components/footer/Footer';
 
 const randomImages = [
   {
-    url: "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1618221710640-c0eaaa2adb49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1616593918824-4fef16054381?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://images.unsplash.com/photo-1615875474908-f403116f5287?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1615529179035-e760f6a2dcee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: 'https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: "https://uploads-ssl.webflow.com/602c75ed03e1145b5fac2aed/603db0c0119b474884ff2d3e_bedroom_02-4_edited.jpg",
+    url: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
 ];
 
@@ -41,52 +41,22 @@ const GypsumPartition = () => {
         <hr />
         <div
           style={{
-            height: "100px",
-            borderBottom: "1px solid gray",
-            width: "100%",
+            height: '100px',
+            borderBottom: '1px solid gray',
+            width: '100%',
           }}
         />
-        {/* <div className="service "> */}
-        {/* <button>
-              <Link to="/services/corporate-office">
-                Corporate Office Interior Contractor in India
-              </Link>
-            </button>
-            <button>
-              <Link to="/services/turnkey-interior">
-                Turnkey Interiors Contractor in India
-              </Link>
-            </button>
-            <button>
-              <Link to="/services/interior-design">
-                Interior Design Consultant in India
-              </Link>
-            </button>
-            <button>
-              <Link to="/services/office-furniture">
-                Office Furniture In India
-              </Link>
-            </button>
-            <button>
-              <Link to="/services/gypsum-partition">
-                Gypsum Partition Contractor In India
-              </Link>
-            </button>
-            <button>
-              <Link to="/services/gypsum-false">
-                Gypsum False Ceiling Contractor In India
-              </Link>
-            </button>
-          </div> */}
+
         <div className="service-image-container">
           <div className="service-image-container-left">
-            <h2>Gypsum Partition Contractor In India</h2>
+            <h2 className="service-main-title-d">
+              Gypsum Partition Contractor In India
+            </h2>
             <p>
               Do you require gypsum partitions in your workplace? Interior
               Karwalo is a reputable gypsum partition contractor in India. You
               can find the most suitable plasterboard cabin separation, gypsum
-              wall separation, workplace gypsum splitting design, gypsum ceiling
-              panels, gypsum wall separation, gypsum drywall separation, etc.
+              wall separation.
             </p>
             <button className="btn">
               <Link to="/contact">Contact Us</Link>

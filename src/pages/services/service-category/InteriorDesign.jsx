@@ -49,7 +49,9 @@ const InteriorDesign = () => {
 
         <div className="service-image-container">
           <div className="service-image-container-left">
-            <h2>Interior Design Consultant in India</h2>
+            <h2 className="service-main-title-d">
+              Interior Design Consultant in India
+            </h2>
             <p>
               Interior Karwalo has put much effort into being one of India's
               leading interior and architectural design firms.
