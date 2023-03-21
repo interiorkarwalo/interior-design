@@ -45,12 +45,12 @@ height: 50px;
     margin-left: 20px;
 }
 .btn-accept:hover {
-    transform: translateY(-3px);
+    transform: translateY(3px);
     box-shadow: 0px 8px 0px #3e8e41;
   }
   
   .btn-reject:hover {
-    transform: translateY(-3px);
+    transform: translateY(3px);
     box-shadow: 0px 8px 0px #ba1d1d;
   }
 .user-comment-show-horizontal h2 {

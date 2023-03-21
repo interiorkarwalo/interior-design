@@ -102,7 +102,7 @@ const Header = ({ type }) => {
             <Link to="/blogs">Blogs</Link>
             <br />
             {token && (
-              <button className="btn" style={{ backgroundColor: "yellow" }}>
+              <button className="btn-accept" style={{ marginLeft: "0" }}>
                 <Link to="/create-blog">Create Blog</Link>
               </button>
             )}
