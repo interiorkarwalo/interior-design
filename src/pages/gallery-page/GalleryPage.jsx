@@ -7,7 +7,7 @@ import Header from '../../components/header/Header';
 import SubGallery1 from './sub-gallery/SubGallery1';
 import SubGallery2 from './sub-gallery/SubGallery2';
 import SubGallery3 from './sub-gallery/SubGallery3';
-
+import Footer from '../../components/footer/Footer';
 const GalleryPage = () => {
   const [category, setCategory] = useState(0);
   const [mainImage, setMainImage] = useState(allImageLinks[0][0]);
@@ -102,6 +102,7 @@ const GalleryPage = () => {
       <SubGallery1 />
       <SubGallery2 />
       <SubGallery3 />
+      <Footer />
     </div>
   );
 };

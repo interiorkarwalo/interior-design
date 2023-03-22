@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import "./contact-form.css";
+import React, { useState } from 'react';
+import './contact-form.css';
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    companyName: "",
-    message: "",
+    name: '',
+    email: '',
+    companyName: '',
+    message: '',
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.alert("Thanks for submitting the form");
+    window.alert('Thanks for submitting the form');
     setFormData({
-      name: "",
-      email: "",
-      companyName: "",
-      message: "",
+      name: '',
+      email: '',
+      companyName: '',
+      message: '',
     });
   };
   return (
@@ -31,10 +31,11 @@ const ContactForm = () => {
             marginheight="0"
             marginwidth="0"
             scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6191.375299633447!2d78.27315828263075!3d30.09005999037296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679384780890!5m2!1sen!2sin"
+            src="https://media.istockphoto.com/id/1442716898/photo/modern-interior-design-of-cozy-apartment-living-room-with-beige-sofa-turquoise-armchairs-room.jpg?b=1&s=170667a&w=0&k=20&c=_mdCbI6KjsDJ9u5ZhNt-41U2mjH_uZ_q04dkaRLhqsI="
             // src="https://www.google.com/maps/@30.0823404,78.2817723,15z"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+            style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.8)' }}
           ></iframe>
+
           <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div class="lg:w-1/2 px-6">
               <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
