@@ -176,6 +176,11 @@ const Header = ({ type }) => {
             </li>
             <li>
               <Link to="/blogs">Blogs</Link>
+              {token && (
+                <button className="btn-accept" style={{ marginLeft: '0' }}>
+                  <Link to="/create-blog">Create Blog</Link>
+                </button>
+              )}
             </li>
             <li>
               <Link to="/gallery">Gallery</Link>
@@ -183,6 +188,15 @@ const Header = ({ type }) => {
             <li>
               <Link to="/contact">Contact Us</Link>
             </li>
+            {token && (
+              <button
+                className="btn"
+                onClick={handleLogout}
+                style={{ backgroundColor: 'teal ' }}
+              >
+                Logout
+              </button>
+            )}
           </ul>
         </nav>
       )}

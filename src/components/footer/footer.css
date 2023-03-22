@@ -105,6 +105,16 @@ li {
     /* width: 100%; */
     width: 50%;
   }
+  .footer-col .social-links {
+    display: flex;
+  }
+  .footer-col .social-links a {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .f-contact-us li {

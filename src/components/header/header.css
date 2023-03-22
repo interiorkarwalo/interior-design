@@ -79,8 +79,6 @@ nav ul li {
   gap: 8px;
   height: 100%;
   padding-top: 120px;
-  /* margin-top: 120px; */
-  /* background-color: pink; */
 }
 .ham ul li {
   font-size: 1rem;
@@ -92,6 +90,7 @@ nav ul li {
   font-size: 2rem;
   cursor: pointer;
   z-index: 1000;
+  color: var(--primary);
 }
 
 .ham-icon i {
