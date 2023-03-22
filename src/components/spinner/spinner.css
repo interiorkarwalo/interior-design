@@ -17,9 +17,12 @@
 .spinner-title {
   position: absolute;
   top: 1rem;
-  font-size: 1rem;
-  color: var(--secondary);
+  font-family: 'Monsieur La Doulaise', cursive;
   text-align: center;
+}
+.spinner-title h1 {
+  font-size: 6rem;
+  color: var(--primary);
 }
 .spinner-title p {
   color: var(--gray);
@@ -82,6 +85,13 @@
   .box {
     height: 180px;
     width: 180px;
+  }
+  .spinner-title h1 {
+    font-size: 2rem;
+    color: var(--primary);
+  }
+  .spinner-title p {
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1200) {
