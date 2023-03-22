@@ -13,27 +13,64 @@ const Footer = () => {
                 <a href="/about">About us</a>
               </li>
               <li>
-                <a href="/services/office-furniture">Our services</a>
-              </li>
-              <li>
-                <a href="/about">privacy policy</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>get help</h4>
-            <ul>
-              <li>
-                <a href="/contact">FAQ</a>
-              </li>
-              <li>
-                <a href="/contact">Contact Us</a>
+                <a href="/contact-us">Contact Us</a>
               </li>
               <li>
                 <a href="/blogs">Blogs</a>
               </li>
               <li>
-                <a href="/gallery">gallery</a>
+                <a href="/gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="/contact-us">FAQ</a>
+              </li>
+              <li>
+                <a href="/contact-us">Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Our Services</h4>
+            <ul>
+              {/* <Link to="/services/corporate-office">Corporate Office</Link>
+                  <Link to="/services/turnkey-interior">
+                    Turnkey Interiors Contractor
+                  </Link>
+                  <Link to="/services/interior-design">
+                    Interior Design Consultant
+                  </Link>
+                  <Link to="/services/office-furniture">Office Furniture</Link>
+                  <Link to="/services/gypsum-partition">
+                    Gypsum Partition Contractor
+                  </Link>
+                  <Link to="/services/gypsum-false">
+                    Gypsum False Ceiling Contractor
+                  </Link> */}
+              <li>
+                <a href="/services/corporate-office">Corporate Office</a>
+              </li>
+              <li>
+                <a href="/services/turnkey-interior">
+                  Turnkey Interiors Contractor
+                </a>
+              </li>
+              <li>
+                <a href="/services/interior-design">
+                  Interior Design Consultant
+                </a>
+              </li>
+              <li>
+                <a href="/services/office-furniture">Office Furniture</a>
+              </li>
+              <li>
+                <a href="/services/gypsum-partition">
+                  Gypsum Partition Contractor
+                </a>
+              </li>
+              <li>
+                <a href="/services/gypsum-false">
+                  Gypsum False Ceiling Contractor
+                </a>
               </li>
             </ul>
           </div>
@@ -54,13 +91,13 @@ const Footer = () => {
                 />
                 <p>+1888-297-6869 +91 8630819631 </p>
               </li>
-              <li>
+              {/* <li>
                 <img src="/icons8-user-location-16.png" alt="" />
                 <p>Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
-              </li>
+              </li> */}
               <li>
                 <img src="/icons8-time-machine-16.png" alt="" />
-                <p>11:00 AM-9:00 PM</p>
+                <p>24x7</p>
               </li>
             </div>
           </div>
@@ -99,7 +136,16 @@ const Footer = () => {
           </div>
         </div>
         <h6 className="copyright">
-          © 2023 — Branding Rise. All Rights Reserved.
+          © 2023 —{' '}
+          <a
+            href="https://brandingrise.com/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ borderBottom: '1px solid gray', paddingBottom: '1px' }}
+          >
+            Branding Rise.
+          </a>{' '}
+          All Rights Reserved.
         </h6>
       </div>
     </footer>

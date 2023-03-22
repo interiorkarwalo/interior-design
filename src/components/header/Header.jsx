@@ -1,5 +1,6 @@
 import './header.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { ImCross } from 'react-icons/im';
 import { FaArrowCircleDown } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -30,7 +31,7 @@ const Header = ({ type }) => {
         {/* <img src="https://responsively.app/assets/img/logo.svg" /> */}
 
         <Link to="/home">
-          <img src="/logo4.svg" alt="" />
+          <img src="/interior-design-logo.svg" alt="" />
         </Link>
       </div>
       <nav className="nav">
@@ -127,10 +128,19 @@ const Header = ({ type }) => {
         </ul>
       </nav>
 
-      <GiHamburgerMenu
-        className="ham-icon"
-        onClick={() => setShow((prev) => !prev)}
-      />
+      {!show && (
+        <GiHamburgerMenu
+          className="ham-icon"
+          onClick={() => setShow((prev) => !prev)}
+        />
+      )}
+      {show && (
+        <ImCross
+          style={{ fontSize: '1.6rem' }}
+          className="ham-icon"
+          onClick={() => setShow((prev) => !prev)}
+        />
+      )}
 
       {show && (
         <nav className="ham">
@@ -142,12 +152,18 @@ const Header = ({ type }) => {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                Services
-                <button onClick={() => setShowSubService((prev) => !prev)}>
-                  <FaArrowCircleDown />
-                </button>
-              </div>
+              <button
+                onClick={() => setShowSubService((prev) => !prev)}
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  width: '100%',
+                }}
+              >
+                <p>Services</p>
+                <span>&#8964;</span>
+              </button>
               {showSubService && (
                 <div
                   style={{

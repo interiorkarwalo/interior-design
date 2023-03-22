@@ -18,10 +18,7 @@ const SubGallery2 = () => {
               src="https://media.istockphoto.com/id/1386951967/photo/modern-kitchen-interior-with-green-wall.jpg?b=1&s=170667a&w=0&k=20&c=6_d5XfDRbUJZdrzvv5fAPTTsBp3f3NgvHpdp-3T8aeE="
             />
             <div class="text-center relative z-10 w-full">
-              <h2
-                class="text-2xl  font-medium title-font mb-2"
-                style={{ color: 'var(--primary)' }}
-              >
+              <h2 class="text-2xl  font-medium title-font mb-2">
                 Turnkey Interior
               </h2>
 
@@ -53,10 +50,7 @@ const SubGallery2 = () => {
                   src="https://media.istockphoto.com/id/1423732380/photo/cozy-luxury-and-modern-living-room-with-large-windows-sofa-chairs-decoration-and-fireplace.jpg?b=1&s=170667a&w=0&k=20&c=Da8zES2GtccNwS3tdOGJxQ_F_b-SpToOkKDepjELns0="
                 />
                 <div class="text-center relative z-10 w-full">
-                  <h2
-                    class="text-2xl  font-medium title-font mb-2"
-                    style={{ color: 'var(--primary)' }}
-                  >
+                  <h2 class="text-2xl  font-medium title-font mb-2">
                     Corporate Office
                   </h2>
 
@@ -88,10 +82,7 @@ const SubGallery2 = () => {
                   src="https://media.istockphoto.com/id/1354262369/photo/mock-up-poster-frame-in-modern-interior-background-living-room-scandinavian-style-3d-render.jpg?b=1&s=170667a&w=0&k=20&c=_Hy3y9kx7kUejKVbdcwAHJpzQwrntc16jA1Tq6YmF00="
                 />
                 <div class="text-center relative z-10 w-full">
-                  <h2
-                    class="text-2xl  font-medium title-font mb-2"
-                    style={{ color: 'var(--primary)' }}
-                  >
+                  <h2 class="text-2xl  font-medium title-font mb-2">
                     Gypsum False
                   </h2>
 

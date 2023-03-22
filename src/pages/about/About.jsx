@@ -19,7 +19,7 @@ const About = () => {
         <Header />
 
         <div className="hero-wrapper">
-          <h1>Decoration Ideas</h1>
+          <h1 style={{ fontSize: '1.4rem' }}>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
           <button className="btn">Latest</button>
         </div>

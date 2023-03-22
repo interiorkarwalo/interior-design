@@ -19,10 +19,25 @@ const ContactForm = () => {
     });
   };
   return (
-    <section class="text-gray-600 body-font relative">
+    <section
+      class="text-gray-600 body-font relative "
+      style={{ paddingBottom: '20px' }}
+    >
       <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
+        <div class="lg:w-1/2 md:w-1/2 bg-blue-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <img
+            src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            alt=""
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              height: '100%',
+              width: '100%',
+              objectFit: 'cover',
+            }}
+          />
+          {/* <iframe
             width="100%"
             height="100%"
             class="absolute inset-0"
@@ -34,14 +49,14 @@ const ContactForm = () => {
             src="https://media.istockphoto.com/id/1442716898/photo/modern-interior-design-of-cozy-apartment-living-room-with-beige-sofa-turquoise-armchairs-room.jpg?b=1&s=170667a&w=0&k=20&c=_mdCbI6KjsDJ9u5ZhNt-41U2mjH_uZ_q04dkaRLhqsI="
             // src="https://www.google.com/maps/@30.0823404,78.2817723,15z"
             style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.8)' }}
-          ></iframe>
+          ></iframe> */}
 
           <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div class="lg:w-1/2 px-6">
-              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                ADDRESS
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs ">
+                CONTACT US
               </h2>
-              <p class="mt-1">Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
+              <p class="mt-1">To Get Your Dream Home Soon</p>
             </div>
             <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -57,13 +72,11 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+        <div class="lg:w-1/2 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <h2 class="text-gray-900 text-4xl mb-1 font-medium title-font text-center">
             Contact us
           </h2>
-          <p class="leading-relaxed mb-5 text-gray-600">
-            to get your dream home
-          </p>
+
           <div class="relative mb-4">
             <label for="name" class="leading-7 text-sm text-gray-600">
               Name
@@ -99,10 +112,6 @@ const ContactForm = () => {
           <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
-          <p class="text-xs text-gray-500 mt-3">
-            Chicharrones blog helvetica normcore iceland tousled brook viral
-            artisan.
-          </p>
         </div>
       </div>
     </section>

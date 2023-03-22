@@ -68,13 +68,7 @@ const SubGallery3 = () => {
                     THE SUBTITLE
                   </h2> */}
                   <h1 class="title-font text-lg font-medium  mb-3">
-                    <Link
-                      to={`/services/${item.path}`}
-                      style={{ color: 'var(--primary)' }}
-                    >
-                      {' '}
-                      {item.title}
-                    </Link>
+                    <Link to={`/services/${item.path}`}> {item.title}</Link>
                   </h1>
                   {/* <p class="leading-relaxed">
                     Photo booth fam kinfolk cold-pressed sriracha leggings
