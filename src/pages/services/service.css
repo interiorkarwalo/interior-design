@@ -125,3 +125,8 @@
   padding: 10px;
   font-weight: bold;
 }
+@media screen and (width<576px) {
+  .c-container {
+    flex-direction: column;
+  }
+}

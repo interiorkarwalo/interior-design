@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Header from '../../../components/header/Header';
 import '../service.css';
 import Footer from '../../../components/footer/Footer';
+import { compareImagesCorporate } from '../../../utils/compareImages';
+import { imgStyle } from '../../../utils/imageStyle';
 
 const randomImages = [
   {
@@ -88,6 +90,7 @@ const InteriorDesign = () => {
               accountable for the overall appearance of any project we take on.
             </p>
           </div>
+
           <div>
             <h3>How We Design Interiors?</h3>
             <p>
@@ -102,6 +105,29 @@ const InteriorDesign = () => {
               With over 50 completed projects, we have made a name for ourselves
               as India's top drywall contracting experts.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Our Specialised Approach To Interior Design & Architecture</h3>
@@ -132,6 +158,7 @@ const InteriorDesign = () => {
               the skill level of our personnel.
             </p>
           </div>
+
           <div>
             <h3>We offer a 3D view of the interior planned</h3>
             <p>
@@ -178,6 +205,29 @@ const InteriorDesign = () => {
               interior design consulting firm in India, so if you pick us, we'll
               be here whenever you need us.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Why use a consulting service for interior design?</h3>
@@ -226,6 +276,29 @@ const InteriorDesign = () => {
               dedication to safety is that our team of over 50 people has an
               Experience Modification Rate higher than the industry norm.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Why do you need a Gypsum partition wall?</h3>

@@ -1,0 +1,41 @@
+export const compareImagesCorporate = [
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/5706645bea5fe8.24781187/Affordable-Online-Living-Dining-Room-Design-interior-design.jpg?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/re_5084_57536fb1d50982.03725072.xp/Affordable-Online-Living-Dining-Room-Design-interior-design.jpg?cv=1',
+  },
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/e0fc589f-3895-4cda-a75d-8e2bd7509ae9/Online-Living-Dining-Room-Design-online-interior-designers.png?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/50e6eb03-1ee0-4088-854d-f2976ea5f181/Online-Living-Dining-Room-Design-online-interior-designers.jpg?cv=1',
+  },
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/b5118fef-1ee8-4a4f-a072-f7c8ed02e0d8/Online-Bedroom-Design-interior-design-samples.jpg?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/86f66e14-baae-4ae3-ba56-984b0ec55270/Online-Bedroom-Design-interior-design-samples.jpg?cv=1',
+  },
+];
+
+export const compareImagesGypsumFalse = [
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/6404ce18-fe31-47c1-bcde-59ac34e49c69/Online-Dining-Room-Design-interior-design-service.jpg?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/cfefc5bf-3442-4fa8-b596-a149d227a9d8/Online-Dining-Room-Design-interior-design-service.jpg?cv=1',
+  },
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/884316a8-f648-4e3b-a62a-e9724324a360/Online-Home-Small-Office-Design-interior-design-help.jpg?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/135839c9-0a0c-486f-8f8b-0b8ee7a92728/Online-Home-Small-Office-Design-interior-design-help.jpg?cv=1',
+  },
+  {
+    after:
+      'https://cdn.decorilla.com/images/960/65493284-af63-4a99-84d8-9bb6ec17c32d/Online-Bedroom-Design-interior-design-samples-2.jpg?cv=1',
+    before:
+      'https://cdn.decorilla.com/images/960/24faea72-9456-4631-9a7e-e3b619adcf8c/Online-Bedroom-Design-interior-design-samples.jpg?cv=1',
+  },
+];

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import Header from '../../../components/header/Header';
 import '../service.css';
 import Footer from '../../../components/footer/Footer';
-
+import { compareImagesGypsumFalse } from '../../../utils/compareImages';
+import { imgStyle } from '../../../utils/imageStyle';
 const randomImages = [
   {
     url: 'https://images.unsplash.com/photo-1591931681345-16b532514cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
@@ -113,6 +114,31 @@ const GypsumFalse = () => {
               solutions.
             </p>
           </div>
+
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesGypsumFalse[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesGypsumFalse[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
+
           <div>
             <h3>Why should you fall for the Gypsum False Ceiling?</h3>
             <p>The False ceilings have various benefits or advantages:</p>
@@ -169,6 +195,30 @@ const GypsumFalse = () => {
               </p>
             </div>
           </div>
+
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesGypsumFalse[1].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesGypsumFalse[1].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>How much does False Ceiling Work cost?</h3>
             <p>
@@ -214,6 +264,30 @@ const GypsumFalse = () => {
                 and transportation and overhead costs are divided across a
                 greater area.
               </p>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesGypsumFalse[2].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesGypsumFalse[2].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
             </div>
           </div>
           <div>

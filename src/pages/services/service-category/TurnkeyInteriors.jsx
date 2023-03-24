@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Header from '../../../components/header/Header';
 import '../service.css';
 import Footer from '../../../components/footer/Footer';
+import { compareImagesCorporate } from '../../../utils/compareImages';
+import { imgStyle } from '../../../utils/imageStyle';
 
 const randomImages = [
   {
@@ -106,6 +108,29 @@ const TurnkeyInterior = () => {
               </p>
             </p>
           </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Why Gypsum?</h3>
             <p>
@@ -165,6 +190,29 @@ const TurnkeyInterior = () => {
               with the Interior Karwalo team.
             </p>
           </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Simple solutions to difficult issues</h3>
             <p>
@@ -223,6 +271,32 @@ const TurnkeyInterior = () => {
                 The turnkey interior designer will complete taking care of your
                 project.
               </p>
+            </div>
+
+            <div style={{ display: 'flex' }} className="c-container">
+              <div style={{ position: 'relative', flex: 1 }}>
+                <img
+                  style={imgStyle}
+                  src={`${compareImagesCorporate[0].before}`}
+                  alt="interior design"
+                />
+                <button className="c-btn" style={{ position: 'absolute' }}>
+                  Before
+                </button>
+              </div>
+
+              <div
+                style={{ position: 'relative', flex: 1, marginLeft: '10px' }}
+              >
+                <img
+                  style={imgStyle}
+                  src={`${compareImagesCorporate[0].after}`}
+                  alt="interior design"
+                />
+                <button className="c-btn" style={{ position: 'absolute' }}>
+                  After
+                </button>
+              </div>
             </div>
             <div>
               <h4>• Single invoice & easy payment</h4>

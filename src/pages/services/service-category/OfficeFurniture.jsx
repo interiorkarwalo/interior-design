@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import Header from '../../../components/header/Header';
 import '../service.css';
 import Footer from '../../../components/footer/Footer';
-
+import { compareImagesCorporate } from '../../../utils/compareImages';
+import { imgStyle } from '../../../utils/imageStyle';
 const randomImages = [
   {
     url: 'https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
@@ -52,7 +53,8 @@ const OfficeFurnitue = () => {
             <p>
               At Interior Karwalo, we are a "full service" business Office
               interior. We can plan, design, specify, install, and furnish all
-              of your furniture needs for a new or existing office space.
+              of your furniture needs for a new or existing office space.To
+              allow you to sit back and watch your project come together.
             </p>
             <button className="btn">
               <Link to="/contact">Contact Us</Link>
@@ -113,7 +115,29 @@ const OfficeFurnitue = () => {
               </p>
             </div>
           </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
 
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Get any interior look you want!</h3>
             <p>
@@ -150,6 +174,29 @@ const OfficeFurnitue = () => {
               completes the picture.
             </p>
           </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Simple solutions to difficult issues</h3>
             <p>
@@ -177,6 +224,29 @@ const OfficeFurnitue = () => {
               installation of Gypsum walls, we exclusively utilise wireless,
               high-quality equipment.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Block Gypsum Wall System</h3>
@@ -236,6 +306,29 @@ const OfficeFurnitue = () => {
               objectives of your company and our exclusive built-to-the-inch
               panel system.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Reception furniture</h3>

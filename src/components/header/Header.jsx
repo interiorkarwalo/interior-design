@@ -19,7 +19,7 @@ const Header = ({ type }) => {
     }
   }, []);
   const handleLogout = () => {
-    localStorage.removeItem('token');
+    localStorage.removeItem('blogToken');
     window.location.reload();
     // setToken(null);
   };

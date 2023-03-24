@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import Header from '../../../components/header/Header';
 import '../service.css';
 import Footer from '../../../components/footer/Footer';
-
+import { compareImagesCorporate } from '../../../utils/compareImages';
+import { imgStyle } from '../../../utils/imageStyle';
 const randomImages = [
   {
     url: 'https://images.unsplash.com/photo-1618221710640-c0eaaa2adb49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
@@ -95,6 +96,29 @@ const GypsumPartition = () => {
               they deserve.
             </p>
           </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Why Gypsum?</h3>
             <p>
@@ -135,6 +159,29 @@ const GypsumPartition = () => {
               of Gypsum wall design-build services, including conception,
               design, erection, and everything in between.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Highest standards</h3>
@@ -181,6 +228,29 @@ const GypsumPartition = () => {
               dedication to safety is that our team of over 50 people has an
               Experience Modification Rate higher than the industry norm.
             </p>
+          </div>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImagesCorporate[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
           </div>
           <div>
             <h3>Why do you need a Gypsum partition wall?</h3>
