@@ -3,7 +3,7 @@ import { Outlet, Navigate } from 'react-router-dom';
 import jwtDecode from 'jwt-decode';
 
 export default function AuthRequired() {
-  const token = localStorage.getItem('token');
+  const token = localStorage.getItem('blogToken');
   let data;
   try {
     data = jwtDecode(token);

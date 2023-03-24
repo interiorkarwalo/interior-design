@@ -6,21 +6,52 @@ import Footer from '../../../components/footer/Footer';
 
 const randomImages = [
   {
-    url: 'https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+    url: 'https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2ZmaWNlJTIwaW50ZXJpb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: 'https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+    url: 'https://images.unsplash.com/photo-1600508772927-723e3ba305c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b2ZmaWNlJTIwaW50ZXJpb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60',
+    url: 'https://images.unsplash.com/photo-1570126688035-1e6adbd61053?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG9mZmljZSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: 'https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: 'https://images.unsplash.com/photo-1594235048794-fae8583a5af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG9mZmljZSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
   {
-    url: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: 'https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9mZmljZSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
   },
 ];
+
+const compareImages = [
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/5706645bea5fe8.24781187/Affordable-Online-Living-Dining-Room-Design-interior-design.jpg?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/re_5084_57536fb1d50982.03725072.xp/Affordable-Online-Living-Dining-Room-Design-interior-design.jpg?cv=1',
+  },
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/e0fc589f-3895-4cda-a75d-8e2bd7509ae9/Online-Living-Dining-Room-Design-online-interior-designers.png?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/50e6eb03-1ee0-4088-854d-f2976ea5f181/Online-Living-Dining-Room-Design-online-interior-designers.jpg?cv=1',
+  },
+  {
+    before:
+      'https://cdn.decorilla.com/images/960/b5118fef-1ee8-4a4f-a072-f7c8ed02e0d8/Online-Bedroom-Design-interior-design-samples.jpg?cv=1',
+    after:
+      'https://cdn.decorilla.com/images/960/86f66e14-baae-4ae3-ba56-984b0ec55270/Online-Bedroom-Design-interior-design-samples.jpg?cv=1',
+  },
+];
+
+const imgStyle = {
+  height: '400px',
+  width: '100%',
+  objectFit: 'cover',
+  flex: '1 0 50%',
+  backgroundColor: 'red',
+  marginRight: '10px',
+  border: '12px solid whitesmoke',
+};
 
 const CorporateOffice = () => {
   const [imageUrl, setImageUrl] = useState(randomImages[0].url);
@@ -120,6 +151,30 @@ const CorporateOffice = () => {
               best commercial living space per your desired level.
             </p>
           </div>
+          <div style={{ display: 'flex' }}>
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImages[0].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
+
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImages[0].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
+
           <div>
             <h3>Designing the lavish co-working space design!</h3>
             <p>
@@ -174,7 +229,29 @@ const CorporateOffice = () => {
               their side to turn your dreams into reality!
             </p>
           </div>
+          <div style={{ display: 'flex' }}>
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImages[2].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
 
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImages[2].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Why should you contact us?</h3>
             <div>
@@ -219,7 +296,29 @@ const CorporateOffice = () => {
               </p>
             </div>
           </div>
+          <div style={{ display: 'flex' }}>
+            <div style={{ position: 'relative', flex: 1 }}>
+              <img
+                style={imgStyle}
+                src={`${compareImages[1].before}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                Before
+              </button>
+            </div>
 
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+              <img
+                style={imgStyle}
+                src={`${compareImages[1].after}`}
+                alt="interior design"
+              />
+              <button className="c-btn" style={{ position: 'absolute' }}>
+                After
+              </button>
+            </div>
+          </div>
           <div>
             <h3>Add the elements which tone up your commercial space</h3>
             <p>

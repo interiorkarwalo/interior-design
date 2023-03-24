@@ -1,5 +1,5 @@
-import instance from "../../utils/api";
-import "./commentlist.css";
+import instance from '../../utils/api';
+import './commentlist.css';
 
 const CommentList = ({ comments, token, fetchCommentData }) => {
   console.log(comments);
@@ -16,7 +16,7 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
         },
         {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem("token")}`,
+            Authorization: `Bearer ${localStorage.getItem('blogToken')}`,
           },
         }
       );
@@ -33,7 +33,7 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
 
         {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem("token")}`,
+            Authorization: `Bearer ${localStorage.getItem('blogToken')}`,
           },
         }
       );
@@ -61,17 +61,17 @@ const CommentList = ({ comments, token, fetchCommentData }) => {
               </div>
               <hr
                 style={{
-                  width: "100%",
-                  backgroundColor: "red",
-                  border: "0.5px solid lightgray",
-                  maxWidth: "1000px",
+                  width: '100%',
+                  backgroundColor: 'red',
+                  border: '0.5px solid lightgray',
+                  maxWidth: '1000px',
                 }}
               />
             </>
           );
         })}
       </ul>
-      <div style={{ height: "100px" }} />
+      <div style={{ height: '100px' }} />
       {/* <hr />
       <hr /> */}
 

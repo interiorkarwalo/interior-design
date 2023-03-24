@@ -6,19 +6,19 @@ import Footer from '../../../components/footer/Footer';
 
 const randomImages = [
   {
-    url: 'https://images.pexels.com/photos/2082087/pexels-photo-2082087.jpeg?auto=compress&cs=tinysrgb&w=600',
+    url: 'https://cdn-cgach.nitrocdn.com/ryUIsTWRIcWICDnDcLQekhopygFZHnuT/assets/images/optimized/rev-bb5270d/wp-content/uploads/2021/02/project-management-img-1536x1024.jpg',
   },
   {
-    url: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600',
+    url: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xssQvmj8ofiDcT-pE-iNhQ.jpeg',
   },
   {
-    url: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=600',
+    url: 'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170036/modern-design_show-cabinet-2.jpg',
   },
   {
-    url: 'https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600',
+    url: 'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15165654/modern-design_dining-1.jpg',
   },
   {
-    url: 'https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=600',
+    url: 'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170234/modern-design_living-4.jpg',
   },
 ];
 

@@ -12,7 +12,7 @@ const Header = ({ type }) => {
   const [showSubService, setShowSubService] = useState(false);
   useEffect(() => {
     try {
-      const hello = jwtDecode(localStorage.getItem('token'));
+      const hello = jwtDecode(localStorage.getItem('blogToken'));
       setToken(hello);
     } catch (error) {
       console.log(error);

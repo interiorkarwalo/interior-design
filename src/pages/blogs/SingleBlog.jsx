@@ -1,12 +1,12 @@
-import axios from "axios";
-import { formatDistanceToNow } from "date-fns";
-import jwtDecode from "jwt-decode";
-import { useState, useEffect, useCallback } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
-import instance from "../../utils/api";
-import CommentForm from "./CommentForm";
-import CommentList from "./CommentList";
-import "./single-blog.css";
+import axios from 'axios';
+import { formatDistanceToNow } from 'date-fns';
+import jwtDecode from 'jwt-decode';
+import { useState, useEffect, useCallback } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import instance from '../../utils/api';
+import CommentForm from './CommentForm';
+import CommentList from './CommentList';
+import './single-blog.css';
 
 const SingleBlog = () => {
   const [comments, setComments] = useState([]);
@@ -16,7 +16,7 @@ const SingleBlog = () => {
   const { id } = useParams();
   useEffect(() => {
     try {
-      const hello = jwtDecode(localStorage.getItem("token"));
+      const hello = jwtDecode(localStorage.getItem('blogToken'));
       setToken(hello);
     } catch (error) {
       console.log(error);
@@ -31,7 +31,7 @@ const SingleBlog = () => {
             `https://api.interiorkarwalo.com/api/v1/user/post/${id}`,
             {
               headers: {
-                Authorization: `Bearer ${localStorage.getItem("token")}`,
+                Authorization: `Bearer ${localStorage.getItem('blogToken')}`,
               },
             }
           );
@@ -60,14 +60,14 @@ const SingleBlog = () => {
   }, [id, fetchCommentData]);
 
   const handleRemove = async () => {
-    if (window.confirm("Do you really want to delete this item permanently?")) {
+    if (window.confirm('Do you really want to delete this item permanently?')) {
       try {
         await instance.delete(`post/${id}`, {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem("token")}`,
+            Authorization: `Bearer ${localStorage.getItem('blogToken')}`,
           },
         });
-        navigate("/blogs");
+        navigate('/blogs');
       } catch (error) {
         console.log(error);
       }
@@ -95,7 +95,7 @@ const SingleBlog = () => {
   console.log(token);
   return (
     <div className="container">
-      <div className="single-blog" style={{ position: "relative" }}>
+      <div className="single-blog" style={{ position: 'relative' }}>
         <h4 className="single-blog-h4">{blog.title}</h4>
         <img className="single-blog-img" src={blog.imageUrl} alt={blog.title} />
         {token && (

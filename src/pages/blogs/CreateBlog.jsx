@@ -1,28 +1,28 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import instance from "../../utils/api";
-import "./create-blog.css";
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import instance from '../../utils/api';
+import './create-blog.css';
 
 const CreateBlog = () => {
   const navigate = useNavigate();
   const [blogData, setBlogData] = useState({
-    title: "",
-    imageUrl: "",
-    desc: "",
+    title: '',
+    imageUrl: '',
+    desc: '',
   });
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const { data } = await instance.post(
-        "/post",
+        '/post',
         { ...blogData },
         {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem("token")}`,
+            Authorization: `Bearer ${localStorage.getItem('blogToken')}`,
           },
         }
       );
-      navigate("/blogs");
+      navigate('/blogs');
     } catch (err) {
       console.log(err);
     }
@@ -37,6 +37,7 @@ const CreateBlog = () => {
           <label htmlFor="title">Title:</label>
           <input
             type="text"
+            required
             id="title"
             value={blogData.title}
             onChange={(e) =>
@@ -53,6 +54,7 @@ const CreateBlog = () => {
             onChange={(e) =>
               setBlogData((prev) => ({ ...prev, desc: e.target.value }))
             }
+            required
           />
         </div>
         <div>
@@ -64,6 +66,7 @@ const CreateBlog = () => {
             onChange={(e) =>
               setBlogData((prev) => ({ ...prev, imageUrl: e.target.value }))
             }
+            required
           />
         </div>
         <div className="form-btn-input">

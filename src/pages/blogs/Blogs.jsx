@@ -1,9 +1,9 @@
-import { formatDistanceToNow } from "date-fns";
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import axios from "axios";
+import { formatDistanceToNow } from 'date-fns';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 
-import "./blog.css";
+import './blog.css';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -11,10 +11,10 @@ const Blogs = () => {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          "https://api.interiorkarwalo.com/api/v1/user/post",
+          'https://api.interiorkarwalo.com/api/v1/user/post',
           {
             headers: {
-              Authorization: `Bearer ${localStorage.getItem("token")}`,
+              Authorization: `Bearer ${localStorage.getItem('blogToken')}`,
             },
           }
         );
@@ -72,8 +72,8 @@ const Blogs = () => {
                   <p className="article-info">
                     {formatDistanceToNow(new Date(blog.created_at), {
                       addSuffix: true,
-                    })}{" "}
-                    |{" "}
+                    })}{' '}
+                    |{' '}
                     {blog.comment.length === 0
                       ? null
                       : `${blog.comment.length} comments`}
