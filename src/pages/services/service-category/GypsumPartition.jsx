@@ -1,26 +1,26 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../../components/header/Header';
-import '../service.css';
-import Footer from '../../../components/footer/Footer';
-import { compareImagesCorporate } from '../../../utils/compareImages';
-import { imgStyle } from '../../../utils/imageStyle';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Header from "../../../components/header/Header";
+import "../service.css";
+import Footer from "../../../components/footer/Footer";
+import { compareImagesCorporate } from "../../../utils/compareImages";
+import { imgStyle } from "../../../utils/imageStyle";
 const randomImages = [
   {
-    url: 'https://images.unsplash.com/photo-1618221710640-c0eaaa2adb49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1618221710640-c0eaaa2adb49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1616593918824-4fef16054381?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1616593918824-4fef16054381?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1615529179035-e760f6a2dcee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1615529179035-e760f6a2dcee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
 ];
 
@@ -42,9 +42,9 @@ const GypsumPartition = () => {
         <hr />
         <div
           style={{
-            height: '100px',
-            borderBottom: '1px solid gray',
-            width: '100%',
+            height: "100px",
+            borderBottom: "1px solid gray",
+            width: "100%",
           }}
         />
 
@@ -96,25 +96,25 @@ const GypsumPartition = () => {
               they deserve.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[0].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[0].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -160,25 +160,25 @@ const GypsumPartition = () => {
               design, erection, and everything in between.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${compareImagesCorporate[1].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${compareImagesCorporate[1].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -229,25 +229,25 @@ const GypsumPartition = () => {
               Experience Modification Rate higher than the industry norm.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${compareImagesCorporate[2].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${compareImagesCorporate[2].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>

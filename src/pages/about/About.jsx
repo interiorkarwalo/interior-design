@@ -1,16 +1,16 @@
-import Feed from '../../components/feed/Feed';
-import Header from '../../components/header/Header';
-import './about.css';
-import AboutDetailCard from './AboutDetailCard';
-import intVideo from '../../assets/int.mp4';
-import ChooseUs from '../../components/choose-us/ChooseUs';
-import Footer from '../../components/footer/Footer';
+import Feed from "../../components/feed/Feed";
+import Header from "../../components/header/Header";
+import "./about.css";
+import AboutDetailCard from "./AboutDetailCard";
+import intVideo from "../../assets/int.mp4";
+import ChooseUs from "../../components/choose-us/ChooseUs";
+import Footer from "../../components/footer/Footer";
 
 const desc1 =
-  'Our organisations specialise in offering the best interior finishing to your commercial & residential space. We work for different organisations with the same level of dedication and attention. Our team can offer you an elegant yet astonishing look that aids beauty.';
+  "Our organisations specialise in offering the best interior finishing to your commercial & residential space. We work for different organisations with the same level of dedication and attention. Our team can offer you an elegant yet astonishing look that aids beauty.";
 
 const desc2 =
-  'We aim to create a beautiful interior and give our clients an astonishing place to live. We are honoured by our clients who give us ideas. Our mission is to turn your ideas into reality. We promise to create a masterpiece which gives you an astonishing vibe!';
+  "We aim to create a beautiful interior and give our clients an astonishing place to live. We are honoured by our clients who give us ideas. Our mission is to turn your ideas into reality. We promise to create a masterpiece which gives you an astonishing vibe!";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
         <Header />
 
         <div className="hero-wrapper">
-          <h1 style={{ fontSize: '1.4rem' }}>Decoration Ideas</h1>
+          <h1 style={{ fontSize: "1.4rem" }}>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
           <button className="btn">Latest</button>
         </div>
@@ -60,29 +60,23 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-video-div  container" style={{ marginTop: '1rem' }}>
+      <div className="about-video-div  container" style={{ marginTop: "1rem" }}>
         <div className="about-video-content">
           <img src="/mission.gif" alt="" />
           <p className="service-desc1-second-p">{desc2}</p>
         </div>
         <div className="about-video-video">
           <h2>Our Mission</h2>
-          <img
-            src="https://media.istockphoto.com/id/1455622789/photo/black-luxury-modern-retro-style-living-room-with-blank-image-frames-for-your-design.jpg?b=1&s=170667a&w=0&k=20&c=tNaQIArkCvC3oY_6-80BmUGyA5QinElxTda_r4s1u_M="
-            alt=""
-          />
+          <img src="public/blog/24.jpg" alt="" />
         </div>
       </div>
       <div
         className="about-video-div container"
-        style={{ marginTop: '1rem ', marginBottom: '1rem' }}
+        style={{ marginTop: "1rem ", marginBottom: "1rem" }}
       >
         <div className="about-video-video">
           <h2> Our Philosophy</h2>
-          <img
-            src="https://media.istockphoto.com/id/1352666375/photo/a-stylish-living-room-interior-with-brown-and-yellow-coloured-furniture-and-wooden-elements.jpg?b=1&s=170667a&w=0&k=20&c=2UpsLAY8HpsFJHQ4gE0rrvRgZVeslErX1uTno6uTFzg="
-            alt=""
-          />
+          <img src="public/blog/bny-2.jpg" alt="" />
         </div>
         <div className="about-video-content">
           <img src="/philosophy.gif" alt="" />
