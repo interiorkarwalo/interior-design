@@ -1,26 +1,30 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../../components/header/Header';
-import '../service.css';
-import Footer from '../../../components/footer/Footer';
-import { compareImagesCorporate } from '../../../utils/compareImages';
-import { imgStyle } from '../../../utils/imageStyle';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Header from "../../../components/header/Header";
+import "../service.css";
+import Footer from "../../../components/footer/Footer";
+import {
+  compareImagesCorporate,
+  OfficefurnitureImage,
+  compareImagesGypsumFalse,
+} from "../../../utils/compareImages";
+import { imgStyle } from "../../../utils/imageStyle";
 
 const randomImages = [
   {
-    url: 'https://cdn-cgach.nitrocdn.com/ryUIsTWRIcWICDnDcLQekhopygFZHnuT/assets/images/optimized/rev-bb5270d/wp-content/uploads/2021/02/project-management-img-1536x1024.jpg',
+    url: "https://cdn-cgach.nitrocdn.com/ryUIsTWRIcWICDnDcLQekhopygFZHnuT/assets/images/optimized/rev-bb5270d/wp-content/uploads/2021/02/project-management-img-1536x1024.jpg",
   },
   {
-    url: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xssQvmj8ofiDcT-pE-iNhQ.jpeg',
+    url: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xssQvmj8ofiDcT-pE-iNhQ.jpeg",
   },
   {
-    url: 'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170036/modern-design_show-cabinet-2.jpg',
+    url: "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170036/modern-design_show-cabinet-2.jpg",
   },
   {
-    url: 'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15165654/modern-design_dining-1.jpg',
+    url: "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15165654/modern-design_dining-1.jpg",
   },
   {
-    url: 'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170234/modern-design_living-4.jpg',
+    url: "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170234/modern-design_living-4.jpg",
   },
 ];
 
@@ -42,9 +46,9 @@ const TurnkeyInterior = () => {
         {/* <hr /> */}
         <div
           style={{
-            height: '100px',
-            borderBottom: '1px solid gray',
-            width: '100%',
+            height: "100px",
+            borderBottom: "1px solid gray",
+            width: "100%",
           }}
         />
 
@@ -108,25 +112,25 @@ const TurnkeyInterior = () => {
               </p>
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${OfficefurnitureImage[2].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${OfficefurnitureImage[2].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -190,25 +194,25 @@ const TurnkeyInterior = () => {
               with the Interior Karwalo team.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${OfficefurnitureImage[1].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${OfficefurnitureImage[1].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -273,27 +277,27 @@ const TurnkeyInterior = () => {
               </p>
             </div>
 
-            <div style={{ display: 'flex' }} className="c-container">
-              <div style={{ position: 'relative', flex: 1 }}>
+            <div style={{ display: "flex" }} className="c-container">
+              <div style={{ position: "relative", flex: 1 }}>
                 <img
                   style={imgStyle}
-                  src={`${compareImagesCorporate[0].before}`}
+                  src={`${compareImagesGypsumFalse[2].before}`}
                   alt="interior design"
                 />
-                <button className="c-btn" style={{ position: 'absolute' }}>
+                <button className="c-btn" style={{ position: "absolute" }}>
                   Before
                 </button>
               </div>
 
               <div
-                style={{ position: 'relative', flex: 1, marginLeft: '10px' }}
+                style={{ position: "relative", flex: 1, marginLeft: "10px" }}
               >
                 <img
                   style={imgStyle}
-                  src={`${compareImagesCorporate[0].after}`}
+                  src={`${compareImagesGypsumFalse[2].after}`}
                   alt="interior design"
                 />
-                <button className="c-btn" style={{ position: 'absolute' }}>
+                <button className="c-btn" style={{ position: "absolute" }}>
                   After
                 </button>
               </div>

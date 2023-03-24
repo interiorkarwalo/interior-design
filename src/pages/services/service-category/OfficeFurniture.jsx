@@ -1,25 +1,28 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../../components/header/Header';
-import '../service.css';
-import Footer from '../../../components/footer/Footer';
-import { compareImagesCorporate } from '../../../utils/compareImages';
-import { imgStyle } from '../../../utils/imageStyle';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Header from "../../../components/header/Header";
+import "../service.css";
+import Footer from "../../../components/footer/Footer";
+import {
+  compareImagesCorporate,
+  OfficefurnitureImage,
+} from "../../../utils/compareImages";
+import { imgStyle } from "../../../utils/imageStyle";
 const randomImages = [
   {
-    url: 'https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cm5rZXklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1615875474908-f403116f5287?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1615875474908-f403116f5287?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
-    url: 'https://uploads-ssl.webflow.com/602c75ed03e1145b5fac2aed/603db0c0119b474884ff2d3e_bedroom_02-4_edited.jpg',
+    url: "https://uploads-ssl.webflow.com/602c75ed03e1145b5fac2aed/603db0c0119b474884ff2d3e_bedroom_02-4_edited.jpg",
   },
 ];
 
@@ -41,9 +44,9 @@ const OfficeFurnitue = () => {
         {/* <hr /> */}
         <div
           style={{
-            height: '100px',
-            borderBottom: '1px solid gray',
-            width: '100%',
+            height: "100px",
+            borderBottom: "1px solid gray",
+            width: "100%",
           }}
         />
 
@@ -115,25 +118,25 @@ const OfficeFurnitue = () => {
               </p>
             </div>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[0].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[0].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -174,25 +177,25 @@ const OfficeFurnitue = () => {
               completes the picture.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${OfficefurnitureImage[0].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${OfficefurnitureImage[0].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -225,25 +228,25 @@ const OfficeFurnitue = () => {
               high-quality equipment.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${OfficefurnitureImage[2].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${OfficefurnitureImage[2].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -307,25 +310,25 @@ const OfficeFurnitue = () => {
               panel system.
             </p>
           </div>
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].before}`}
+                src={`${OfficefurnitureImage[1].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
-                src={`${compareImagesCorporate[0].after}`}
+                src={`${OfficefurnitureImage[1].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
