@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom";
 import "./spinner.css";
 const Spinner = () => {
+  const arrayImg = {
+    one: "https://www.cherryhill.in/img/verint/6/5.jpg",
+    two: "https://www.cherryhill.in/img/bny/bny10.jpg",
+    three: "https://www.cherryhill.in/img/tcl/tcl-4.jpg",
+    four: "https://www.cherryhill.in/img/wipro-channai/wipro-5.jpg",
+    five: "https://www.cherryhill.in/img/wipro-channai/wipro-7.jpg",
+    six: "https://www.cherryhill.in/img/Mindtree/mindtree19.jpg",
+  };
+
   return (
     <div className="body">
       <div className="spinner-title">
@@ -11,10 +20,7 @@ const Spinner = () => {
         <div class="box">
           {/* <Link to="/services"> */}
           <span style={{ "--i": 3 }}>
-            <img
-              src="public/blog/Dev-x-Re-Edit-30-9056-1-min-scaled.jpg"
-              alt="image1"
-            />
+            <img src={arrayImg.six} alt="image1" />
           </span>
           {/* </Link> */}
           {/* <Link to="/services"> */}
@@ -27,22 +33,22 @@ const Spinner = () => {
           {/* </Link> */}
           {/* <Link to="/services"> */}
           <span style={{ "--i": 5 }}>
-            <img src="public/blog/bny10.jpg" alt="image4" />
+            <img src={arrayImg.two} alt="image4" />
           </span>
           {/* </Link> */}
           {/* <Link to="/services"> */}
           <span style={{ "--i": 1 }}>
-            <img src="public/blog/5.jpg" alt="image3" />
+            <img src={arrayImg.one} alt="image3" />
           </span>
           {/* </Link> */}
           {/* <Link to="/services"> */}
           <span style={{ "--i": 6 }}>
-            <img src="public/blog/tcl-4.jpg" alt="image5" />
+            <img src={arrayImg.three} alt="image5" />
           </span>
           {/* </Link> */}
           {/* <Link to="/services"> */}
           <span style={{ "--i": 7 }}>
-            <img src="public/blog/wipro-5.jpg" alt="image8" />
+            <img src={arrayImg.four} alt="image8" />
           </span>
           {/* </Link> */}
           {/* <Link to="/services"> */}
@@ -55,7 +61,7 @@ const Spinner = () => {
           {/* </Link> */}
           {/* <Link to="/services"> */}
           <span style={{ "--i": 8 }}>
-            <img src="public/blog/wipro-7.jpg" alt="image6" />
+            <img src={arrayImg.five} alt="image6" />
           </span>
           {/* </Link> */}
         </div>

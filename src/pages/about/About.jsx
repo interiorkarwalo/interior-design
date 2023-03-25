@@ -67,7 +67,7 @@ const About = () => {
         </div>
         <div className="about-video-video">
           <h2>Our Mission</h2>
-          <img src="public/blog/24.jpg" alt="" />
+          <img src="https://www.cherryhill.in/img/verint/6/24.jpg" alt="" />
         </div>
       </div>
       <div
@@ -76,7 +76,7 @@ const About = () => {
       >
         <div className="about-video-video">
           <h2> Our Philosophy</h2>
-          <img src="public/blog/bny-2.jpg" alt="" />
+          <img src="https://www.cherryhill.in/img/bny/bny-2.jpg" alt="" />
         </div>
         <div className="about-video-content">
           <img src="/philosophy.gif" alt="" />

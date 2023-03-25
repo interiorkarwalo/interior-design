@@ -1,40 +1,40 @@
-import React, { useState } from 'react';
-import './contact-form.css';
+import React, { useState } from "react";
+import "./contact-form.css";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    companyName: '',
-    message: '',
+    name: "",
+    email: "",
+    companyName: "",
+    message: "",
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.alert('Thanks for submitting the form');
+    window.alert("Thanks for submitting the form");
     setFormData({
-      name: '',
-      email: '',
-      companyName: '',
-      message: '',
+      name: "",
+      email: "",
+      companyName: "",
+      message: "",
     });
   };
   return (
     <section
       class="text-gray-600 body-font relative "
-      style={{ paddingBottom: '20px' }}
+      style={{ paddingBottom: "20px" }}
     >
       <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div class="lg:w-1/2 md:w-1/2 bg-blue-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <img
-            src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            src="https://www.cherryhill.in/img/bny/bny9.jpg"
             alt=""
             style={{
-              position: 'absolute',
+              position: "absolute",
               top: 0,
               left: 0,
-              height: '100%',
-              width: '100%',
-              objectFit: 'cover',
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
             }}
           />
           {/* <iframe
