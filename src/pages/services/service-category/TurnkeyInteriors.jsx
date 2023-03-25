@@ -12,19 +12,19 @@ import { imgStyle } from "../../../utils/imageStyle";
 
 const randomImages = [
   {
-    url: "https://cdn-cgach.nitrocdn.com/ryUIsTWRIcWICDnDcLQekhopygFZHnuT/assets/images/optimized/rev-bb5270d/wp-content/uploads/2021/02/project-management-img-1536x1024.jpg",
+    url: "https://www.cherryhill.in/img/reckitt/rb15.jpg",
   },
   {
-    url: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xssQvmj8ofiDcT-pE-iNhQ.jpeg",
+    url: "https://www.cherryhill.in/img/reckitt/rb11.jpg",
   },
   {
-    url: "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170036/modern-design_show-cabinet-2.jpg",
+    url: "https://www.cherryhill.in/img/reckitt/rb26.jpg",
   },
   {
-    url: "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15165654/modern-design_dining-1.jpg",
+    url: "https://www.cherryhill.in/img/reckitt/rb10.jpg",
   },
   {
-    url: "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2019/03/15170234/modern-design_living-4.jpg",
+    url: "https://www.cherryhill.in/img/reckitt/rb23.jpg",
   },
 ];
 

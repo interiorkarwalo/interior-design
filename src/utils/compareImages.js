@@ -1,15 +1,15 @@
 export const compareImagesCorporate = [
   {
-    before: "/public/blog/7.jpg",
-    after: "/public/blog/7 (1).jpg",
+    before: "https://www.cherryhill.in/img/rackspace/7.jpg",
+    after: "https://www.cherryhill.in/img/verint/7.jpg",
   },
   {
-    before: "/public/blog/wipro-4.jpg",
-    after: "/public/blog/wipro-5.jpg",
+    before: "https://www.cherryhill.in/img/wipro-channai/wipro-4.jpg",
+    after: "https://www.cherryhill.in/img/wipro-channai/wipro-5.jpg",
   },
   {
-    before: "/public/blog/flovel2.jpg",
-    after: "/public/blog/flovel4.jpg",
+    before: "https://www.cherryhill.in/img/flovel/flovel2.jpg",
+    after: "https://www.cherryhill.in/img/flovel/flovel4.jpg",
   },
 ];
 
@@ -27,22 +27,22 @@ export const compareImagesGypsumFalse = [
       "https://cdn.decorilla.com/images/960/135839c9-0a0c-486f-8f8b-0b8ee7a92728/Online-Home-Small-Office-Design-interior-design-help.jpg?cv=1",
   },
   {
-    after: "/public/blog/bny-7.jpg",
-    before: "/public/blog/8 (1).jpg",
+    after: "https://www.cherryhill.in/img/bny/bny-7.jpg",
+    before: "https://www.cherryhill.in/img/verint/8.jpg",
   },
 ];
 
 export const OfficefurnitureImage = [
   {
-    before: "/public/blog/tcl-2.jpg",
-    after: "/public/blog/slider4.jpg",
+    before: "https://www.cherryhill.in/img/tcl/tcl-2.jpg",
+    after: "https://www.cherryhill.in/img/slider/slider4.jpg",
   },
   {
-    before: "/public/blog/flovel13.jpg",
-    after: "/public/blog/wipro-3.jpg",
+    before: "https://www.cherryhill.in/img/flovel/flovel13.jpg",
+    after: "https://www.cherryhill.in/img/wipro-channai/wipro-3.jpg",
   },
   {
-    before: "/public/blog/flovel3.jpg",
-    after: "/public/blog/tcl-5.jpg",
+    before: "https://www.cherryhill.in/img/flovel/flovel3.jpg",
+    after: "https://www.cherryhill.in/img/tcl/tcl-5.jpg",
   },
 ];

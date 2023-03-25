@@ -4,17 +4,17 @@ import "./content.css";
 const imgArray1 = [
   {
     title: "Turnkey Interiors Contractor",
-    url: "public/blog/1.jpg",
+    url: "https://www.cherryhill.in/img/flovel/flovel9.jpg",
     path: "/services/turnkey-interior",
   },
   {
     title: "Interior Design Consultant",
-    url: "public/blog/(1).jpg",
+    url: "https://www.cherryhill.in/img/gepower/(1).jpg",
     path: "/services/interior-design",
   },
   {
     title: "Gypsum False Ceiling Contractor",
-    url: "public/blog/wipro-6.jpg",
+    url: "https://www.cherryhill.in/img/wipro-channai/wipro-6.jpg",
     path: "/services/gypsum-false",
   },
 ];
@@ -22,18 +22,18 @@ const imgArray1 = [
 const imgArray2 = [
   {
     title: "Corporate Office Interior Contractor",
-    url: "public/blog/(8).jpg",
+    url: "https://www.cherryhill.in/img/gepower/(8).jpg",
     path: "/services/corporate-office",
   },
   {
     title: "Office Furniture",
-    url: "public/blog/tcl-1.jpg",
+    url: "https://www.cherryhill.in/img/verint/5.jpg",
     path: "/services/office-furniture",
   },
   {
     title: "Gypsum Partition Contractor",
     path: "/services/gypsum-partition",
-    url: "public/blog/slider3.jpg",
+    url: "https://www.cherryhill.in/img/flovel/flovel.jpg",
   },
 ];
 const Content = () => {

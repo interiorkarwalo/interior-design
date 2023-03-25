@@ -22,7 +22,7 @@ const Home = ({ toggleTheme }) => {
       <Feed
         title="One-stop shop for all things interiors"
         desc="We are a full-service luxurious Interior Design studio serving nationwide residential and commercial clients. Our services include innovative and advanced interior design setups to meet our client's personalities and lifestyles. We have brought exceptional designing ideas with proven experimental techniques for all our service categories."
-        url="public/blog/bny-5.jpg"
+        url="https://www.cherryhill.in/img/bny/bny-5.jpg"
       />
       {/* <Category /> */}
       <Testimonial />

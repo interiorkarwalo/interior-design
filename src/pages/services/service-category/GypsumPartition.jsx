@@ -8,19 +8,19 @@ import { compareImagesCorporate } from "../../../utils/compareImages";
 import { imgStyle } from "../../../utils/imageStyle";
 const randomImages = [
   {
-    url: "https://images.unsplash.com/photo-1618221710640-c0eaaa2adb49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: "https://www.cherryhill.in/img/neuland/neuland2.jpg",
   },
   {
-    url: "https://images.unsplash.com/photo-1616593918824-4fef16054381?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: "https://www.cherryhill.in/img/neuland/neuland3.jpg",
   },
   {
-    url: "https://images.unsplash.com/photo-1615529179035-e760f6a2dcee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: "https://www.cherryhill.in/img/neuland/neuland4.jpg",
   },
   {
-    url: "https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: "https://www.cherryhill.in/img/neuland/neuland5.jpg",
   },
   {
-    url: "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    url: "https://www.cherryhill.in/img/western-union-pune/4.jpg",
   },
 ];
 
