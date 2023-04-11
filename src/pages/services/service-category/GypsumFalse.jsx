@@ -71,6 +71,7 @@ const GypsumFalse = () => {
                   key={item.url}
                   src={item.url}
                   onMouseEnter={() => handleImageUrl(item.url)}
+                  alt={item.url}
                 />
               ))}
             </div>
@@ -107,7 +108,7 @@ const GypsumFalse = () => {
               <br />
               We have been India's biggest Gypsum False Ceiling Contractors for
               over a decade. Our firm is filled with skilled employees capable
-              of achieving the desired results. Get a world-class level of
+              of achieving the desired results. Get a world-className level of
               creative designs with better finishing & soothing manners! We
               always strive to offer top-level deeds in a sophisticated manner.
               Grab the aesthetic level of solutions with concerned ceiling

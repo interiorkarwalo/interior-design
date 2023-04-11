@@ -8,7 +8,7 @@ const Spinner = () => {
         <p style={{ marginTop: '5px' }}>All you need to create your space</p>
       </div>
       <Link to="/services/gypsum-partition">
-        <div class="box">
+        <div className="box">
           {/* <Link to="/services"> */}
           <span style={{ '--i': 1 }}>
             <img

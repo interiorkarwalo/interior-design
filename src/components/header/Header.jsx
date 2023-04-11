@@ -1,7 +1,7 @@
 import './header.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
-import { FaArrowCircleDown } from 'react-icons/fa';
+
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import jwtDecode from 'jwt-decode';
@@ -14,9 +14,7 @@ const Header = ({ type }) => {
     try {
       const hello = jwtDecode(localStorage.getItem('blogToken'));
       setToken(hello);
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   }, []);
   const handleLogout = () => {
     localStorage.removeItem('blogToken');
@@ -24,7 +22,6 @@ const Header = ({ type }) => {
     // setToken(null);
   };
 
-  console.log(token);
   return (
     <header>
       <div className="logo">
@@ -45,12 +42,12 @@ const Header = ({ type }) => {
           <li>
             {/* <Link to="/services">Services</Link> */}
 
-            <div class="dropdown">
-              <Link class="dropbtn">
+            <div className="dropdown">
+              <Link className="dropbtn">
                 <span>Services</span>
                 <span style={{ marginBottom: '8px' }}>&#8964;</span>
               </Link>
-              <div class="dropdown-content">
+              <div className="dropdown-content">
                 <Link to="/services/corporate-office">
                   <img
                     src="https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=600"

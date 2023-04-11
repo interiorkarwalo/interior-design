@@ -14,7 +14,7 @@ const Hero = () => {
             className="intro-transition-video"
             muted
             style={{ opacity: 1 }}
-            playsinline
+            playsInline
             preload="metadata"
           >
             <source
@@ -28,7 +28,7 @@ const Hero = () => {
           <h1>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
           <button className="btn">
-            <Link to={'/services/gypsum-partition'}>Get Services</Link>
+            <Link to={'/contact'}>Contact Us</Link>
           </button>
         </div>
       </div>

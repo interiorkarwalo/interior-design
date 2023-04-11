@@ -1,35 +1,34 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import './footer.css';
 import { Link } from 'react-router-dom';
+import './footer.css';
 const Footer = () => {
   return (
-    <footer class="footer ">
-      <div class="footer-container">
-        <div class="footer-row">
-          <div class="footer-col">
+    <footer className="footer ">
+      <div className="footer-container">
+        <div className="footer-row">
+          <div className="footer-col">
             <h4>Quick Links</h4>
             <ul>
               <li>
-                <a href="/about">About us</a>
+                <Link href="/about">About us</Link>
               </li>
               <li>
-                <a href="/contact-us">Contact Us</a>
+                <Link href="/contact">Contact Us</Link>
               </li>
               <li>
-                <a href="/blogs">Blogs</a>
+                <Link href="/blogs">Blogs</Link>
               </li>
               <li>
-                <a href="/gallery">Gallery</a>
+                <Link href="/gallery">Gallery</Link>
               </li>
               <li>
-                <a href="/contact-us">FAQ</a>
+                <Link href="/contact-us">FAQ</Link>
               </li>
               <li>
-                <a href="/contact-us">Policy</a>
+                <Link href="/contact-us">Policy</Link>
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>Our Services</h4>
             <ul>
               {/* <Link to="/services/corporate-office">Corporate Office</Link>
@@ -47,35 +46,35 @@ const Footer = () => {
                     Gypsum False Ceiling Contractor
                   </Link> */}
               <li>
-                <a href="/services/corporate-office">Corporate Office</a>
+                <Link href="/services/corporate-office">Corporate Office</Link>
               </li>
               <li>
-                <a href="/services/turnkey-interior">
+                <Link href="/services/turnkey-interior">
                   Turnkey Interiors Contractor
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services/interior-design">
+                <Link href="/services/interior-design">
                   Interior Design Consultant
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services/office-furniture">Office Furniture</a>
+                <Link href="/services/office-furniture">Office Furniture</Link>
               </li>
               <li>
-                <a href="/services/gypsum-partition">
+                <Link href="/services/gypsum-partition">
                   Gypsum Partition Contractor
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services/gypsum-false">
+                <Link href="/services/gypsum-false">
                   Gypsum False Ceiling Contractor
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div class="footer-col f-contact-us">
+          <div className="footer-col f-contact-us">
             <h4>contact us</h4>
             <div
               style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
@@ -101,9 +100,9 @@ const Footer = () => {
               </li>
             </div>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <ul
-              class="footer-logo"
+              className="footer-logo"
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -112,24 +111,24 @@ const Footer = () => {
             >
               <li>
                 <img
-                  className="footer-img-a"
+                  className="footer-img-Link"
                   src="/footer.svg"
                   alt=""
                   style={{ height: '100px' }}
                 />
               </li>
-              <div class="social-links">
+              <div className="social-links">
+                <Link href="#">
+                  <i className="fab fa-facebook-f"></i>
+                </Link>
                 <a href="#">
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
             </ul>

@@ -5,6 +5,7 @@ import AboutDetailCard from './AboutDetailCard';
 import intVideo from '../../assets/int.mp4';
 import ChooseUs from '../../components/choose-us/ChooseUs';
 import Footer from '../../components/footer/Footer';
+import { Link } from 'react-router-dom';
 
 const desc1 =
   'Our organisations specialise in offering the best interior finishing to your commercial & residential space. We work for different organisations with the same level of dedication and attention. Our team can offer you an elegant yet astonishing look that aids beauty.';
@@ -21,7 +22,9 @@ const About = () => {
         <div className="hero-wrapper">
           <h1 style={{ fontSize: '1.4rem' }}>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
-          <button className="btn">Latest</button>
+          <Link to="/contact">
+            <button className="btn">Latest</button>
+          </Link>
         </div>
       </div>
       <Feed

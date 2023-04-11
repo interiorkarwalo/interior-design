@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
-import globeVideo from '../assets/globe-12486.mp4';
+
 import lvGlobe from '../assets/file.mp4';
-import tunnel from '../assets/x.mp4';
+
 const Start = () => {
   //helofff
   const [show, setShow] = useState(false);
