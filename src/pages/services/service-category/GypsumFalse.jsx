@@ -1,25 +1,25 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../../components/header/Header';
-import '../service.css';
-import Footer from '../../../components/footer/Footer';
-import { compareImagesGypsumFalse } from '../../../utils/compareImages';
-import { imgStyle } from '../../../utils/imageStyle';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Header from "../../../components/header/Header";
+import "../service.css";
+import Footer from "../../../components/footer/Footer";
+import { compareImagesGypsumFalse } from "../../../utils/compareImages";
+import { imgStyle } from "../../../utils/imageStyle";
 const randomImages = [
   {
-    url: 'https://images.unsplash.com/photo-1591931681345-16b532514cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://www.cherryhill.in/img/AzurePower/ap_4.jpg",
   },
   {
-    url: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://www.cherryhill.in/img/AzurePower/ap_5.jpg",
   },
   {
-    url: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://www.cherryhill.in/img/AzurePower/ap_6a.jpg",
   },
   {
-    url: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://www.cherryhill.in/img/AzurePower/ap_2.jpg",
   },
   {
-    url: 'https://images.unsplash.com/photo-1601826639611-3f2075feda6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+    url: "https://www.cherryhill.in/img/western-union-pune/6.jpg",
   },
 ];
 
@@ -41,9 +41,9 @@ const GypsumFalse = () => {
         {/* <hr /> */}
         <div
           style={{
-            height: '100px',
-            borderBottom: '1px solid gray',
-            width: '100%',
+            height: "100px",
+            borderBottom: "1px solid gray",
+            width: "100%",
           }}
         />
 
@@ -116,25 +116,25 @@ const GypsumFalse = () => {
             </p>
           </div>
 
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesGypsumFalse[0].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesGypsumFalse[0].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -152,7 +152,7 @@ const GypsumFalse = () => {
                 necessary to install various alternatives such as mood,
                 diffused, or slot lighting. False ceiling lights are also
                 available in various colours and intensities, which contribute
-                to the beauty of the space, particularly at night.{' '}
+                to the beauty of the space, particularly at night.{" "}
               </p>
             </div>
             <div>
@@ -172,7 +172,7 @@ const GypsumFalse = () => {
                 A false ceiling is utilised to minimise the amount of air in a
                 room, hence reducing the air conditioning demand. It also adds
                 another layer of insulation, further insulating the space and
-                lowering the energy required for heating and cooling.{' '}
+                lowering the energy required for heating and cooling.{" "}
               </p>
             </div>
             <div>
@@ -197,25 +197,25 @@ const GypsumFalse = () => {
             </div>
           </div>
 
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesGypsumFalse[1].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesGypsumFalse[1].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>
@@ -268,25 +268,25 @@ const GypsumFalse = () => {
             </div>
           </div>
 
-          <div style={{ display: 'flex' }} className="c-container">
-            <div style={{ position: 'relative', flex: 1 }}>
+          <div style={{ display: "flex" }} className="c-container">
+            <div style={{ position: "relative", flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesGypsumFalse[2].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
+            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesGypsumFalse[2].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: 'absolute' }}>
+              <button className="c-btn" style={{ position: "absolute" }}>
                 After
               </button>
             </div>

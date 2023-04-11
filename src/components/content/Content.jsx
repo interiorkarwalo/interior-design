@@ -4,17 +4,17 @@ import "./content.css";
 const imgArray1 = [
   {
     title: "Turnkey Interiors Contractor",
-    url: "https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=600",
+    url: "https://www.cherryhill.in/img/flovel/flovel9.jpg",
     path: "/services/turnkey-interior",
   },
   {
     title: "Interior Design Consultant",
-    url: "https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=600",
+    url: "https://www.cherryhill.in/img/gepower/(1).jpg",
     path: "/services/interior-design",
   },
   {
     title: "Gypsum False Ceiling Contractor",
-    url: "https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=600",
+    url: "https://www.cherryhill.in/img/wipro-channai/wipro-6.jpg",
     path: "/services/gypsum-false",
   },
 ];
@@ -22,18 +22,18 @@ const imgArray1 = [
 const imgArray2 = [
   {
     title: "Corporate Office Interior Contractor",
-    url: "https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600",
+    url: "https://www.cherryhill.in/img/gepower/(8).jpg",
     path: "/services/corporate-office",
   },
   {
     title: "Office Furniture",
-    url: "https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg?auto=compress&cs=tinysrgb&w=600",
+    url: "https://www.cherryhill.in/img/verint/5.jpg",
     path: "/services/office-furniture",
   },
   {
     title: "Gypsum Partition Contractor",
-    url: "https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=600",
     path: "/services/gypsum-partition",
+    url: "https://www.cherryhill.in/img/flovel/flovel.jpg",
   },
 ];
 const Content = () => {
