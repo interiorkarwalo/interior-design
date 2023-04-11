@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Feed from '../../components/feed/Feed';
 import Header from '../../components/header/Header';
 import './about.css';
@@ -7,21 +6,12 @@ import intVideo from '../../assets/int.mp4';
 import ChooseUs from '../../components/choose-us/ChooseUs';
 import Footer from '../../components/footer/Footer';
 import { Link } from 'react-router-dom';
-=======
-import Feed from "../../components/feed/Feed";
-import Header from "../../components/header/Header";
-import "./about.css";
-import AboutDetailCard from "./AboutDetailCard";
-import intVideo from "../../assets/int.mp4";
-import ChooseUs from "../../components/choose-us/ChooseUs";
-import Footer from "../../components/footer/Footer";
->>>>>>> 82e7201b1720ded7e445acaccf38cdd07903fcef
 
 const desc1 =
-  "Our organisations specialise in offering the best interior finishing to your commercial & residential space. We work for different organisations with the same level of dedication and attention. Our team can offer you an elegant yet astonishing look that aids beauty.";
+  'Our organisations specialise in offering the best interior finishing to your commercial & residential space. We work for different organisations with the same level of dedication and attention. Our team can offer you an elegant yet astonishing look that aids beauty.';
 
 const desc2 =
-  "We aim to create a beautiful interior and give our clients an astonishing place to live. We are honoured by our clients who give us ideas. Our mission is to turn your ideas into reality. We promise to create a masterpiece which gives you an astonishing vibe!";
+  'We aim to create a beautiful interior and give our clients an astonishing place to live. We are honoured by our clients who give us ideas. Our mission is to turn your ideas into reality. We promise to create a masterpiece which gives you an astonishing vibe!';
 
 const About = () => {
   return (
@@ -30,7 +20,7 @@ const About = () => {
         <Header />
 
         <div className="hero-wrapper">
-          <h1 style={{ fontSize: "1.4rem" }}>Decoration Ideas</h1>
+          <h1 style={{ fontSize: '1.4rem' }}>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
           <Link to="/contact">
             <button className="btn">Latest</button>
@@ -73,7 +63,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-video-div  container" style={{ marginTop: "1rem" }}>
+      <div className="about-video-div  container" style={{ marginTop: '1rem' }}>
         <div className="about-video-content">
           <img src="/mission.gif" alt="" />
           <p className="service-desc1-second-p">{desc2}</p>
@@ -85,7 +75,7 @@ const About = () => {
       </div>
       <div
         className="about-video-div container"
-        style={{ marginTop: "1rem ", marginBottom: "1rem" }}
+        style={{ marginTop: '1rem ', marginBottom: '1rem' }}
       >
         <div className="about-video-video">
           <h2> Our Philosophy</h2>
