@@ -24,7 +24,7 @@ const Hero = () => {
             ></source>
           </video>
         </div>
-        <div className="hero-wrapper">
+        <div className="hero-wrapper" data-aos="fade-up">
           <h1>Decoration Ideas</h1>
           <p>All the more reasons to get your dream home interiors now</p>
           <button className="btn">

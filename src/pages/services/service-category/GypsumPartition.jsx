@@ -1,26 +1,26 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import Header from "../../../components/header/Header";
-import "../service.css";
-import Footer from "../../../components/footer/Footer";
-import { compareImagesCorporate } from "../../../utils/compareImages";
-import { imgStyle } from "../../../utils/imageStyle";
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../../../components/header/Header';
+import '../service.css';
+import Footer from '../../../components/footer/Footer';
+import { compareImagesCorporate } from '../../../utils/compareImages';
+import { imgStyle } from '../../../utils/imageStyle';
 const randomImages = [
   {
-    url: "https://www.cherryhill.in/img/neuland/neuland2.jpg",
+    url: 'https://www.cherryhill.in/img/neuland/neuland2.jpg',
   },
   {
-    url: "https://www.cherryhill.in/img/neuland/neuland3.jpg",
+    url: 'https://www.cherryhill.in/img/neuland/neuland3.jpg',
   },
   {
-    url: "https://www.cherryhill.in/img/neuland/neuland4.jpg",
+    url: 'https://www.cherryhill.in/img/neuland/neuland4.jpg',
   },
   {
-    url: "https://www.cherryhill.in/img/neuland/neuland5.jpg",
+    url: 'https://www.cherryhill.in/img/neuland/neuland5.jpg',
   },
   {
-    url: "https://www.cherryhill.in/img/western-union-pune/4.jpg",
+    url: 'https://www.cherryhill.in/img/western-union-pune/4.jpg',
   },
 ];
 
@@ -42,9 +42,9 @@ const GypsumPartition = () => {
         <hr />
         <div
           style={{
-            height: "100px",
-            borderBottom: "1px solid gray",
-            width: "100%",
+            height: '100px',
+            borderBottom: '1px solid gray',
+            width: '100%',
           }}
         />
 
@@ -96,25 +96,25 @@ const GypsumPartition = () => {
               they deserve.
             </p>
           </div>
-          <div style={{ display: "flex" }} className="c-container">
-            <div style={{ position: "relative", flex: 1 }}>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[0].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: "absolute" }}>
+              <button className="c-btn" style={{ position: 'absolute' }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[0].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: "absolute" }}>
+              <button className="c-btn" style={{ position: 'absolute' }}>
                 After
               </button>
             </div>
@@ -160,25 +160,25 @@ const GypsumPartition = () => {
               design, erection, and everything in between.
             </p>
           </div>
-          <div style={{ display: "flex" }} className="c-container">
-            <div style={{ position: "relative", flex: 1 }}>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[1].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: "absolute" }}>
+              <button className="c-btn" style={{ position: 'absolute' }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[1].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: "absolute" }}>
+              <button className="c-btn" style={{ position: 'absolute' }}>
                 After
               </button>
             </div>
@@ -229,25 +229,25 @@ const GypsumPartition = () => {
               Experience Modification Rate higher than the industry norm.
             </p>
           </div>
-          <div style={{ display: "flex" }} className="c-container">
-            <div style={{ position: "relative", flex: 1 }}>
+          <div style={{ display: 'flex' }} className="c-container">
+            <div style={{ position: 'relative', flex: 1 }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[2].before}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: "absolute" }}>
+              <button className="c-btn" style={{ position: 'absolute' }}>
                 Before
               </button>
             </div>
 
-            <div style={{ position: "relative", flex: 1, marginLeft: "10px" }}>
+            <div style={{ position: 'relative', flex: 1, marginLeft: '10px' }}>
               <img
                 style={imgStyle}
                 src={`${compareImagesCorporate[2].after}`}
                 alt="interior design"
               />
-              <button className="c-btn" style={{ position: "absolute" }}>
+              <button className="c-btn" style={{ position: 'absolute' }}>
                 After
               </button>
             </div>

@@ -15,20 +15,34 @@ const Home = ({ toggleTheme }) => {
   return (
     <div style={{ transition: 'all 1s ease-in-out' }}>
       {/* <Header toggleTheme={toggleTheme} /> */}
-      <Hero />
+      <div data-aos="zoom-in-up">
+        <Hero />
+      </div>
       {/* <Slider /> */}
+
       <Content />
+
       <Spinner />
-      <Feed
-        title="One-stop shop for all things interiors"
-        desc="We are a full-service luxurious Interior Design studio serving nationwide residential and commercial clients. Our services include innovative and advanced interior design setups to meet our client's personalities and lifestyles. We have brought exceptional designing ideas with proven experimental techniques for all our service categories."
-        url="https://www.cherryhill.in/img/bny/bny-5.jpg"
-      />
+      <div data-aos="fade-right">
+        <Feed
+          title="One-stop shop for all things interiors"
+          desc="We are a full-service luxurious Interior Design studio serving nationwide residential and commercial clients. Our services include innovative and advanced interior design setups to meet our client's personalities and lifestyles. We have brought exceptional designing ideas with proven experimental techniques for all our service categories."
+          url="https://www.cherryhill.in/img/bny/bny-5.jpg"
+        />
+      </div>
       {/* <Category /> */}
-      <Testimonial />
-      <Gallery />
-      <Teams />
-      <ContactForm />
+      <div data-aos="fade-up-right">
+        <Testimonial />
+      </div>
+      <div data-aos="zoom-in-up">
+        <Gallery />
+      </div>
+      <div data-aos="zoom-out">
+        <Teams />
+      </div>
+      <div data-aos="fade-up-right">
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );
