@@ -9,22 +9,22 @@ const Footer = () => {
             <h4>Quick Links</h4>
             <ul>
               <li>
-                <Link href="/about">About us</Link>
+                <Link to="/about">About us</Link>
               </li>
               <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
               <li>
-                <Link href="/blogs">Blogs</Link>
+                <Link to="/blogs">Blogs</Link>
               </li>
               <li>
-                <Link href="/gallery">Gallery</Link>
+                <Link to="/gallery">Gallery</Link>
               </li>
               <li>
-                <Link href="/contact-us">FAQ</Link>
+                <Link to="/contact-us">FAQ</Link>
               </li>
               <li>
-                <Link href="/contact-us">Policy</Link>
+                <Link to="/contact-us">Policy</Link>
               </li>
             </ul>
           </div>
@@ -46,28 +46,28 @@ const Footer = () => {
                     Gypsum False Ceiling Contractor
                   </Link> */}
               <li>
-                <Link href="/services/corporate-office">Corporate Office</Link>
+                <Link to="/services/corporate-office">Corporate Office</Link>
               </li>
               <li>
-                <Link href="/services/turnkey-interior">
+                <Link to="/services/turnkey-interior">
                   Turnkey Interiors Contractor
                 </Link>
               </li>
               <li>
-                <Link href="/services/interior-design">
+                <Link to="/services/interior-design">
                   Interior Design Consultant
                 </Link>
               </li>
               <li>
-                <Link href="/services/office-furniture">Office Furniture</Link>
+                <Link to="/services/office-furniture">Office Furniture</Link>
               </li>
               <li>
-                <Link href="/services/gypsum-partition">
+                <Link to="/services/gypsum-partition">
                   Gypsum Partition Contractor
                 </Link>
               </li>
               <li>
-                <Link href="/services/gypsum-false">
+                <Link to="/services/gypsum-false">
                   Gypsum False Ceiling Contractor
                 </Link>
               </li>
@@ -118,9 +118,9 @@ const Footer = () => {
                 />
               </li>
               <div className="social-links">
-                <Link href="#">
+                <a to="#">
                   <i className="fab fa-facebook-f"></i>
-                </Link>
+                </a>
                 <a href="#">
                   <i className="fab fa-twitter"></i>
                 </a>
