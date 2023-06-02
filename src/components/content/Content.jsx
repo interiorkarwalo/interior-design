@@ -4,17 +4,17 @@ import './content.css';
 const imgArray1 = [
   {
     title: 'Turnkey Interiors Contractor',
-    url: 'https://www.cherryhill.in/img/flovel/flovel9.jpg',
+    url: '/images/services/Turkey Interior contractors.webp',
     path: '/services/turnkey-interior',
   },
   {
     title: 'Interior Design Consultant',
-    url: 'https://www.cherryhill.in/img/gepower/(1).jpg',
+    url: '/images/services/Interior Design Consultant.webp',
     path: '/services/interior-design',
   },
   {
     title: 'Gypsum False Ceiling Contractor',
-    url: 'https://www.cherryhill.in/img/wipro-channai/wipro-6.jpg',
+    url: '/images/services/Gypsum False ceiling contractor.webp',
     path: '/services/gypsum-false',
   },
 ];
@@ -22,18 +22,18 @@ const imgArray1 = [
 const imgArray2 = [
   {
     title: 'Corporate Office Interior Contractor',
-    url: 'https://www.cherryhill.in/img/gepower/(8).jpg',
+    url: '/images/services/corporate office interior contractor.webp',
     path: '/services/corporate-office',
   },
   {
     title: 'Office Furniture',
-    url: 'https://www.cherryhill.in/img/verint/5.jpg',
+    url: '/images/services/Office Furniture.webp',
     path: '/services/office-furniture',
   },
   {
     title: 'Gypsum Partition Contractor',
     path: '/services/gypsum-partition',
-    url: 'https://www.cherryhill.in/img/flovel/flovel.jpg',
+    url: '/images/services/Gypsum Partition Contractor.webp',
   },
 ];
 const Content = () => {
