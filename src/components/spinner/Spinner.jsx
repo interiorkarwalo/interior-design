@@ -13,7 +13,7 @@ const Spinner = () => {
   return (
     <div className="body">
       <div className="spinner-title">
-        <h1>Be inspired by what you see</h1>
+        <h2>Be inspired by what you see</h2>
         <p style={{ marginTop: "5px" }}>All you need to create your space</p>
       </div>
       <Link to="/services/gypsum-partition">

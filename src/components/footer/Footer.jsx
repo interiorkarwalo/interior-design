@@ -80,13 +80,13 @@ const Footer = () => {
               style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
             >
               <li>
-                <img src="/icons8-mail-material-outlined-16.png" alt="" />
+                <img src="/icons8-mail-material-outlined-16.png" alt="email icon" />
                 <p>info@pacifencesolutions.com</p>
               </li>
               <li>
                 <img
                   src="/icons8-phone-tanah-basah-basic-outline-16.png"
-                  alt=""
+                  alt="phone icon"
                 />
                 <p>+1888-297-6869 +91 8630819631 </p>
               </li>
@@ -95,7 +95,7 @@ const Footer = () => {
                 <p>Geeta Nagar, Rishikesh, Uttarakhand, 249201</p>
               </li> */}
               <li>
-                <img src="/icons8-time-machine-16.png" alt="" />
+                <img src="/icons8-time-machine-16.png" alt="watch icon" />
                 <p>24x7</p>
               </li>
             </div>
@@ -113,22 +113,22 @@ const Footer = () => {
                 <img
                   className="footer-img-Link"
                   src="/footer.svg"
-                  alt=""
+                  alt="interior karwalo logo"
                   style={{ height: '100px' }}
                 />
               </li>
               <div className="social-links">
                 <a to="#">
-                  <i className="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f" alt="facebook icon"></i>
                 </a>
                 <a href="#">
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-twitter" alt="twitter icon" ></i>
                 </a>
                 <a href="#">
-                  <i className="fab fa-instagram"></i>
+                  <i className="fab fa-instagram" alt="instagram icon"></i>
                 </a>
                 <a href="#">
-                  <i className="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in" alt="linkedin icon"></i>
                 </a>
               </div>
             </ul>
