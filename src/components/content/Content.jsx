@@ -39,7 +39,7 @@ const imgArray2 = [
 const Content = () => {
   return (
     <div className="content container">
-      <h1 style={{ textAlign: 'center', color: 'black' }}>Our Services</h1>
+      <h2 style={{ textAlign: 'center', color: 'black' }}>Our Services</h2>
       <hr />
       <div className="content-cards">
         {imgArray1.map((item) => {

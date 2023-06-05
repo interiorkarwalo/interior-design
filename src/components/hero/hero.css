@@ -12,6 +12,7 @@
     url('/public/images/int1.jpg') center/cover no-repeat;
   color: white; */
 }
+
 #hero-video {
   position: absolute;
   height: 100%;
@@ -22,9 +23,11 @@
   /* bottom: 0;
   right: 0; */
 }
+
 .hero h1 {
   font-size: 1.6rem;
 }
+
 .hero-wrapper {
   position: absolute;
   bottom: 0;
@@ -43,11 +46,13 @@
   height: 10rem;
   padding: 0.5rem 1rem;
 }
+
 .hero-wrapper p {
   font-size: 1.2rem;
 }
 
 @media screen and (min-width: 768px) {
+
   /* .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
       url('/public/images/int1.jpg') center/cover no-repeat;
@@ -55,10 +60,12 @@
   .hero h1 {
     font-size: 2rem;
   }
+
   .hero-text {
     width: 70%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-size: 1.2rem;
