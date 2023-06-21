@@ -77,7 +77,7 @@ const Home = () => {
       />
 
       {/* <Testimonial /> */}
-      {/* <Feature /> */}
+
       <Gallery />
       {/* <GalleryTest /> */}
       {/* <Teams /> */}
