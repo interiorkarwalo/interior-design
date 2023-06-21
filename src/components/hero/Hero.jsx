@@ -24,8 +24,11 @@ const Hero = () => {
             ></source>
           </video>
         </div>
-        <div className="hero-wrapper" data-aos="fade-up">
-          <h1>Get Your Dream House Setup <br />by Interior Karwalo Experts </h1>
+        <div className="hero-wrapper">
+          <h1>
+            Get Your Dream House Setup <br />
+            by Interior Karwalo Experts{' '}
+          </h1>
           <p>Our Interior Designers are Passionate about Quality Creativity.</p>
           <button className="btn">
             <Link to={'/contact'}>Contact Us</Link>

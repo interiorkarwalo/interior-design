@@ -44,7 +44,7 @@ const Content = () => {
       <div className="content-cards">
         {imgArray1.map((item) => {
           return (
-            <div data-aos="fade-left" key={item.title}>
+            <div key={item.title}>
               <Card title={item.title} url={item.url} path={item.path} />
             </div>
           );
@@ -53,7 +53,7 @@ const Content = () => {
       <div className="content-cards">
         {imgArray2.map((item) => {
           return (
-            <div data-aos="fade-right" key={item.title}>
+            <div key={item.title}>
               <Card title={item.title} url={item.url} path={item.path} />
             </div>
           );

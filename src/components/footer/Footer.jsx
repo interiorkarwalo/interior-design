@@ -21,10 +21,10 @@ const Footer = () => {
                 <Link to="/gallery">Gallery</Link>
               </li>
               <li>
-                <Link to="/contact-us">FAQ</Link>
+                <a href="#faq">FAQ</a>
               </li>
               <li>
-                <Link to="/contact-us">Policy</Link>
+                <a href="#faq">Policy</a>
               </li>
             </ul>
           </div>
@@ -80,7 +80,10 @@ const Footer = () => {
               style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
             >
               <li>
-                <img src="/icons8-mail-material-outlined-16.png" alt="email icon" />
+                <img
+                  src="/icons8-mail-material-outlined-16.png"
+                  alt="email icon"
+                />
                 <p>info@pacifencesolutions.com</p>
               </li>
               <li>
@@ -122,7 +125,7 @@ const Footer = () => {
                   <i className="fab fa-facebook-f" alt="facebook icon"></i>
                 </a>
                 <a href="#">
-                  <i className="fab fa-twitter" alt="twitter icon" ></i>
+                  <i className="fab fa-twitter" alt="twitter icon"></i>
                 </a>
                 <a href="#">
                   <i className="fab fa-instagram" alt="instagram icon"></i>
